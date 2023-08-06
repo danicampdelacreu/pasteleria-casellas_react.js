@@ -3,9 +3,9 @@ import React from'react';
 export default function Home(){
     return(
         <div>
-            <h1>
+            <p>
                 Pagina principal
-            </h1>
+            </p>
         </div>
     );
 };
