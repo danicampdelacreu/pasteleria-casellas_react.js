@@ -3,7 +3,7 @@
 export default function Footer(){
     return(
         <div>
-            <p>Footer</p>
+            <p> Soy el Footer</p>
         </div>
     );
 };

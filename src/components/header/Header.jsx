@@ -3,7 +3,7 @@
 export default function Header(){
     return(
         <div>
-            <p>Header</p>
+            <p>Soy el Header</p>
         </div>
     );
 };
