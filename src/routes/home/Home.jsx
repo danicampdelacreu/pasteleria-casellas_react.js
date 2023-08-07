@@ -1,11 +1,9 @@
-import React from'react';
+
 
 export default function Home(){
     return(
         <div>
-            <p>
-                Pagina principal
-            </p>
+            <p>Pagina principal</p>
         </div>
     );
 };
