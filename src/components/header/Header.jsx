@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 import './Header.css'
 
-import logo from '../../assets/img/logoprueba.jpeg'
+import logo from '../../assets/img/logoprueba.jpeg';
 
 export default function Header(){
     return(
