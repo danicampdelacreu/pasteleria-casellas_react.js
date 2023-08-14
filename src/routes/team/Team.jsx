@@ -3,7 +3,7 @@ import team from '../../assets/img/foto_homeTeam.webp'
 
 export default function Team(){
     return(
-        <div>
+        <div className='teamGeneral'>
            <img src= { team } />
            <h3>Nosaltres</h3>
            <p>
