@@ -1,10 +1,16 @@
 import { Link } from 'react-router-dom';
 
+import './Header.css'
+
+import logo from '../../assets/img/logoprueba.jpeg'
+
 export default function Header(){
     return(
-        <header>
-            <p>logo caselles</p>
-            <nav>
+        <div className='headerGeneral'>
+            <div className='headerLogo'>
+                <img class='logo' src= { logo } />
+            </div>
+            <nav className='headerNav'>
                 <ul>
                     <li>
                         <Link to="/">Home</Link>
@@ -29,6 +35,6 @@ export default function Header(){
                     </li>
                 </ul>
             </nav>
-        </header>
+        </div>
     );
 };
