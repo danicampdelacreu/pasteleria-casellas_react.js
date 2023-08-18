@@ -1,0 +1,13 @@
+.teamGeneral img {
+    height: 200px;
+    width: 300px;
+}
+
+.teamPhoto1,
+.teamGeneral,
+.teamGeneral h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

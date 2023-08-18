@@ -1,0 +1,25 @@
+.drinksGeneral img{
+    height: 200px;
+    width: 300px;
+}
+
+.drinksPhoto1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.drinksGeneral {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.drinksGeneral h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
