@@ -1,0 +1,13 @@
+.pasteGeneral img {
+    height: 200px;
+    width: 300px;
+}
+
+.pastePhoto1,
+.pasteGeneral,
+.pasteGeneral h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,14 @@
+.daysGeneral img {
+    height: 200px;
+    width: 300px;
+
+}
+
+.daysPhoto1,
+.daysGeneral,
+.daysGeneral h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
