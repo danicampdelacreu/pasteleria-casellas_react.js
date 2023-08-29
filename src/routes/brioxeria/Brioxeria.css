@@ -1,11 +1,13 @@
 .briGeneral img {
     height: 500px;
-    width:100%;
+    width: 100%;
 }
-.briPhoto1{
+
+.briPhoto1 {
     width: 100%;
     height: 500px;
 }
+
 .briGeneral,
 .briGeneral h2 {
     display: flex;
