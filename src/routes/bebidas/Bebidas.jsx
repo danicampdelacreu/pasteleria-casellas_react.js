@@ -1,5 +1,8 @@
 
 import drinks from '../../assets/img/foto_homeDrinks.jpeg'
+import cava from'../../assets/img/cava.png'
+import vi from '../../assets/img/vino.jpeg'
+import ratafia from '../../assets/img/ratafia.jpeg'
 
 import './Bebidas.css';
 
@@ -24,10 +27,29 @@ export default function Drinks() {
                 </p>
             </div>
             <div className='drinksTypes'>
-                <p>imagen producto</p>
-                <p>imagen producto</p>
-                <p>imagen producto</p>
-                <p>imagen producto</p>
+            <div className='drinksCava'>
+                    <img src={cava} />
+                    <img src={cava} />
+                    <img src={cava} />
+                    <img src={cava} />
+                    <img src={cava} />
+                    <p>Seleccio de cava + explicacio</p>
+                </div>
+                <div className='drinksVi'>
+                    <img src={vi} />
+                    <img src={vi} />
+                    <img src={vi} />
+                    <img src={vi} />
+                    <img src={vi} />
+                    <p> Seleccio de vins + explicacio</p>
+                </div>
+                <div className='drinksRata'>
+                    <img src={ratafia} />
+                    <img src={ratafia} />
+                    <img src={ratafia} />
+                    <p> Ratafia + explicacio</p>
+                </div>
+                
             </div>
         </div>
     );
