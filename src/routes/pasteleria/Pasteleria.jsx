@@ -2,7 +2,17 @@
 import './Pasteleria.css'
 
 import pastel from '../../assets/img/foto_homePastel.jpeg'
-
+import nata from '../../assets/img/nata.jpeg'
+import trufa from '../../assets/img/trufa.jpeg'
+import crema from '../../assets/img/crema.jpeg'
+import llimona from '../../assets/img/llimona.jpeg'
+import maduixa from '../../assets/img/maduixa.jpeg'
+import xoco from '../../assets/img/xoco.jpeg'
+import dosXoco from '../../assets/img/dos xocos.jpeg'
+import turro from '../../assets/img/turro.jpeg'
+import massini from '../../assets/img/massini.jpeg'
+import sacher from '../../assets/img/sacher.jpeg'
+import red from '../../assets/img/red velved.jpeg'
 
 export default function Pastel() {
     return (
@@ -24,13 +34,52 @@ export default function Pastel() {
                 </p>
             </div>
             <div className='pasteTypes'>
-                <p> imagen producto</p>
-                <p> imagen producto</p>
-                <p> imagen producto</p>
-                <p> imagen producto</p>
-                <p> imagen producto</p>
-                <p> imagen producto</p>
+                <div className='pasteNata'>
+                    <img src={nata} />
+                    <p> Pastis de nata + explicacio</p>
+                </div>
+                <div className='pasteTrufa'>
+                    <img src={trufa} />
+                    <p> Pastis de trufa + explicacio</p>
+                </div>
+                <div className='pasteCrema'>
+                    <img src={crema} />
+                    <p>  Pastis de crema + explicacio</p>
+                </div>
+                <div className='pasteXoco'>
+                    <img src={xoco} />
+                    <p> Pastis de Xoco+ explicacio</p>
+                </div>
+                <div className='pasteMusMad'>
+                    <img src={maduixa} />
+                    <p>  Muss de maduixa + explicacio</p>
+                </div>
+                <div className='pasteMusLlima'>
+                    <img src={llimona} />
+                    <p> Muss de llimona + explicacio</p>
+                </div>
+                <div className='pasteMusTurro'>
+                    <img src={turro} />
+                    <p> Muss de turro + explicacio</p>
+                </div>
+                <div className='pasteMusDosXoco'>
+                    <img src={dosXoco} />
+                    <p> Muss de dos xocolates + explicacio</p>
+                </div>
+                <div className='pasteMassi'>
+                    <img src={massini} />
+                    <p> Massini + explicacio</p>
+                </div>
+                <div className='pasteSach'>
+                    <img src={sacher} />
+                    <p> Sacher + explicacio</p>
+                </div>
+                <div className='pasteRed'>
+                    <img src={red} />
+                    <p> RedBelved + explicacio</p>
+                </div>
             </div>
+
         </div>
     );
 };

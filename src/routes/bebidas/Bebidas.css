@@ -25,3 +25,8 @@
     align-items: center;
     justify-content: center;
 }
+
+.drinksTypes img{
+    height: 200px;
+    width: 200px;
+}
