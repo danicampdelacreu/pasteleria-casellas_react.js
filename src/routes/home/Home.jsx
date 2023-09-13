@@ -22,7 +22,7 @@ export default function Home(){
                 <p> 
                     Som la pastisseria de Navàs, un lloc dolç i acollidor on els sabors es converteixen en experiències úniques.
                 </p>
-                <Link to="/team">Mes info</Link>
+                <Link to="/team">Equip</Link>
             </div>
             <div class='homeRepost'>
                 <img class='image3' src= { repost } />
@@ -30,14 +30,14 @@ export default function Home(){
                     La màgia de la reposteria pren vida. 
                     Cada dolç és una obra d'art elaborada amb cura i destresa. 
                 </p>
-                <Link to="/repost">Mes info</Link>
+                <Link to="/repost">La nostre Reposteria</Link>
             </div>
             <div class='homePastel'>
                 <img class='image4' src= { pastel } />
                 <p>
                     La nostra pastisseria actua com el lloc on els anhels per les dolçors es transformen en realitat.
                 </p>
-                <Link to="/pastel">Mes info</Link>
+                <Link to="/pastel">Els nostres Pastissos</Link>
             </div>
             <div class='homeBriox'>
                 <img class='image5' src= { briox } />
@@ -45,7 +45,7 @@ export default function Home(){
                     La brioixeria és el lloc on el plaer d'un briox excepcional pren forma.
                     Cada briox és un testimoni de la nostra dedicació i amor pel detall. 
                 </p>
-                <Link to="/briox">Mes info</Link>
+                <Link to="/briox">Els nostres Brioxios</Link>
             </div>
             <div class='homeDays'>
                 <img class='image6' src={ days }  />
@@ -53,7 +53,7 @@ export default function Home(){
                     En les ocasions especials, la nostra creativitat pren volada per crear moments inoblidables. 
                     Amb cada data destacada, donem vida a postres únics que capturen l'esperit de la celebració.
                 </p>
-                <Link to="/days">Mes info</Link>
+                <Link to="/days">Productes dies Especials</Link>
             </div>
             <div class='homeDrinks'>
                 <img class='image7' src= { drinks }  />
@@ -61,7 +61,7 @@ export default function Home(){
                     En el nostre racó de cava, vins i ratafia, ens endinsem en el fascinant món dels sabors i aromes.
                     Vine i brinda amb nosaltres, on la varietat i la qualitat es fonen per celebrar els plaers del paladar.
                 </p>
-                <Link to="/drinks">Mes info</Link>
+                <Link to="/drinks">Vins i Caves</Link>
             </div>
         </main>
     );
