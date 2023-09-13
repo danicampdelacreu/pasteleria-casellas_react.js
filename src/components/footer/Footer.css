@@ -13,30 +13,40 @@
 
 
 
-.footerContacto p, .footerHorario, .footerTelefon, .footerCorreo, .footerDireccio{
+.footerContacto p,
+.footerHorario,
+.footerTelefon,
+.footerCorreo,
+.footerDireccio {
     width: 100%;
     display: flex;
-    justify-content:column;
+    justify-content: column;
     align-items: center;
-    background-color:  #191919; /* Gris más claro */
-    color: #efb810; /* Texto dorado */
+    background-color: #191919;
+    /* Gris más claro */
+    color: #efb810;
+    /* Texto dorado */
     margin: 10px 0;
-    text-align: center; 
+    text-align: center;
 }
 
 .footerLinkDani {
     font-size: 12px;
-    width:100%;
+    width: 100%;
     height: 17px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    margin-top: 40px; /* Agregamos margen superior para separarlo de los anteriores */
-    background-color: white; /* Fondo blanco */
-    padding: 10px; /* Espaciado interno */
-    color:black; /* Texto dorado */
-    border-top:solid white 3px;
+    margin-top: 40px;
+    /* Agregamos margen superior para separarlo de los anteriores */
+    background-color: white;
+    /* Fondo blanco */
+    padding: 10px;
+    /* Espaciado interno */
+    color: black;
+    /* Texto dorado */
+    border-top: solid white 3px;
 }
 
 /* Añadimos estilos para las imágenes */
@@ -47,10 +57,11 @@
     margin-right: 80px;
 
 }
+
 .linkedin {
     width: 90px;
     height: 40px;
     padding: 5px;
     margin-left: 80px;
-    
+
 }

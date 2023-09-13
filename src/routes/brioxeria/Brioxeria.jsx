@@ -27,30 +27,30 @@ export default function Brioxeria() {
                     La brioixeria és el lloc on el plaer d'un dolç excepcional pren forma.
                 </p>
             </div>
-            
+
             <div className='briTypes'>
                 <div className='briCroisBig'>
-                    <img src = { croisantBig }/>
+                    <img src={croisantBig} />
                     <p> Croisants grans xoco i normal + explicacio</p>
                 </div>
                 <div className='briCroisSmall'>
-                    <img src = { croisantLit }/>
+                    <img src={croisantLit} />
                     <p> Croisants petits xoco i normal + explicacio</p>
                 </div>
                 <div className='briBriox'>
-                    <img src = { briox }/> 
-                    <p> Briox de la casa + explicacio</p> 
+                    <img src={briox} />
+                    <p> Briox de la casa + explicacio</p>
                 </div>
                 <div className='briEncie'>
-                    <img src = { enseimada }/>  
+                    <img src={enseimada} />
                     <p> Enseimada + explicacio</p>
                 </div>
                 <div className='briXuix'>
-                    <img src = { xuixo }/>
+                    <img src={xuixo} />
                     <p> Xuixo + explicacio </p>
                 </div>
                 <div className='briDonut'>
-                    <img src = { donut }/>
+                    <img src={donut} />
                     <p> Donuts + explicacio</p>
                 </div>
             </div>

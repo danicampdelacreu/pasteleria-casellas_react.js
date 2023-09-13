@@ -1,6 +1,6 @@
 
 import drinks from '../../assets/img/foto_homeDrinks.jpeg'
-import cava from'../../assets/img/cava.png'
+import cava from '../../assets/img/cava.png'
 import vi from '../../assets/img/vino.jpeg'
 import ratafia from '../../assets/img/ratafia.jpeg'
 
@@ -13,7 +13,7 @@ export default function Drinks() {
             <div className='drinksPhoto1'>
                 <img src={drinks} />
             </div>
-            
+
             <div className='drinksExpli'>
                 <h2>Racó de sabors i aromes</h2>
                 <p>
@@ -27,7 +27,7 @@ export default function Drinks() {
                 </p>
             </div>
             <div className='drinksTypes'>
-            <div className='drinksCava'>
+                <div className='drinksCava'>
                     <img src={cava} />
                     <img src={cava} />
                     <img src={cava} />
@@ -49,7 +49,7 @@ export default function Drinks() {
                     <img src={ratafia} />
                     <p> Ratafia + explicacio</p>
                 </div>
-                
+
             </div>
         </div>
     );

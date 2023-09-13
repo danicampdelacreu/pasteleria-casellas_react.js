@@ -9,7 +9,7 @@ import full from '../../assets/img/pastes de full.jpeg'
 import miniMas from '../../assets/img/mini massini.png'
 import tocinets from '../../assets/img/tocinillo.webp'
 import mantecados from '../../assets/img/mantecado.jpeg'
-import galetaAmet from'../../assets/img/galeta almetlla.jpeg'
+import galetaAmet from '../../assets/img/galeta almetlla.jpeg'
 import galetaXoco from '../../assets/img/galletas xoco almond.jpeg'
 import seques from '../../assets/img/pastes seques.jpeg'
 import variat from '../../assets/img/variat galetes.jpeg'
@@ -33,11 +33,11 @@ export default function Repost() {
             </div>
             <div className='repoTypes'>
                 <div className='repoLio'>
-                    <img src={ lioneses } />
+                    <img src={lioneses} />
                     <p>  Lioneses crema trufa i nata + explicacio</p>
                 </div>
                 <div className='repoCoco'>
-                    <img src={ coco } />
+                    <img src={coco} />
                     <p>  Boles de Coco + explicacio</p>
                 </div>
                 <div className='repoTruf'>
