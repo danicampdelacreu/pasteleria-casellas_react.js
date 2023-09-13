@@ -3,9 +3,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 30px;
-    padding-bottom: 20px;
-    background-color: #191919;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    border:solid rgb(224, 192, 12) 3px;
+    
 }
 
 .headerNav ul {
@@ -21,6 +23,6 @@
 
 .headerNav a {
     text-decoration: none;
-    color: #efb810;
+    color: black;
     font-weight: bold;
 }
