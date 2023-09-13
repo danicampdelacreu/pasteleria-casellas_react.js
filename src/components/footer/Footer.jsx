@@ -47,11 +47,11 @@ export default function Footer() {
                     <p>TELEFON: +34 62434565</p>
                 </div>
                 <div className='footerCorreo'>
-                    
+
                     <p>MAIL: pastisseriacasellas@gmail.com</p>
                 </div>
                 <div className='footerDireccio'>
-                    
+
                     <p>---Direccion link googlemaps--</p>
                 </div>
 
@@ -78,7 +78,7 @@ export default function Footer() {
             </div>
 
             <div className='footerLinkDani'>
-                
+
                 <div className='footerLinkedin'>
                     <a href=
                         "https://linkedin.com/in/danicampdelacreu-developer">
@@ -94,7 +94,7 @@ export default function Footer() {
                         <img class='github' src={github} />
                     </a>
                 </div>
-                
+
             </div>
         </div>
     );

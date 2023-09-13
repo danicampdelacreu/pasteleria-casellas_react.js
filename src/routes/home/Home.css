@@ -1,13 +1,19 @@
-.image2, .image3, .image4, .image5, .image6, .image7 {
+.image2,
+.image3,
+.image4,
+.image5,
+.image6,
+.image7 {
     height: 400px;
     width: 100%;
     border-radius: 20px;
 }
 
 
+
 .homePhoto1 {
     width: 100%;
-    height: 400px;  
+    height: 400px;
 }
 
 .homePhoto1 img {
@@ -18,84 +24,215 @@
     top: 0;
     left: 0;
     z-index: -1;
-    
+
 }
 
-.homeTeam, .homeTeam p {
+.homeTeam,
+.homeTeam p {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color:rgb(0, 0, 0);
-    color:rgb(224, 192, 12);
+    background-color: rgb(0, 0, 0);
+    color: rgb(224, 192, 12);
     font-size: 15px;
     border: solid black 20px;
     text-align: justify;
     line-height: 1.8;
-
 }
 
-.homeRepost, .homeRepost p {
+.homeTeam a {
+    display: inline-block;
+    background-color: black;
+    color: rgb(224, 192, 12);
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    width: 300px;
+    margin-top: 20px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.homeTeam a:hover {
+    height: 28px;
+    background-color: black;
+    color: rgb(224, 192, 12);
+    transform: scale(1.1);
+    border-radius: 20px 20px;
+    box-shadow: 0 8px 10px rgb(224, 192, 12);
+}
+
+.homeRepost,
+.homeRepost p {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color:white;
-    color:rgb(224, 192, 12);
+    background-color: white;
+    color: rgb(224, 192, 12);
     font-size: 15px;
     border: solid white 20px;
     text-align: center;
     line-height: 1.8;
 }
 
-.homePastel, .homePastel p {
+.homeRepost a {
+    display: inline-block;
+    background-color: white;
+    color: rgb(224, 192, 12);
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    width: 300px;
+    margin-top: 20px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.homeRepost a:hover {
+    height: 28px;
+    background-color: white;
+    color: rgb(224, 192, 12);
+    transform: scale(1.1);
+    border-radius: 20px 20px;
+    box-shadow: 0 8px 10px rgb(224, 192, 12);
+}
+
+.homePastel,
+.homePastel p {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color:white;
-    color:rgb(224, 192, 12);
+    background-color: white;
+    color: rgb(224, 192, 12);
     font-size: 15px;
     border: solid white 20px;
     text-align: center;
     line-height: 1.8;
 }
 
-.homeBriox, .homeBriox p {
+.homePastel a {
+    display: inline-block;
+    background-color: white;
+    color: rgb(224, 192, 12);
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    width: 300px;
+    margin-top: 20px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.homePastel a:hover {
+    height: 28px;
+    background-color: white;
+    color: rgb(224, 192, 12);
+    transform: scale(1.1);
+    border-radius: 20px 20px;
+    box-shadow: 0 8px 10px rgb(224, 192, 12);
+}
+
+.homeBriox,
+.homeBriox p {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color:white;
-    color:rgb(224, 192, 12);
+    background-color: white;
+    color: rgb(224, 192, 12);
     font-size: 15px;
     border: solid white 20px;
     text-align: center;
     line-height: 1.8;
 }
 
-.homeDays, .homeDays p {
+.homeBriox a {
+    display: inline-block;
+    background-color: white;
+    color: rgb(224, 192, 12);
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    width: 300px;
+    margin-top: 20px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.homeBriox a:hover {
+    height: 28px;
+    background-color: white;
+    color: rgb(224, 192, 12);
+    transform: scale(1.1);
+    border-radius: 20px 20px;
+    box-shadow: 0 8px 10px rgb(224, 192, 12);
+}
+
+.homeDays,
+.homeDays p {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color:white;
-    color:rgb(224, 192, 12);
+    background-color: white;
+    color: rgb(224, 192, 12);
     font-size: 15px;
     border: solid white 20px;
     text-align: center;
     line-height: 1.8;
 }
 
-.homeDrinks, .homeDrinks p {
+.homeDays a {
+    display: inline-block;
+    background-color: white;
+    color: rgb(224, 192, 12);
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    width: 300px;
+    margin-top: 20px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.homeDays a:hover {
+    height: 28px;
+    background-color: white;
+    color: rgb(224, 192, 12);
+    transform: scale(1.1);
+    border-radius: 20px 20px;
+    box-shadow: 0 8px 10px rgb(224, 192, 12);
+}
+
+.homeDrinks,
+.homeDrinks p {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color:white;
-    color:rgb(224, 192, 12);
+    background-color: white;
+    color: rgb(224, 192, 12);
     font-size: 15px;
     border: solid white 20px;
     text-align: center;
     line-height: 1.8;
+}
+
+.homeDrinks a {
+    display: inline-block;
+    background-color: white;
+    color: rgb(224, 192, 12);
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    width: 300px;
+    margin-top: 20px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.homeDrinks a:hover {
+    height: 28px;
+    background-color: white;
+    color: rgb(224, 192, 12);
+    transform: scale(1.1);
+    border-radius: 20px 20px;
+    box-shadow: 0 8px 10px rgb(224, 192, 12);
 }

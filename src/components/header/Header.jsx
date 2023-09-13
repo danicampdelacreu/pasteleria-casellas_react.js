@@ -4,10 +4,10 @@ import './Header.css'
 
 import logo from '../../assets/img/logoprueba.jpeg';
 
-export default function Header(){
-    return(
+export default function Header() {
+    return (
         <div className='headerGeneral'>
-            
+
             <nav className='headerNav'>
                 <ul>
                     <li>
