@@ -1,12 +1,10 @@
 .headerGeneral {
-    height: 70px;
+    height: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: white;
-    border:solid rgb(224, 192, 12) 3px;
+    background-color: #aea071;
+    
     
 }
 

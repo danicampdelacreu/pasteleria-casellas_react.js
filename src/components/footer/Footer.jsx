@@ -80,21 +80,16 @@ export default function Footer() {
             <div className='footerLinkDani'>
 
                 <div className='footerLinkedin'>
-                    <a href=
-                        "https://linkedin.com/in/danicampdelacreu-developer">
-                        <img class='linkedin' src={linkedin} />
-                    </a>
-                </div>
-                <p>
-                    web creada por Daniel Campdelacreu en proyecto propio
-                </p>
-                <div className='footerGithub'>
-                    <a href=
-                        "https://github.com/danicampdelacreu">
-                        <img class='github' src={github} />
-                    </a>
-                </div>
 
+                    <p>
+                        @2023 Pastisseria Casellas by Daniel Campdelacreu / 
+                        <a href=
+                        "https://linkedin.com/in/danicampdelacreu-developer">
+                         / LinkedIn
+                        </a>
+                    </p>
+
+                </div>
             </div>
         </div>
     );
