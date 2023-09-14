@@ -1,3 +1,5 @@
+
+
 .image2,
 .image3,
 .image4,
@@ -32,8 +34,8 @@
     padding: 40px;
 }
 .homeTeam{
-    border-bottom:solid rgb(224, 192, 12) 7px;
-    border-top:solid rgb(224, 192, 12) 7px;
+    border-bottom:solid #aea071 7px;
+    border-top:solid #aea071  7px;
 }
 .homeTeam,
 .homeTeam p{
@@ -41,8 +43,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: black;
-    color: rgb(224, 192, 12);
+    background-color :white;
+    color: #aea071;
     font-size: 15px;
     text-align: justify;
     line-height: 1.8;
@@ -50,8 +52,8 @@
 
 .homeTeam a {
     display: inline-block;
-    background-color: black;
-    color: rgb(224, 192, 12);
+    background-color: white;
+    color: #aea071;
     text-decoration: none;
     transition: background-color 0.3s, color 0.3s, transform 0.3s;
     width: 300px;
@@ -64,16 +66,16 @@
 
 .homeTeam a:hover {
     height: 28px;
-    background-color: black;
-    color: rgb(224, 192, 12);
+    background-color: white;
+    color: #aea071;
     transform: scale(1.1);
     border-radius: 20px 20px;
-    box-shadow: 0 8px 10px rgb(224, 192, 12);
+    box-shadow: 0 8px 10px #aea071;
 }
 
 .homeRepost p{
     padding: 40px;
-    border-bottom:solid rgb(224, 192, 12) 7px;
+    border-bottom:solid #aea071 7px;
 }
 .homeRepost,
 .homeRepost p {
@@ -82,7 +84,7 @@
     align-items: center;
     justify-content: center;
     background-color: white;
-    color: rgb(224, 192, 12);
+    color: #aea071;
     font-size: 15px;
     
     text-align: center;
@@ -93,7 +95,7 @@
 .homeRepost a {
     display: inline-block;
     background-color: white;
-    color: rgb(224, 192, 12);
+    color: #aea071;
     text-decoration: none;
     transition: background-color 0.3s, color 0.3s, transform 0.3s;
     width: 300px;
@@ -105,15 +107,15 @@
 .homeRepost a:hover {
     height: 28px;
     background-color: white;
-    color: rgb(224, 192, 12);
+    color: #aea071;
     transform: scale(1.1);
     border-radius: 20px 20px;
-    box-shadow: 0 8px 10px rgb(224, 192, 12);
+    box-shadow: 0 8px 10px #aea071;
 }
 
 .homePastel p{
     padding: 40px;
-    border-bottom:solid rgb(224, 192, 12) 7px;
+    border-bottom:solid #aea071 7px;
 }
 .homePastel,
 .homePastel p {
@@ -122,7 +124,7 @@
     align-items: center;
     justify-content: center;
     background-color: white;
-    color: rgb(224, 192, 12);
+    color: #aea071;
     font-size: 15px;
     text-align: center;
     line-height: 1.8;
@@ -132,7 +134,7 @@
 .homePastel a {
     display: inline-block;
     background-color: white;
-    color: rgb(224, 192, 12);
+    color: #aea071;
     text-decoration: none;
     transition: background-color 0.3s, color 0.3s, transform 0.3s;
     width: 300px;
@@ -144,15 +146,15 @@
 .homePastel a:hover {
     height: 28px;
     background-color: white;
-    color: rgb(224, 192, 12);
+    color: #aea071;
     transform: scale(1.1);
     border-radius: 20px 20px;
-    box-shadow: 0 8px 10px rgb(224, 192, 12);
+    box-shadow: 0 8px 10px #aea071;
 }
 
 .homeBriox p{
     padding: 40px;
-    border-bottom:solid rgb(224, 192, 12) 7px;
+    border-bottom:solid #aea071 7px;
 }
 .homeBriox,
 .homeBriox p {
@@ -161,7 +163,7 @@
     align-items: center;
     justify-content: center;
     background-color: white;
-    color: rgb(224, 192, 12);
+    color: #aea071;
     font-size: 15px;
     text-align: center;
     line-height: 1.8;
@@ -171,7 +173,7 @@
 .homeBriox a {
     display: inline-block;
     background-color: white;
-    color: rgb(224, 192, 12);
+    color: #aea071;
     text-decoration: none;
     transition: background-color 0.3s, color 0.3s, transform 0.3s;
     width: 300px;
@@ -183,15 +185,15 @@
 .homeBriox a:hover {
     height: 28px;
     background-color: white;
-    color: rgb(224, 192, 12);
+    color: #aea071;
     transform: scale(1.1);
     border-radius: 20px 20px;
-    box-shadow: 0 8px 10px rgb(224, 192, 12);
+    box-shadow: 0 8px 10px #aea071;
 }
 
 .homeDays p{
     padding: 40px;
-    border-bottom:solid rgb(224, 192, 12) 7px;
+    border-bottom:solid #aea071 7px;
 }
 .homeDays,
 .homeDays p {
@@ -200,7 +202,7 @@
     align-items: center;
     justify-content: center;
     background-color: white;
-    color: rgb(224, 192, 12);
+    color: #aea071;
     font-size: 15px;
    
     text-align: center;
@@ -211,7 +213,7 @@
 .homeDays a {
     display: inline-block;
     background-color: white;
-    color: rgb(224, 192, 12);
+    color: #aea071;
     text-decoration: none;
     transition: background-color 0.3s, color 0.3s, transform 0.3s;
     width: 300px;
@@ -223,17 +225,17 @@
 .homeDays a:hover {
     height: 28px;
     background-color: white;
-    color: rgb(224, 192, 12);
+    color: #aea071;
     transform: scale(1.1);
     border-radius: 20px 20px;
-    box-shadow: 0 8px 10px rgb(224, 192, 12);
+    box-shadow: 0 8px 10px #aea071;
 }
 
 .homeDrinks p{
     padding: 40px;
 }
 .homeDrinks{
-    border-bottom:solid rgb(224, 192, 12) 7px;
+    border-bottom:solid #aea071 7px;
 }
 
 .homeDrinks,
@@ -243,7 +245,7 @@
     align-items: center;
     justify-content: center;
     background-color: white;
-    color: rgb(224, 192, 12);
+    color: #aea071;
     font-size: 15px;
     text-align: center;
     line-height: 1.8;
@@ -252,7 +254,7 @@
 .homeDrinks a {
     display: inline-block;
     background-color: white;
-    color: rgb(224, 192, 12);
+    color: #aea071;
     text-decoration: none;
     transition: background-color 0.3s, color 0.3s, transform 0.3s;
     width: 300px;
@@ -264,8 +266,8 @@
 .homeDrinks a:hover {
     height: 28px;
     background-color: white;
-    color: rgb(224, 192, 12);
+    color: #aea071;
     transform: scale(1.1);
     border-radius: 20px 20px;
-    box-shadow: 0 8px 10px rgb(224, 192, 12);
+    box-shadow: 0 8px 10px #aea071;
 }
