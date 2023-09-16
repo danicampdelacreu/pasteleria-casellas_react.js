@@ -6,12 +6,21 @@
 .teamPhoto1 {
     width: 100%;
     height: 500px;
+    border-bottom:solid black  1px;
 }
 
-.teamGeneral,
+
 .teamGeneral h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
+}
+.teamGeneral p {
+    text-align: justify;
+    line-height: 1.8;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 18px;
 }

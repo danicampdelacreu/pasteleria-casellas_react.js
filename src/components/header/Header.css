@@ -1,27 +1,39 @@
+
 .headerGeneral {
     height: 60px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center; 
     align-items: center;
     background-color: #aea071;
-    
-    
+    border-bottom:solid black 1px;
 }
+
+
+.headerNav {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    max-width: 100%;
+    padding: 0 20px; 
+}
+
 
 .headerNav ul {
     list-style: none;
     display: flex;
-    
+    margin: 0;
+    padding: 0;
 }
+
 
 .headerNav li {
     margin-right: 15px;
-    margin-left: 10px
+    margin-left: 10px;
 }
+
 
 .headerNav a {
     text-decoration: none;
     color: black;
-    font-weight: bold;
-    font-size: 20px;
+    font-size: 22px;
 }

@@ -6,8 +6,8 @@
 .image5,
 .image6,
 .image7 {
-    height: 340px;
-    width: 580px;
+    height: 300px;
+    width: 450px;
     border-radius: 20px;
     margin-top: 20px;
 }
@@ -31,11 +31,11 @@
 }
 
 .homeTeam p{
-    padding: 40px;
+   
+    border-bottom:solid #aea071 3px;
 }
 .homeTeam{
-    border-bottom:solid #aea071 7px;
-    border-top:solid #aea071  7px;
+    border-top:solid #aea071  20px;
 }
 .homeTeam,
 .homeTeam p{
@@ -46,7 +46,7 @@
     background-color :white;
     color: #aea071;
     font-size:20px;
-    text-align: justify;
+    text-align: center;
     line-height: 1.8;
 }
 
@@ -58,24 +58,24 @@
     transition: background-color 0.3s, color 0.3s, transform 0.3s;
     width: 300px;
     margin-top: 20px;
-    font-size:20px;
+    font-size:24px;
     text-align: center;
     border-radius: 20px 20px;
     
 }
 
 .homeTeam a:hover {
-    height: 28px;
+    height: 37px;
     background-color: white;
     color: #aea071;
     transform: scale(1.1);
     border-radius: 20px 20px;
     box-shadow: 0 8px 10px #aea071;
+    
 }
 
 .homeRepost p{
-    padding: 40px;
-    border-bottom:solid #aea071 7px;
+    border-bottom:solid #aea071 3px;
 }
 .homeRepost,
 .homeRepost p {
@@ -86,7 +86,6 @@
     background-color: white;
     color: #aea071;
     font-size:20px;
-    
     text-align: center;
     line-height: 1.8;
     
@@ -100,12 +99,12 @@
     transition: background-color 0.3s, color 0.3s, transform 0.3s;
     width: 300px;
     margin-top: 20px;
-    font-size:20px;
+    font-size:24px;
     text-align: center;
 }
 
 .homeRepost a:hover {
-    height: 28px;
+    height: 37px;
     background-color: white;
     color: #aea071;
     transform: scale(1.1);
@@ -114,8 +113,7 @@
 }
 
 .homePastel p{
-    padding: 40px;
-    border-bottom:solid #aea071 7px;
+    border-bottom:solid #aea071 3px;
 }
 .homePastel,
 .homePastel p {
@@ -139,12 +137,12 @@
     transition: background-color 0.3s, color 0.3s, transform 0.3s;
     width: 300px;
     margin-top: 20px;
-    font-size:20px;
+    font-size:24px;
     text-align: center;
 }
 
 .homePastel a:hover {
-    height: 28px;
+    height: 37px;
     background-color: white;
     color: #aea071;
     transform: scale(1.1);
@@ -153,8 +151,7 @@
 }
 
 .homeBriox p{
-    padding: 40px;
-    border-bottom:solid #aea071 7px;
+    border-bottom:solid #aea071 3px;
 }
 .homeBriox,
 .homeBriox p {
@@ -178,12 +175,12 @@
     transition: background-color 0.3s, color 0.3s, transform 0.3s;
     width: 300px;
     margin-top: 20px;
-    font-size:20px;
+    font-size:24px;
     text-align: center;
 }
 
 .homeBriox a:hover {
-    height: 28px;
+    height: 37px;
     background-color: white;
     color: #aea071;
     transform: scale(1.1);
@@ -192,8 +189,8 @@
 }
 
 .homeDays p{
-    padding: 40px;
-    border-bottom:solid #aea071 7px;
+    
+    border-bottom:solid #aea071 3px;
 }
 .homeDays,
 .homeDays p {
@@ -218,12 +215,12 @@
     transition: background-color 0.3s, color 0.3s, transform 0.3s;
     width: 300px;
     margin-top: 20px;
-    font-size:20px;
+    font-size:24px;
     text-align: center;
 }
 
 .homeDays a:hover {
-    height: 28px;
+    height: 37px;
     background-color: white;
     color: #aea071;
     transform: scale(1.1);
@@ -232,11 +229,9 @@
 }
 
 .homeDrinks p{
-    padding: 40px;
+    border-bottom:solid #aea071 3px;
 }
-.homeDrinks{
-    border-bottom:solid #aea071 7px;
-}
+
 
 .homeDrinks,
 .homeDrinks p {
@@ -259,12 +254,12 @@
     transition: background-color 0.3s, color 0.3s, transform 0.3s;
     width: 300px;
     margin-top: 20px;
-    font-size:20px;
+    font-size:24px;
     text-align: center;
 }
 
 .homeDrinks a:hover {
-    height: 28px;
+    height: 37px;
     background-color: white;
     color: #aea071;
     transform: scale(1.1);
