@@ -6,12 +6,22 @@
 .daysPhoto1 {
     width: 100%;
     height: 500px;
+    border-bottom:solid black  1px;
 }
 
-.daysGeneral,
+
 .daysGeneral h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-size: 28px;
+}
+
+.daysGeneral p {
+    text-align: justify;
+    line-height: 1.8;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 22px;
 }
