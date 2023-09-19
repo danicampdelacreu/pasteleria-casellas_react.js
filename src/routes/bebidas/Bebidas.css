@@ -18,8 +18,17 @@
 }
 
 .drinksTypes img {
-    height: 200px;
+    display: block;
+    margin: auto;
     width: 200px;
+    height: 200px;
+    margin-bottom: 30px;
+}
+
+.drinksCava {
+    text-align: center;
+    display: block;
+    margin: auto;
 }
 
 .drinksGeneral p {
@@ -28,4 +37,52 @@
     margin-left: 30px;
     margin-right: 30px;
     font-size: 22px;
+}
+
+.cava1,
+.cava2,
+.cava3,
+.cava4,
+.cava5 {
+    align-items: center;
+    display: flex;
+}
+
+.cava1 p,
+.cava2 p,
+.cava3 p,
+.cava4 p,
+.cava5 p {
+    margin-right: 150px;
+}
+
+.vino1,
+.vino2,
+.vino3,
+.vino4,
+.vino5 {
+    align-items: center;
+    display: flex;
+}
+
+.vino1 p,
+.vino2 p,
+.vino3 p,
+.vino4 p,
+.vino5 p {
+    margin-right: 150px;
+}
+
+.rata1,
+.rata2,
+.rata3 {
+    align-items: center;
+    display: flex;
+}
+
+.rata1 p,
+.rata2 p,
+.rata3 p
+{
+    margin-right: 150px;
 }
