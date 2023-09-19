@@ -28,26 +28,62 @@ export default function Drinks() {
             </div>
             <div className='drinksTypes'>
                 <div className='drinksCava'>
-                    <img src={cava} />
-                    <img src={cava} />
-                    <img src={cava} />
-                    <img src={cava} />
-                    <img src={cava} />
-                    <p>Seleccio de cava + explicacio</p>
+                    <div className='cava1'>
+                        <img src={cava} />
+                        <p>Pere Ventura 20 anys</p>
+                    </div>
+                    <div className='cava2'>
+                        <img src={cava} />
+                        <p>Pere Ventura 20 anys</p>
+                    </div>
+                    <div className='cava3'>
+                        <img src={cava} />
+                        <p>Pere Ventura 20 anys</p>
+                    </div>
+                    <div className='cava4'>
+                        <img src={cava} />
+                        <p>Pere Ventura 20 anys</p>
+                    </div>
+                    <div className='cava5'>
+                        <img src={cava} />
+                        <p>Pere Ventura 20 anys</p>
+                    </div>
                 </div>
                 <div className='drinksVi'>
-                    <img src={vi} />
-                    <img src={vi} />
-                    <img src={vi} />
-                    <img src={vi} />
-                    <img src={vi} />
-                    <p> Seleccio de vins + explicacio</p>
+                    <div className='vino1'>
+                        <img src={vi} />
+                        <p>Vin blanc agulla</p>
+                    </div>
+                    <div className='vino2'>
+                        <img src={vi} />
+                        <p>Vin blanc agulla</p>
+                    </div>
+                    <div className='vino3'>
+                        <img src={vi} />
+                        <p>Vin blanc agulla</p>
+                    </div>
+                    <div className='vino4'>
+                        <img src={vi} />
+                        <p>Vin blanc agulla</p>
+                    </div>
+                    <div className='vino5'>
+                        <img src={vi} />
+                        <p>Vin blanc agulla</p>
+                    </div>
                 </div>
                 <div className='drinksRata'>
-                    <img src={ratafia} />
-                    <img src={ratafia} />
-                    <img src={ratafia} />
-                    <p> Ratafia + explicacio</p>
+                    <div className='rata1'>
+                        <img src={ratafia} />
+                        <p>Ratafia Bosch</p>
+                    </div>
+                    <div className='rata1'>
+                        <img src={ratafia} />
+                        <p>Ratafia Bosch</p>
+                    </div>
+                    <div className='rata1'>
+                        <img src={ratafia} />
+                        <p>Ratafia Bosch</p>
+                    </div>
                 </div>
 
             </div>
