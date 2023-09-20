@@ -17,21 +17,7 @@
     font-size: 28px;
 }
 
-.drinksTypes img {
-    display: block;
-    margin: auto;
-    width: 200px;
-    height: 200px;
-    margin-bottom: 30px;
-    margin-left: 150px;
-    margin-right: 40px;
-}
 
-.drinksCava {
-    text-align: center;
-    display: block;
-    margin: auto;
-}
 
 .drinksGeneral p {
     text-align: justify;
@@ -41,50 +27,73 @@
     font-size: 22px;
 }
 
+
+
+.drinksCava img,
+.drinksVi img,
+.drinksRata img {
+    display: block;
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 80px;
+    margin-left: 200px;
+    margin-right: 40px;
+    transition: filter 0.5s ease;
+}
+
 .cava1,
 .cava2,
 .cava3,
 .cava4,
-.cava5 {
-    align-items: center;
-    display: flex;
-}
-
-.cava1 p,
-.cava2 p,
-.cava3 p,
-.cava4 p,
-.cava5 p {
-    margin-right: 150px;
-}
-
+.cava5,
 .vino1,
 .vino2,
 .vino3,
 .vino4,
-.vino5 {
-    align-items: center;
-    display: flex;
-}
-
-.vino1 p,
-.vino2 p,
-.vino3 p,
-.vino4 p,
-.vino5 p {
-    margin-right: 150px;
-}
-
+.vino5,
 .rata1,
 .rata2,
-.rata3 {
+.rata3  {
+    position: relative;
+    display:flex;
     align-items: center;
-    display: flex;
+    /* Establece la posición relativa para el contenedor */
 }
 
-.rata1 p,
-.rata2 p,
-.rata3 p
-{
-    margin-right: 150px;
+/* Aplica desenfoque a la imagen cuando se coloca el cursor encima */
+.cava1 img:hover,
+.cava2 img:hover,
+.cava3 img:hover,
+.cava4 img:hover,
+.cava5 img:hover,
+.vino1 img:hover,
+.vino2 img:hover,
+.vino3 img:hover,
+.vino4 img:hover,
+.vino5 img:hover,
+.rata1 img:hover,
+.rata2 img:hover,
+.rata3 img:hover  {
+    width: 350px;
+    height: 350px;
+   
 }
+
+.drinksCava p,
+.drinksVi p,
+.drinksRata p {
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color:#aea071;;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    margin-left: 80px;
+    margin-top: 60px;
+}
+
+
+
