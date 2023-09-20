@@ -19,8 +19,20 @@
 }
 
 .repoTypes img {
+    display: block;
+    margin: auto;
+    width: 200px;
     height: 200px;
-    width: 200px
+    margin-bottom: 30px;
+    margin-left: 150px;
+    margin-right: 40px;
+   
+}
+
+.repoTypes {
+    text-align: center;
+    display: block;
+    margin: auto;
 }
 
 .repoGeneral p {
@@ -29,4 +41,37 @@
     margin-left: 30px;
     margin-right: 30px;
     font-size: 22px;
+}
+
+.repoLio p,
+.repoCoco p,
+.repoTruf p,
+.repoBoles p,
+.repoFull p,
+.repoMass p,
+.repoToci p,
+.repoMante p,
+.repoAmet p,
+.repoXoco p,
+.repoPaste p,
+.repoVari p{
+    margin-right: 100px;
+    border-bottom:solid #aea071 3px;
+}
+
+.repoLio,
+.repoCoco,
+.repoTruf,
+.repoBoles,
+.repoFull,
+.repoMass,
+.repoToci,
+.repoMante,
+.repoAmet,
+.repoXoco,
+.repoPaste,
+.repoVari{
+    align-items: center;
+    display: flex;
+    
 }

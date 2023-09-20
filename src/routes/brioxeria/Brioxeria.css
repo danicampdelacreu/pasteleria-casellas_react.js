@@ -17,9 +17,19 @@
     font-size: 28px;
 }
 
-.briTypes img {
-    height: 200px;
+.briTypes img{
+    display: block;
+    margin: auto;
     width: 200px;
+    height: 200px;
+    margin-bottom: 30px;
+    margin-left: 150px;
+    margin-right: 40px;
+}
+.briTypes {
+    text-align: center;
+    display: block;
+    margin: auto;
 }
 
 .briGeneral p {
@@ -28,4 +38,23 @@
     margin-left: 30px;
     margin-right: 30px;
     font-size: 22px;
+}
+
+.briCroisBig,
+.briCroisSmall,
+.briBriox,
+.briEncie,
+.briXuix,
+.briDonut{
+    align-items: center;
+    display: flex;
+}
+
+.briCroisBig p,
+.briCroisSmall p,
+.briBriox p,
+.briEncie p,
+.briXuix p,
+.briDonut p{
+    margin-right: 150px;
 }
