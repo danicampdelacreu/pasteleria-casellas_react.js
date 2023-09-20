@@ -19,8 +19,17 @@
 }
 
 .pasteTypes img {
-    height: 200px;
+    display: block;
+    margin: auto;
     width: 200px;
+    height: 200px;
+    margin-bottom: 30px;
+}
+
+.pasteTypes {
+    text-align: center;
+    display: block;
+    margin: auto;
 }
 
 .pasteGeneral p {
@@ -29,4 +38,33 @@
     margin-left: 30px;
     margin-right: 30px;
     font-size: 22px;
+}
+
+.pasteNata p,
+.pasteTrufa p,
+.pasteCrema p,
+.pasteXoco p,
+.pasteMusMad p,
+.pasteMusLlima p,
+.pasteMusTurro p,
+.pasteMusDosXoco p,
+.pasteMassi p,
+.pasteSach p,
+.pasteRed p{
+    margin-right: 150px;
+}
+
+.pasteNata,
+.pasteTrufa,
+.pasteCrema,
+.pasteXoco,
+.pasteMusMad,
+.pasteMusLlima,
+.pasteMusTurro,
+.pasteMusDosXoco,
+.pasteMassi,
+.pasteSach,
+.pasteRed {
+    align-items: center;
+    display: flex;
 }
