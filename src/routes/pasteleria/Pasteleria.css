@@ -24,6 +24,8 @@
     width: 200px;
     height: 200px;
     margin-bottom: 30px;
+    margin-left: 150px;
+    margin-right: 40px;
 }
 
 .pasteTypes {
@@ -52,6 +54,7 @@
 .pasteSach p,
 .pasteRed p{
     margin-right: 150px;
+    
 }
 
 .pasteNata,

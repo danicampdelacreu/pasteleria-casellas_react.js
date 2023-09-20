@@ -34,51 +34,52 @@ export default function Repost() {
             <div className='repoTypes'>
                 <div className='repoLio'>
                     <img src={lioneses} />
-                    <p>  Lioneses crema trufa i nata + explicacio</p>
+                    <p>  LIONESES <br/> Tenim 3 modelitats de lioneses, Crema , trufa i nata </p>
+                    
                 </div>
                 <div className='repoCoco'>
                     <img src={coco} />
-                    <p>  Boles de Coco + explicacio</p>
+                    <p>  BOLES DE COCO <br/> explicacio</p>
                 </div>
                 <div className='repoTruf'>
                     <img src={trufes} />
-                    <p>  Trufes + explicacio</p>
+                    <p>  Trufes <br/> explicacio</p>
                 </div>
                 <div className='repoBoles'>
                     <img src={boles} />
-                    <p> Boles xoco amb ametlla + explicacio</p>
+                    <p> Boles xoco amb ametlla <br/> explicacio</p>
                 </div>
                 <div className='repoFull'>
                     <img src={full} />
-                    <p> Pastes de full amb cabell angel + explicacio</p>
+                    <p> Pastes de full amb cabell angel <br/> explicacio</p>
                 </div>
                 <div className='repoMass'>
                     <img src={miniMas} />
-                    <p> Els nostres mini massinis + explicacio</p>
+                    <p> Els nostres mini massinis <br/> explicacio</p>
                 </div>
                 <div className='repoToci'>
                     <img src={tocinets} />
-                    <p> Tocinets de cel + explicacio</p>
+                    <p> Tocinets de cel <br/> explicacio</p>
                 </div>
                 <div className='repoMante'>
                     <img src={mantecados} />
-                    <p> Mantecats + explicacio</p>
+                    <p> Mantecats <br/> explicacio</p>
                 </div>
                 <div className='repoAmet'>
                     <img src={galetaAmet} />
-                    <p> Galetes ametllades + explicacio</p>
+                    <p> Galetes ametllades <br/> explicacio</p>
                 </div>
-                <div className='repoxoco'>
+                <div className='repoXoco'>
                     <img src={galetaXoco} />
-                    <p> Galetes xoco llet ametllades + explicacio</p>
+                    <p> Galetes xoco llet ametllades <br/> explicacio</p>
                 </div>
                 <div className='repoPaste'>
                     <img src={seques} />
-                    <p> Pastes seques + explicacio</p>
+                    <p> Pastes seques <br/> explicacio</p>
                 </div>
                 <div className='repoVari'>
                     <img src={variat} />
-                    <p> Variat de galetes al gust + explicacio</p>
+                    <p> Variat de galetes al gust <br/> explicacio</p>
                 </div>
             </div>
         </div>
