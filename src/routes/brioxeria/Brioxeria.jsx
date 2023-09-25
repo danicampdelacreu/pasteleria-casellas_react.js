@@ -31,27 +31,27 @@ export default function Brioxeria() {
             <div className='briTypes'>
                 <div className='briCroisBig'>
                     <img src={croisantBig} />
-                    <p> Croisants grans xoco i normal + explicacio</p>
+                    <p> Croisants grans </p>
                 </div>
                 <div className='briCroisSmall'>
                     <img src={croisantLit} />
-                    <p> Croisants petits xoco i normal + explicacio</p>
+                    <p> Croisants petits </p>
                 </div>
                 <div className='briBriox'>
                     <img src={briox} />
-                    <p> Briox de la casa + explicacio</p>
+                    <p> Briox de la casa</p>
                 </div>
                 <div className='briEncie'>
                     <img src={enseimada} />
-                    <p> Enseimada + explicacio</p>
+                    <p> Enseimada</p>
                 </div>
                 <div className='briXuix'>
                     <img src={xuixo} />
-                    <p> Xuixo + explicacio </p>
+                    <p> Xuixo de crema </p>
                 </div>
                 <div className='briDonut'>
                     <img src={donut} />
-                    <p> Donuts + explicacio</p>
+                    <p>Donuts de sucre</p>
                 </div>
             </div>
         </div>
