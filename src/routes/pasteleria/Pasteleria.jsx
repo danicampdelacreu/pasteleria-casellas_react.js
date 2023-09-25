@@ -35,48 +35,48 @@ export default function Pastel() {
             </div>
             <div className='pasteTypes'>
                 <div className='pasteNata'>
-                    <img src={nata} />
-                    <p> Pastis de nata + explicacio</p>
+                    <img src={nata} alt= "Pastis de nata" />
+                    <p>Pastis de nata</p>
                 </div>
                 <div className='pasteTrufa'>
                     <img src={trufa} />
-                    <p> Pastis de trufa + explicacio</p>
+                    <p> Pastis de trufa </p>
                 </div>
                 <div className='pasteCrema'>
                     <img src={crema} />
-                    <p>  Pastis de crema + explicacio</p>
+                    <p>  Pastis de crema </p>
                 </div>
                 <div className='pasteXoco'>
                     <img src={xoco} />
-                    <p> Pastis de Xoco+ explicacio</p>
+                    <p> Pastis de Xoco</p>
                 </div>
                 <div className='pasteMusMad'>
                     <img src={maduixa} />
-                    <p>  Muss de maduixa + explicacio</p>
+                    <p>  Muss de maduixa </p>
                 </div>
                 <div className='pasteMusLlima'>
                     <img src={llimona} />
-                    <p> Muss de llimona + explicacio</p>
+                    <p> Muss de llimona </p>
                 </div>
                 <div className='pasteMusTurro'>
                     <img src={turro} />
-                    <p> Muss de turro + explicacio</p>
+                    <p> Muss de turro </p>
                 </div>
                 <div className='pasteMusDosXoco'>
                     <img src={dosXoco} />
-                    <p> Muss de dos xocolates + explicacio</p>
+                    <p> Muss de dos xocolates </p>
                 </div>
                 <div className='pasteMassi'>
                     <img src={massini} />
-                    <p> Massini + explicacio</p>
+                    <p> Massini </p>
                 </div>
                 <div className='pasteSach'>
                     <img src={sacher} />
-                    <p> Sacher + explicacio</p>
+                    <p> Sacher </p>
                 </div>
                 <div className='pasteRed'>
                     <img src={red} />
-                    <p> RedBelved + explicacio</p>
+                    <p> RedBelved </p>
                 </div>
             </div>
 

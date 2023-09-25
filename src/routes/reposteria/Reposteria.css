@@ -21,18 +21,25 @@
 .repoTypes img {
     display: block;
     margin: auto;
-    width: 200px;
-    height: 200px;
-    margin-bottom: 30px;
-    margin-left: 150px;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 80px;
+    margin-left: 240px;
     margin-right: 40px;
-   
+    transition: filter 0.5s ease;
+    border-radius: 30px;
 }
 
-.repoTypes {
-    text-align: center;
-    display: block;
-    margin: auto;
+.repoTypes img:hover{
+    width: 300px;
+    height: 300px;
+}
+
+.repoTypes img:hover + p  {
+    width: 250px;
+    height: 200px;
+    display: flex;
+    background-color: rgba(174, 160, 113, 0.8);
 }
 
 .repoGeneral p {
@@ -55,8 +62,14 @@
 .repoXoco p,
 .repoPaste p,
 .repoVari p{
-    margin-right: 100px;
-    border-bottom:solid #aea071 3px;
+    position: absolute;
+    margin-right: 0px;
+    background-color:#aea071;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    margin-left: 80px;
+    font-size: 22px;
 }
 
 .repoLio,
@@ -71,7 +84,7 @@
 .repoXoco,
 .repoPaste,
 .repoVari{
+    position: relative;
+    display:flex;
     align-items: center;
-    display: flex;
-    
 }

@@ -21,17 +21,26 @@
 .pasteTypes img {
     display: block;
     margin: auto;
-    width: 200px;
-    height: 200px;
-    margin-bottom: 30px;
-    margin-left: 150px;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 80px;
+    margin-left: 240px;
     margin-right: 40px;
+    transition: filter 0.5s ease;
+    border-radius: 30px;
+
 }
 
-.pasteTypes {
-    text-align: center;
-    display: block;
-    margin: auto;
+.pasteTypes img:hover{
+    width: 300px;
+    height: 300px;
+}
+
+.pasteTypes img:hover + p  {
+    width: 250px;
+    height: 200px;
+    display: flex;
+    background-color: rgba(174, 160, 113, 0.8);
 }
 
 .pasteGeneral p {
@@ -42,7 +51,8 @@
     font-size: 22px;
 }
 
-.pasteNata p,
+
+.pasteNata p ,
 .pasteTrufa p,
 .pasteCrema p,
 .pasteXoco p,
@@ -53,8 +63,15 @@
 .pasteMassi p,
 .pasteSach p,
 .pasteRed p{
-    margin-right: 150px;
-    
+    position: absolute;
+    margin-right: 0px;
+    background-color:#aea071;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    margin-left: 80px;
+    font-size: 22px;
+   
 }
 
 .pasteNata,
@@ -68,6 +85,8 @@
 .pasteMassi,
 .pasteSach,
 .pasteRed {
+    position: relative;
+    display:flex;
     align-items: center;
-    display: flex;
+    
 }
