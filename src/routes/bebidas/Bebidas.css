@@ -17,8 +17,6 @@
     font-size: 28px;
 }
 
-
-
 .drinksGeneral p {
     text-align: justify;
     line-height: 1.8;
@@ -26,8 +24,6 @@
     margin-right: 30px;
     font-size: 22px;
 }
-
-
 
 .drinksCava img,
 .drinksVi img,
@@ -42,6 +38,107 @@
     transition: filter 0.5s ease;
 }
 
+
+
+.drinksTypes img:hover {
+    width: 450px;
+    height: 350px;
+    border-radius: 30px;
+    position: relative;
+    mask-image: linear-gradient(to top left, rgba(0, 0, 0, 1), transparent),
+        linear-gradient(to top right, rgba(0, 0, 0, 1), transparent),
+        linear-gradient(to bottom left, rgba(0, 0, 0, 1), transparent),
+        linear-gradient(to bottom right, rgba(0, 0, 0, 1), transparent);
+    mask-position: left top, right top, left bottom, right bottom;
+    mask-size: 50% 50%;
+    /* Controla la extensión del difuminado en cada esquina */
+    mask-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0);
+    /* Esto asegura que el fondo sea transparente */
+}
+
+.drinksTypes img:hover + .cava1In,
+.drinksTypes img:hover + .cava2In,
+.drinksTypes img:hover + .cava3In,
+.drinksTypes img:hover + .cava4In,
+.drinksTypes img:hover + .cava5In,
+.drinksTypes img:hover + .vino1In,
+.drinksTypes img:hover + .vino2In,
+.drinksTypes img:hover + .vino3In,
+.drinksTypes img:hover + .vino4In,
+.drinksTypes img:hover + .vino5In,
+.drinksTypes img:hover + .rata1In,
+.drinksTypes img:hover + .rata2In,
+.drinksTypes img:hover + .rata3In{
+    width: 300px;
+    height: 250px;
+    display: flex;
+    background: linear-gradient(to bottom, transparent, #aea071);
+    font-size: 20px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cava1In,
+.cava2In,
+.cava3In,
+.cava4In,
+.cava5In,
+.vino1In,
+.vino2In,
+.vino3In,
+.vino4In,
+.vino5In,
+.rata1In,
+.rata2In,
+.rata3In{
+    position: absolute;
+    margin-right: 0px;
+    background: linear-gradient(to bottom, transparent, #aea071);
+    color: white;
+    border-radius: 30px;
+    margin-left: 50px;
+    font-size: 16px;
+    height: 40px;
+    width: 180px
+}
+
+.cava1In h3,
+.cava2In h3,
+.cava3In h3,
+.cava4In h3,
+.cava5In h3,
+.vino1In h3,
+.vino2In h3,
+.vino3In h3,
+.vino4In h3,
+.vino5In h3,
+.rata1In h3,
+.rata2In h3,
+.rata3In h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.drinksTypes img:hover+.cava1In h3,
+.drinksTypes img:hover+.cava2In h3,
+.drinksTypes img:hover+.cava3In h3,
+.drinksTypes img:hover+.cava4In h3,
+.drinksTypes img:hover+.cava5In h3,
+.drinksTypes img:hover+.vino1In h3,
+.drinksTypes img:hover+.vino2In h3,
+.drinksTypes img:hover+.vino3In h3,
+.drinksTypes img:hover+.vino4In h3,
+.drinksTypes img:hover+.vino5In h3,
+.drinksTypes img:hover+.rata1In h3,
+.drinksTypes img:hover+.rata2In h3,
+.drinksTypes img:hover+.rata3In h3{
+    display: none;
+}
+
 .cava1,
 .cava2,
 .cava3,
@@ -54,46 +151,44 @@
 .vino5,
 .rata1,
 .rata2,
-.rata3  {
+.rata3{
     position: relative;
-    display:flex;
+    display: flex;
     align-items: center;
-    /* Establece la posición relativa para el contenedor */
 }
 
-/* Aplica desenfoque a la imagen cuando se coloca el cursor encima */
-.cava1 img:hover,
-.cava2 img:hover,
-.cava3 img:hover,
-.cava4 img:hover,
-.cava5 img:hover,
-.vino1 img:hover,
-.vino2 img:hover,
-.vino3 img:hover,
-.vino4 img:hover,
-.vino5 img:hover,
-.rata1 img:hover,
-.rata2 img:hover,
-.rata3 img:hover  {
-    width: 350px;
-    height: 350px;
-   
+.cava1 p,
+.cava2 p,
+.cava3 p,
+.cava4 p,
+.cava5 p,
+.vino1 p,
+.vino2 p,
+.vino3 p,
+.vino4 p,
+.vino5 p,
+.rata1 p,
+.rata2 p,
+.rata3 p{
+    display: none;
+    color: black
 }
 
-.drinksCava p,
-.drinksVi p,
-.drinksRata p {
-    
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color:#aea071;;
-    color: white;
-    padding: 10px;
-    border-radius: 30px;
-    margin-left: 80px;
-    margin-top: 60px;
+.drinksTypes img:hover+.cava1In p,
+.drinksTypes img:hover+.cava2In p,
+.drinksTypes img:hover+.cava3In p,
+.drinksTypes img:hover+.cava4In p,
+.drinksTypes img:hover+.cava5In p,
+.drinksTypes img:hover+.vino1In p,
+.drinksTypes img:hover+.vino2In p,
+.drinksTypes img:hover+.vino3In p,
+.drinksTypes img:hover+.vino4In p,
+.drinksTypes img:hover+.vino5In p,
+.drinksTypes img:hover+.rata1In p,
+.drinksTypes img:hover+.rata1In p,
+.drinksTypes img:hover+.rata2In p,
+.drinksTypes img:hover+.rata3In p{
+    display: block;
 }
-
 
 

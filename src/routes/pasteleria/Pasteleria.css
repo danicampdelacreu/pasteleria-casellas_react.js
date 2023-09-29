@@ -6,9 +6,8 @@
 .pastePhoto1 {
     width: 100%;
     height: 500px;
-    border-bottom:solid black  1px;
+    border-bottom: solid black 1px;
 }
-
 
 .pasteGeneral h2 {
     display: flex;
@@ -18,60 +17,113 @@
     font-size: 28px;
 }
 
-.pasteTypes img {
-    display: block;
-    margin: auto;
-    width: 250px;
-    height: 250px;
-    margin-bottom: 80px;
-    margin-left: 240px;
-    margin-right: 40px;
-    transition: filter 0.5s ease;
-    border-radius: 30px;
-
-}
-
-.pasteTypes img:hover{
-    width: 300px;
-    height: 300px;
-}
-
-.pasteTypes img:hover + p  {
-    width: 250px;
-    height: 200px;
-    display: flex;
-    background-color: rgba(174, 160, 113, 0.8);
-}
-
 .pasteGeneral p {
     text-align: justify;
     line-height: 1.8;
     margin-left: 30px;
     margin-right: 30px;
-    font-size: 22px;
+    font-size: 16px;
+}
+
+.pasteTypes img {
+    display: block;
+    margin: 60px auto;
+    width: 350px;
+    height: 250px;
+    border-radius: 30px;
 }
 
 
-.pasteNata p ,
-.pasteTrufa p,
-.pasteCrema p,
-.pasteXoco p,
-.pasteMusMad p,
-.pasteMusLlima p,
-.pasteMusTurro p,
-.pasteMusDosXoco p,
-.pasteMassi p,
-.pasteSach p,
-.pasteRed p{
+.pasteTypes img:hover {
+    width: 450px;
+    height: 350px;
+    border-radius: 30px;
+    position: relative;
+    mask-image: linear-gradient(to top left, rgba(0, 0, 0, 1), transparent),
+        linear-gradient(to top right, rgba(0, 0, 0, 1), transparent),
+        linear-gradient(to bottom left, rgba(0, 0, 0, 1), transparent),
+        linear-gradient(to bottom right, rgba(0, 0, 0, 1), transparent);
+    mask-position: left top, right top, left bottom, right bottom;
+    mask-size: 50% 50%;
+    /* Controla la extensión del difuminado en cada esquina */
+    mask-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0);
+    /* Esto asegura que el fondo sea transparente */
+}
+
+.pasteTypes img:hover+.pasteNataIn,
+.pasteTypes img:hover+.pasteTrufaIn,
+.pasteTypes img:hover+.pasteCremaIn,
+.pasteTypes img:hover+.pasteXocoIn,
+.pasteTypes img:hover+.pasteMusMadIn,
+.pasteTypes img:hover+.pasteMusLlimaIn,
+.pasteTypes img:hover+.pasteMusTurroIn,
+.pasteTypes img:hover+.pasteMusDosXocoIn,
+.pasteTypes img:hover+.pasteMassiIn,
+.pasteTypes img:hover+.pasteSachIn,
+.pasteTypes img:hover+.pasteRedIn {
+    width: 300px;
+    height: 250px;
+    display: flex;
+    background: linear-gradient(to bottom, transparent, #aea071);
+    font-size: 20px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pasteNataIn,
+.pasteTrufaIn,
+.pasteCremaIn,
+.pasteXocoIn,
+.pasteMusMadIn,
+.pasteMusLlimaIn,
+.pasteMusTurroIn,
+.pasteMusDosXocoIn,
+.pasteMassiIn,
+.pasteSachIn,
+.pasteRedIn {
     position: absolute;
     margin-right: 0px;
-    background-color:#aea071;
+    background: linear-gradient(to bottom, transparent, #aea071);
     color: white;
-    padding: 10px;
     border-radius: 30px;
-    margin-left: 80px;
-    font-size: 22px;
-   
+    margin-left: 50px;
+    font-size: 16px;
+    height: 40px;
+    width: 180px
+}
+
+.pasteNataIn h3,
+.pasteTrufaIn h3,
+.pasteCremaIn h3,
+.pasteXocoIn h3,
+.pasteMusMadIn h3,
+.pasteMusLlimaIn h3,
+.pasteMusTurroIn h3,
+.pasteMusDosXocoIn h3,
+.pasteMassiIn h3,
+.pasteSachIn h3,
+.pasteRedIn h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.pasteTypes img:hover+.pasteNataIn h3,
+.pasteTypes img:hover+.pasteTrufaIn h3,
+.pasteTypes img:hover+.pasteCremaIn h3,
+.pasteTypes img:hover+.pasteXocoIn h3,
+.pasteTypes img:hover+.pasteMusMadIn h3,
+.pasteTypes img:hover+.pasteMusLlimaIn h3,
+.pasteTypes img:hover+.pasteMusTurroIn h3,
+.pasteTypes img:hover+.pasteMusDosXocoIn h3,
+.pasteTypes img:hover+.pasteMassiIn h3,
+.pasteTypes img:hover+.pasteSachIn h3,
+.pasteTypes img:hover+.pasteRedIn h3 {
+    display: none;
 }
 
 .pasteNata,
@@ -86,7 +138,36 @@
 .pasteSach,
 .pasteRed {
     position: relative;
-    display:flex;
+    display: flex;
     align-items: center;
-    
+
+}
+
+.pasteNata p,
+.pasteTrufa p,
+.pasteCrema p,
+.pasteXoco p,
+.pasteMusMad p,
+.pasteMusLlima p,
+.pasteMusTurro p,
+.pasteMusDosXoco p,
+.pasteMassi p,
+.pasteSach p,
+.pasteRed p {
+    display: none;
+    color: black
+}
+
+.pasteTypes img:hover+.pasteNataIn p,
+.pasteTypes img:hover+.pasteTrufaIn p,
+.pasteTypes img:hover+.pasteCremaIn p,
+.pasteTypes img:hover+.pasteXocoIn p,
+.pasteTypes img:hover+.pasteMusMadIn p,
+.pasteTypes img:hover+.pasteMusLlimaIn p,
+.pasteTypes img:hover+.pasteMusTurroIn p,
+.pasteTypes img:hover+.pasteMusDosXocoIn p,
+.pasteTypes img:hover+.pasteMassiIn p,
+.pasteTypes img:hover+.pasteSachIn p,
+.pasteTypes img:hover+.pasteRedIn p {
+    display: block
 }
