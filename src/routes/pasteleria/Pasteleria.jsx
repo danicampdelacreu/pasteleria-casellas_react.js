@@ -36,47 +36,80 @@ export default function Pastel() {
             <div className='pasteTypes'>
                 <div className='pasteNata'>
                     <img src={nata} alt= "Pastis de nata" />
-                    <p>Pastis de nata</p>
+                    <div className ='pasteNataIn'>
+                        <h3>Pastis de nata</h3>
+                        <p> explicacio del pastis de nata</p>
+                    </div>   
                 </div>
                 <div className='pasteTrufa'>
                     <img src={trufa} />
-                    <p> Pastis de trufa </p>
+                    <div className ='pasteTrufaIn'>
+                        <h3>Pastis de Trufa</h3>
+                        <p> explicacio del pastis de trufa</p>
+                    </div> 
                 </div>
                 <div className='pasteCrema'>
                     <img src={crema} />
-                    <p>  Pastis de crema </p>
+                    <div className ='pasteCremaIn'>
+                        <h3>Pastis de Crema</h3>
+                        <p> explicacio del pastis de Crema</p>
+                    </div> 
                 </div>
                 <div className='pasteXoco'>
                     <img src={xoco} />
-                    <p> Pastis de Xoco</p>
+                    <div className ='pasteXocoIn'>
+                        <h3>Pastis de Xoco</h3>
+                        <p> explicacio del producte</p>
+                    </div> 
                 </div>
                 <div className='pasteMusMad'>
                     <img src={maduixa} />
-                    <p>  Muss de maduixa </p>
+                    <div className ='pasteMusMadIn'>
+                        <h3>Mus madiuxa</h3>
+                        <p> explicacio del producte</p>
+                    </div>
                 </div>
                 <div className='pasteMusLlima'>
                     <img src={llimona} />
-                    <p> Muss de llimona </p>
+                    <div className ='pasteMusLlimaIn'>
+                        <h3>Mus de llimona</h3>
+                        <p> explicacio del producte</p>
+                    </div>
                 </div>
                 <div className='pasteMusTurro'>
                     <img src={turro} />
-                    <p> Muss de turro </p>
+                    <div className ='pasteMusTurroIn'>
+                        <h3>Mus Turro</h3>
+                        <p> explicacio del producte</p>
+                    </div>
                 </div>
                 <div className='pasteMusDosXoco'>
                     <img src={dosXoco} />
-                    <p> Muss de dos xocolates </p>
+                    <div className ='pasteMusDosXocoIn'>
+                        <h3>Mus dos choco</h3>
+                        <p> explicacio del producte</p>
+                    </div>
                 </div>
                 <div className='pasteMassi'>
                     <img src={massini} />
-                    <p> Massini </p>
+                    <div className ='pasteMassiIn'>
+                        <h3>Massini</h3>
+                        <p> explicacio del producte</p>
+                    </div>
                 </div>
                 <div className='pasteSach'>
                     <img src={sacher} />
-                    <p> Sacher </p>
+                    <div className ='pasteSachIn'>
+                        <h3>Sacher</h3>
+                        <p> explicacio del producte</p>
+                    </div>
                 </div>
                 <div className='pasteRed'>
                     <img src={red} />
-                    <p> RedBelved </p>
+                    <div className ='pasteRedIn'>
+                        <h3>Red velved</h3>
+                        <p> explicacio del producte</p>
+                    </div>
                 </div>
             </div>
 

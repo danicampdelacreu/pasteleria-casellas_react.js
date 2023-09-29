@@ -31,27 +31,45 @@ export default function Brioxeria() {
             <div className='briTypes'>
                 <div className='briCroisBig'>
                     <img src={croisantBig} />
-                    <p> Croisants grans </p>
+                    <div className ='briCroisBigIn'>
+                        <h3>croisants grans</h3>
+                        <p> explicacio del producte</p>
+                    </div>
                 </div>
                 <div className='briCroisSmall'>
                     <img src={croisantLit} />
-                    <p> Croisants petits </p>
+                    <div className ='briCroisSmallIn'>
+                        <h3>croisants petits</h3>
+                        <p> explicacio del producte</p>
+                    </div>
                 </div>
                 <div className='briBriox'>
                     <img src={briox} />
-                    <p> Briox de la casa</p>
+                    <div className ='briBrioxIn'>
+                        <h3>Brioix</h3>
+                        <p> explicacio del producte</p>
+                    </div>
                 </div>
                 <div className='briEncie'>
                     <img src={enseimada} />
-                    <p> Enseimada</p>
+                    <div className ='briEncieIn'>
+                        <h3>Enseimada</h3>
+                        <p> explicacio del producte</p>
+                    </div>
                 </div>
                 <div className='briXuix'>
                     <img src={xuixo} />
-                    <p> Xuixo de crema </p>
+                    <div className ='briXuixIn'>
+                        <h3>Xuixo crema</h3>
+                        <p> explicacio del producte</p>
+                    </div>
                 </div>
                 <div className='briDonut'>
                     <img src={donut} />
-                    <p>Donuts de sucre</p>
+                    <div className ='briDonutIn'>
+                        <h3>Donut sucre</h3>
+                        <p> explicacio del producte</p>
+                    </div>
                 </div>
             </div>
         </div>
