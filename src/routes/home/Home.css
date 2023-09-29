@@ -31,12 +31,23 @@
 }
 
 .homeTeam p{
-   
     border-bottom:solid #aea071 3px;
 }
-.homeTeam{
-    border-top:solid #aea071  20px;
+.homeTeam {
+    position: relative;
+    padding-top: 20px; /* Ajusta el espacio para el efecto de borde */
 }
+
+.homeTeam::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20px; /* Ancho del borde */
+    background: linear-gradient(to top, transparent, #aea071);
+}
+
 .homeTeam,
 .homeTeam p{
     display: flex;
@@ -228,9 +239,6 @@
     box-shadow: 0 8px 10px #aea071;
 }
 
-.homeDrinks p{
-    border-bottom:solid #aea071 3px;
-}
 
 
 .homeDrinks,

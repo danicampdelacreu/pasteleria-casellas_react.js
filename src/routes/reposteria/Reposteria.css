@@ -18,58 +18,117 @@
     font-size: 28px;
 }
 
-.repoTypes img {
-    display: block;
-    margin: auto;
-    width: 250px;
-    height: 250px;
-    margin-bottom: 80px;
-    margin-left: 240px;
-    margin-right: 40px;
-    transition: filter 0.5s ease;
-    border-radius: 30px;
-}
-
-.repoTypes img:hover{
-    width: 300px;
-    height: 300px;
-}
-
-.repoTypes img:hover + p  {
-    width: 250px;
-    height: 200px;
-    display: flex;
-    background-color: rgba(174, 160, 113, 0.8);
-}
-
 .repoGeneral p {
     text-align: justify;
     line-height: 1.8;
     margin-left: 30px;
     margin-right: 30px;
-    font-size: 22px;
+    font-size: 16px;
 }
 
-.repoLio p,
-.repoCoco p,
-.repoTruf p,
-.repoBoles p,
-.repoFull p,
-.repoMass p,
-.repoToci p,
-.repoMante p,
-.repoAmet p,
-.repoXoco p,
-.repoPaste p,
-.repoVari p{
+.repoTypes img {
+    display: block;
+    margin: 60px auto;
+    width: 350px;
+    height: 250px;
+    border-radius: 30px;
+}
+
+.repoTypes img:hover{
+    width: 450px;
+    height: 350px;
+    border-radius: 30px;
+    position: relative;
+    mask-image: linear-gradient(to top left, rgba(0, 0, 0, 1), transparent),
+        linear-gradient(to top right, rgba(0, 0, 0, 1), transparent),
+        linear-gradient(to bottom left, rgba(0, 0, 0, 1), transparent),
+        linear-gradient(to bottom right, rgba(0, 0, 0, 1), transparent);
+    mask-position: left top, right top, left bottom, right bottom;
+    mask-size: 50% 50%;
+    /* Controla la extensión del difuminado en cada esquina */
+    mask-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0);
+    /* Esto asegura que el fondo sea transparente */
+}
+
+.repoTypes img:hover +.repoLioIn,
+.repoTypes img:hover +.repoCocoIn,
+.repoTypes img:hover +.repoTrufIn,
+.repoTypes img:hover +.repoBolesIn,
+.repoTypes img:hover +.repoFullIn,
+.repoTypes img:hover +.repoMassIn,
+.repoTypes img:hover +.repoTociIn,
+.repoTypes img:hover +.repoManteIn,
+.repoTypes img:hover +.repoAmetIn,
+.repoTypes img:hover +.repoXocoIn,
+.repoTypes img:hover +.repoPasteIn,
+.repoTypes img:hover +.repoVariIn{
+    width: 300px;
+    height: 250px;
+    display: flex;
+    background: linear-gradient(to bottom, transparent, #aea071);
+    font-size: 20px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.repoLioIn,
+.repoCocoIn,
+.repoTrufIn,
+.repoBolesIn,
+.repoFullIn,
+.repoMassIn,
+.repoTociIn,
+.repoManteIn,
+.repoAmetIn,
+.repoXocoIn,
+.repoPasteIn,
+.repoVariIn{
     position: absolute;
     margin-right: 0px;
-    background-color:#aea071;
+    background: linear-gradient(to bottom, transparent, #aea071);
     color: white;
-    padding: 10px;
     border-radius: 30px;
-    margin-left: 80px;
-    font-size: 22px;
+    margin-left: 50px;
+    font-size: 16px;
+    height: 40px;
+    width: 180px
+}
+
+.repoLioIn h3,
+.repoCocoIn h3,
+.repoTrufIn h3,
+.repoBolesIn h3,
+.repoFullIn h3,
+.repoMassIn h3,
+.repoTociIn h3,
+.repoManteIn h3,
+.repoAmetIn h3,
+.repoXocoIn h3,
+.repoPasteIn h3,
+.repoVariIn h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.repoTypes img:hover +.repoLioIn h3,
+.repoTypes img:hover +.repoCocoIn h3,
+.repoTypes img:hover +.repoTrufIn h3,
+.repoTypes img:hover +.repoBolesIn h3,
+.repoTypes img:hover +.repoFullIn h3,
+.repoTypes img:hover +.repoMassIn h3,
+.repoTypes img:hover +.repoTociIn h3,
+.repoTypes img:hover +.repoManteIn h3,
+.repoTypes img:hover +.repoAmetIn h3,
+.repoTypes img:hover +.repoXocoIn h3,
+.repoTypes img:hover +.repoPasteIn h3,
+.repoTypes img:hover +.repoVariIn h3{
+    display: none;
 }
 
 .repoLio,
@@ -87,4 +146,35 @@
     position: relative;
     display:flex;
     align-items: center;
+}
+
+.repoLio p,
+.repoCoco p,
+.repoTruf p,
+.repoBoles p,
+.repoFull p,
+.repoMass p,
+.repoToci p,
+.repoMante p,
+.repoAmet p,
+.repoXoco p,
+.repoPaste p,
+.repoVari p{
+    display: none;
+    color: black
+}
+
+.repoTypes img:hover +.repoLioIn p,
+.repoTypes img:hover +.repoCocoIn p,
+.repoTypes img:hover +.repoTrufIn p,
+.repoTypes img:hover +.repoBolesIn p,
+.repoTypes img:hover +.repoFullIn p,
+.repoTypes img:hover +.repoMassIn p,
+.repoTypes img:hover +.repoTociIn p,
+.repoTypes img:hover +.repoManteIn p,
+.repoTypes img:hover +.repoAmetIn p,
+.repoTypes img:hover +.repoXocoIn p,
+.repoTypes img:hover +.repoPasteIn p,
+.repoTypes img:hover +.repoVariIn p{
+    display: block;
 }

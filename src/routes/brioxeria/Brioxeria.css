@@ -17,46 +17,101 @@
     font-size: 28px;
 }
 
-.briTypes img{
-    display: block;
-    margin: auto;
-    width: 250px;
-    height: 250px;
-    margin-bottom: 80px;
-    margin-left: 240px;
-    margin-right: 40px;
-    transition: filter 0.5s ease;
-    border-radius: 30px;
-}
-
-.briTypes img:hover{
-    width: 300px;
-    height: 300px;
-} 
-
-.briTypes img:hover + p  {
-    width: 250px;
-    height: 200px;
-    display: flex;
-    background-color: rgba(174, 160, 113, 0.8);
-}
-
 .briGeneral p {
     text-align: justify;
     line-height: 1.8;
     margin-left: 30px;
     margin-right: 30px;
-    font-size: 22px;
+    font-size: 16px;
 }
+.briTypes img {
+    display: block;
+    margin: 60px auto;
+    width: 350px;
+    height: 250px;
+    border-radius: 30px;
+}
+
+.briTypes img:hover {
+    width: 450px;
+    height: 350px;
+    border-radius: 30px;
+    position: relative;
+    mask-image: linear-gradient(to top left, rgba(0, 0, 0, 1), transparent),
+        linear-gradient(to top right, rgba(0, 0, 0, 1), transparent),
+        linear-gradient(to bottom left, rgba(0, 0, 0, 1), transparent),
+        linear-gradient(to bottom right, rgba(0, 0, 0, 1), transparent);
+    mask-position: left top, right top, left bottom, right bottom;
+    mask-size: 50% 50%;
+    /* Controla la extensión del difuminado en cada esquina */
+    mask-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0);
+    /* Esto asegura que el fondo sea transparente */
+}
+
+.briTypes img:hover+.briCroisBigIn,
+.briTypes img:hover+.briCroisSmallIn,
+.briTypes img:hover+.briBrioxIn,
+.briTypes img:hover+.briEncieIn,
+.briTypes img:hover+.briXuixIn,
+.briTypes img:hover+.briDonutIn{
+    width: 300px;
+    height: 250px;
+    display: flex;
+    background: linear-gradient(to bottom, transparent, #aea071);
+    font-size: 20px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.briCroisBigIn,
+.briCroisSmallIn,
+.briBrioxIn,
+.briEncieIn,
+.briXuixIn,
+.briDonutIn{
+    position: absolute;
+    margin-right: 0px;
+    background: linear-gradient(to bottom, transparent, #aea071);
+    color: white;
+    border-radius: 30px;
+    margin-left: 50px;
+    font-size: 16px;
+    height: 40px;
+    width: 180px
+}
+
+.briCroisBigIn h3,
+.briCroisSmallIn h3,
+.briBrioxIn h3,
+.briEncieIn h3,
+.briXuixIn h3,
+.briDonutIn h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.briTypes img:hover+.briCroisBigIn h3,
+.briTypes img:hover+.briCroisSmallIn h3,
+.briTypes img:hover+.briBrioxIn h3,
+.briTypes img:hover+.briEncieIn h3,
+.briTypes img:hover+.briXuixIn h3,
+.briTypes img:hover+.briDonutIn h3{
+    display: none;
+}
+
 
 .briCroisBig,
 .briCroisSmall,
 .briBriox,
 .briEncie,
 .briXuix,
-.briDonut{
+.briDonut {
     position: relative;
-    display:flex;
+    display: flex;
     align-items: center;
 }
 
@@ -65,13 +120,16 @@
 .briBriox p,
 .briEncie p,
 .briXuix p,
-.briDonut p{
-    position: absolute;
-    margin-right: 0px;
-    background-color:#aea071;
-    color: white;
-    padding: 10px;
-    border-radius: 30px;
-    margin-left: 80px;
-    font-size: 22px;
+.briDonut p {
+    display: none;
+    color: black
+}
+
+.briTypes img:hover+.briCroisBigIn p,
+.briTypes img:hover+.briCroisSmallIn p,
+.briTypes img:hover+.briBrioxIn p,
+.briTypes img:hover+.briEncieIn p,
+.briTypes img:hover+.briXuixIn p,
+.briTypes img:hover+.briDonutIn p{
+    display: block;
 }
