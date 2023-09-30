@@ -1,4 +1,9 @@
-
+.allMain p{
+    font-family: 'Quicksand', sans-serif;
+}
+.allMain a{
+    font-family: 'Playfair Display', serif;
+}
 
 .image2,
 .image3,
@@ -6,8 +11,8 @@
 .image5,
 .image6,
 .image7 {
-    height: 300px;
-    width: 450px;
+    height: 260px;
+    width: 410px;
     border-radius: 20px;
     margin-top: 20px;
 }
@@ -30,9 +35,7 @@
 
 }
 
-.homeTeam p{
-    border-bottom:solid #aea071 3px;
-}
+
 .homeTeam {
     position: relative;
     padding-top: 20px; /* Ajusta el espacio para el efecto de borde */
@@ -56,9 +59,10 @@
     justify-content: center;
     background-color :white;
     color: #aea071;
-    font-size:20px;
+    font-size:16px;
     text-align: center;
     line-height: 1.8;
+    
 }
 
 .homeTeam a {
@@ -85,9 +89,7 @@
     
 }
 
-.homeRepost p{
-    border-bottom:solid #aea071 3px;
-}
+
 .homeRepost,
 .homeRepost p {
     display: flex;
@@ -96,7 +98,7 @@
     justify-content: center;
     background-color: white;
     color: #aea071;
-    font-size:20px;
+    font-size:16px;
     text-align: center;
     line-height: 1.8;
     
@@ -123,9 +125,7 @@
     box-shadow: 0 8px 10px #aea071;
 }
 
-.homePastel p{
-    border-bottom:solid #aea071 3px;
-}
+
 .homePastel,
 .homePastel p {
     display: flex;
@@ -134,7 +134,7 @@
     justify-content: center;
     background-color: white;
     color: #aea071;
-    font-size:20px;
+    font-size:16px;
     text-align: center;
     line-height: 1.8;
     
@@ -161,9 +161,7 @@
     box-shadow: 0 8px 10px #aea071;
 }
 
-.homeBriox p{
-    border-bottom:solid #aea071 3px;
-}
+
 .homeBriox,
 .homeBriox p {
     display: flex;
@@ -172,7 +170,7 @@
     justify-content: center;
     background-color: white;
     color: #aea071;
-    font-size:20px;
+    font-size:16px;
     text-align: center;
     line-height: 1.8;
    
@@ -199,10 +197,7 @@
     box-shadow: 0 8px 10px #aea071;
 }
 
-.homeDays p{
-    
-    border-bottom:solid #aea071 3px;
-}
+
 .homeDays,
 .homeDays p {
     display: flex;
@@ -211,8 +206,7 @@
     justify-content: center;
     background-color: white;
     color: #aea071;
-    font-size:20px;
-   
+    font-size:16px;
     text-align: center;
     line-height: 1.8;
     
@@ -249,7 +243,7 @@
     justify-content: center;
     background-color: white;
     color: #aea071;
-    font-size:20px;
+    font-size:16px;
     text-align: center;
     line-height: 1.8;
 }
