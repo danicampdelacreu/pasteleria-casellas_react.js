@@ -4,8 +4,8 @@
     display: flex;
     justify-content: center; 
     align-items: center;
-    background: linear-gradient(to bottom, transparent, black),#aea071;
-    border-bottom:solid black 1px;
+    background:#aea071;
+   
 }
 
 
@@ -34,6 +34,9 @@
 
 .headerNav a {
     text-decoration: none;
-    color:white;
+    color:black;
     font-size: 14px;
+    font-family: 'Quicksand', sans-serif;
 }
+
+
