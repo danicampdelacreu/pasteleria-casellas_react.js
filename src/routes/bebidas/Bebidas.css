@@ -41,8 +41,8 @@
 
 
 .drinksTypes img:hover {
-    width: 450px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
     border-radius: 30px;
     position: relative;
     mask-image: linear-gradient(to top left, rgba(0, 0, 0, 1), transparent),
