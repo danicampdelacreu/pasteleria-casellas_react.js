@@ -83,8 +83,8 @@ textarea {
     padding: 10px;
     text-align: center;
     border: 1px solid #ccc;
-    border-radius: 5px; /* Hace que los inputs sean redondeados */
-    margin-top: 5px; /* Aumenta el espacio entre inputs */
+    border-radius: 5px; 
+    margin-top: 7px;
 }
 
 textarea {
@@ -98,7 +98,7 @@ textarea {
 /* Estilos para el botón */
 input[type="submit"] {
     padding: 10px 20px;
-    background-color:  #837852; /* Color de fondo naranja (puedes cambiarlo) */
+    background-color:  #837852; 
     color: black;
     border: none;
     border-radius: 5px;
@@ -106,7 +106,7 @@ input[type="submit"] {
     margin-bottom: 20px;
 }
 
-/* Puedes personalizar aún más los estilos según tus preferencias */
+
 
 
 .footerLinkedin  {
