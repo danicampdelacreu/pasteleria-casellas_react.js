@@ -31,35 +31,35 @@ export default function Drinks() {
                     <div className='cava1'>
                         <img src={cava} />
                         <div className='cava1In'>
-                            <h3>Pere Ventura 20 anys</h3>
+                            <h3>Pere Ventura</h3>
                             <p>Explicacio producte</p>
                         </div>
                     </div>
                     <div className='cava2'>
                         <img src={cava} />
                         <div className='cava2In'>
-                            <h3>Pere Ventura 20 anys</h3>
+                            <h3>Pere Ventura </h3>
                             <p>Explicacio producte</p>
                         </div>
                     </div>
                     <div className='cava3'>
                         <img src={cava} />
                         <div className='cava3In'>
-                            <h3>Pere Ventura 20 anys</h3>
+                            <h3>Pere Ventura </h3>
                             <p>Explicacio producte</p>
                         </div>
                     </div>
                     <div className='cava4'>
                         <img src={cava} />
                         <div className='cava4In'>
-                            <h3>Pere Ventura 20 anys</h3>
+                            <h3>Pere Ventura </h3>
                             <p>Explicacio producte</p>
                         </div>
                     </div>
                     <div className='cava5'>
                         <img src={cava} />
                         <div className='cava5In'>
-                            <h3>Pere Ventura 20 anys</h3>
+                            <h3>Pere Ventura </h3>
                             <p>Explicacio producte</p>
                         </div>
                     </div>
