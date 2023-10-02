@@ -16,6 +16,7 @@
     justify-content: center;
     font-size: 28px;
     font-family: 'Playfair Display', serif;
+    margin-top: 60px;
 }
 
 .pasteGeneral p {
@@ -26,6 +27,7 @@
     font-size: 16px;
     color: #aea071;
     font-family: 'Quicksand', sans-serif;
+    margin-bottom: 100px;
 }
 
 .pasteTypes img {
@@ -90,7 +92,7 @@
     position: absolute;
     margin-right: 0px;
     background: linear-gradient(to bottom, transparent, #aea071);
-    color: white;
+    color: black;
     border-radius: 30px;
     margin-left: 50px;
     font-size: 16px;
@@ -114,7 +116,8 @@
     justify-content: center;
     font-family: 'Playfair Display', serif;
     text-align: center;
-    line-height:2px;
+    line-height:12px;
+    font-size: 16px;
 }
 
 .pasteTypes img:hover+.pasteNataIn h3,
