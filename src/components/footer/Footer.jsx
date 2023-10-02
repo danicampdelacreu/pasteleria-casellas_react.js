@@ -37,44 +37,41 @@ export default function Footer() {
 
     return (
         <div className='footerGeneral'>
-            <div className='footerContacto'>
-                <div className='footerHorario'>
-                    <p>HORARI</p>
-                    <p>Mati <br /> 08:00 14:00</p>
-                    <p>Tarda <br /> 16:00  20:00</p>
-                </div>
-                <div className='footerTelefon'>
-                    <p>TELEFON: +34 62434565</p>
-                </div>
-                <div className='footerCorreo'>
-
-                    <p>MAIL: pastisseriacasellas@gmail.com</p>
-                </div>
-                <div className='footerDireccio'>
-
-                    <p>---Direccion link googlemaps--</p>
-                </div>
-
-            </div>
-
-            <div className="footerMensaje">
-                <form ref={form} onSubmit={sendEmail}>
-                    <div className="contacto-name">
-                        <label>Nom</label>
-                        <input type="text" name="user_name" />
+            <div className='footerContent'>
+                <div className='footerContacto'>
+                    <div className='footerHorario'>
+                        <p>HORARI <br /><br />08:00 14:00<br />
+                            ---- <br /> 16:00  20:00</p>
                     </div>
-                    <div className="contacto-email">
-                        <label>Email</label>
-                        <input type="email" name="user_email" />
+                    <div className='footerTelefon'>
+                        <p>TELEFON<br /> <br/> <br />  +34 624345645</p>
                     </div>
-                    <div className="contacto-message">
-                        <label>Missatge</label>
-                        <textarea name="message" />
+
+                    <div className='footerDireccio'>
+
+                        <p>DIRECCIO <br /> <br/> <br />--link googlemaps--</p>
                     </div>
-                    <div className="contacto-submit">
-                        <input type="submit" value="Enviar" />
-                    </div>
-                </form>
+
+                </div>
+
+                <div className="footerMensaje">
+                    <p> Info: pastisseriacasellas@gmail.com</p>
+                    <form ref={form} onSubmit={sendEmail}>
+                        <div className="contacto-name">
+                            <input type="text" name="user_name" placeholder='Nom' />
+                        </div>
+                        <div className="contacto-email">
+                            
+                            <input type="email" name="user_email" placeholder='Email' />
+                        </div>
+                        <div className="contacto-message">
+                            <textarea name="message" placeholder='Missatge'/>
+                        </div>
+                        <div className="contacto-submit">
+                            <input type="submit" value="Enviar" />
+                        </div>
+                    </form>
+                </div>
             </div>
 
             <div className='footerLinkDani'>
@@ -82,10 +79,10 @@ export default function Footer() {
                 <div className='footerLinkedin'>
 
                     <p>
-                        @2023 Pastisseria Casellas by Daniel Campdelacreu / 
+                        @2023 Pastisseria Casellas by Daniel Campdelacreu //
                         <a href=
-                        "https://linkedin.com/in/danicampdelacreu-developer">
-                         / LinkedIn
+                            "https://linkedin.com/in/danicampdelacreu-developer">
+                            _LinkedIn_
                         </a>
                     </p>
 
