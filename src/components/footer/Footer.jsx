@@ -3,9 +3,6 @@ import emailjs from '@emailjs/browser';
 
 import './Footer.css'
 
-import linkedin from '../../assets/img/linkedin.jpeg';
-import github from '../../assets/img/github.png';
-
 export default function Footer() {
 
     const form = useRef();
@@ -40,8 +37,8 @@ export default function Footer() {
             <div className='footerContent'>
                 <div className='footerContacto'>
                     <div className='footerHorario'>
-                        <p>HORARI <br /><br />08:00 14:00<br />
-                            ---- <br /> 16:00  20:00</p>
+                        <p>HORARI <br /><br />08:00-14:00<br />
+                            ---- <br /> 16:00-20:00</p>
                     </div>
                     <div className='footerTelefon'>
                         <p>TELEFON<br /> <br/> <br />  +34 624345645</p>
@@ -82,7 +79,11 @@ export default function Footer() {
                         @2023 Pastisseria Casellas by Daniel Campdelacreu //
                         <a href=
                             "https://linkedin.com/in/danicampdelacreu-developer">
-                            _LinkedIn_
+                            _LinkedIn
+                        </a>
+                        <a href= 
+                        "https://github.com/danicampdelacreu">
+                            _GitHub_//
                         </a>
                     </p>
 
