@@ -23,7 +23,7 @@
     width: 100%;
     display: flex; /* Aplicamos flexbox a footerContacto */
     justify-content: space-around; /* Distribuye los elementos horizontalmente */
-    align-items: flex-start;
+    align-items: center;
     background-color: #aea071;
     color: black;
     margin: 10px;
@@ -39,7 +39,6 @@
     background-color: #aea071;
     color: black;
     margin: 10px;
-    text-align: center;
 }
 
 
