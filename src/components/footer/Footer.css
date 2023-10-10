@@ -19,15 +19,16 @@
     margin: 0 auto;
 }
 
-.footerContacto {
+.footerContacto,
+.footerContacto p {
     width: 100%;
     display: flex; /* Aplicamos flexbox a footerContacto */
-    justify-content: space-around; /* Distribuye los elementos horizontalmente */
+    flex-direction:row;
     align-items: center;
+    justify-content: center;
     background-color: #aea071;
-    color: black;
-    margin: 10px;
-    text-align: center;
+    color: #5f5636;
+    
 }
 
 .footerMensaje{
@@ -42,19 +43,16 @@
 }
 
 
-.footerContacto p,
 .footerHorario,
 .footerTelefon,
-.footerCorreo,
 .footerDireccio {
     width: 100%;
     display: flex;
-    justify-content: column;
-    align-items: center;
+    text-align: center;
     background-color: #aea071;
     color: #5f5636;
     margin: 10px 0;
-    text-align: center;
+    
 }
 
 .footerMensaje {
