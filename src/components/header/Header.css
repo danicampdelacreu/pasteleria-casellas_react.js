@@ -1,42 +1,138 @@
-
-.headerGeneral {
-    height: 60px;
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-    background:#aea071;
-   
+/* Tamaño movil*/
+@media all and (max-width: 480px) { }
+/* Tamaño Tablet Vertical*/
+@media all and (min-width: 480px) and (max-width: 768px) { 
+    .headerGeneral {
+        height: 60px;
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        background:#aea071;
+       
+    }
+    
+    
+    .headerNav {
+        display: flex;
+        justify-content: space-between; 
+        align-items: center;
+        max-width: 100%;
+        padding: 0 20px; 
+    }
+    
+    
+    .headerNav ul {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+    
+    
+    .headerNav li {
+        margin-right: 15px;
+        margin-left: 10px;
+    }
+    
+    
+    .headerNav a {
+        text-decoration: none;
+        color: #5f5636;
+        font-size: 14px;
+        font-family: 'Quicksand', sans-serif;
+    }
+    
+    
+    
 }
-
-
-.headerNav {
-    display: flex;
-    justify-content: space-between; 
-    align-items: center;
-    max-width: 100%;
-    padding: 0 20px; 
-}
-
-
-.headerNav ul {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-}
-
-
-.headerNav li {
-    margin-right: 15px;
-    margin-left: 10px;
-}
-
-
-.headerNav a {
-    text-decoration: none;
-    color: #5f5636;
-    font-size: 14px;
-    font-family: 'Quicksand', sans-serif;
-}
-
+/* Tamaño Tablet Horizontal*/
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    .headerGeneral {
+        height: 60px;
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        background:#aea071;
+       
+    }
+    
+    
+    .headerNav {
+        display: flex;
+        justify-content: space-between; 
+        align-items: center;
+        max-width: 100%;
+        padding: 0 20px; 
+    }
+    
+    
+    .headerNav ul {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+    
+    
+    .headerNav li {
+        margin-right: 35px;
+        margin-left: 20px;
+    }
+    
+    
+    .headerNav a {
+        text-decoration: none;
+        color: #5f5636;
+        font-size: 15px;
+        font-family: 'Quicksand', sans-serif;
+    }
+    
+    
+    
+ }
+/* Tamaño Pantalla*/
+@media(min-width: 1024px) {
+    .headerGeneral {
+        height: 60px;
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        background:#aea071;
+       
+    }
+    
+    
+    .headerNav {
+        display: flex;
+        justify-content: space-between; 
+        align-items: center;
+        max-width: 100%;
+        padding: 0 20px; 
+    }
+    
+    
+    .headerNav ul {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+    
+    
+    .headerNav li {
+        margin-right: 45px;
+        margin-left: 30px;
+    }
+    
+    
+    .headerNav a {
+        text-decoration: none;
+        color: #5f5636;
+        font-size: 16px;
+        font-family: 'Quicksand', sans-serif;
+    }
+    
+    
+    
+ }
 
