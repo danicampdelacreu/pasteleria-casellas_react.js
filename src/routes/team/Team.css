@@ -42,7 +42,7 @@
     }
 }
 /* Tamaño Tablet Horizontal*/
-@media all and (min-width: 768px) and (max-width: 1024px) { 
+@media (min-width: 768px) { 
     .teamGeneral{
     margin-bottom: 100px;
 }
@@ -83,7 +83,7 @@
 }
 }
 /* Tamaño Pantalla*/
-@media all and (min-width: 1024px) and (max-width: 1280px) {
+@media (min-width: 1024px){
     .teamGeneral{
         margin-bottom: 100px;
     }
