@@ -573,5 +573,289 @@
     }
 }
 /* Tamaño Pantalla*/
-@media all and (min-width: 1024px) and (max-width: 1280px) { }
+@media (min-width: 1024px) {
+    .allMain p{
+        font-family: 'Quicksand', sans-serif;
+    }
+    .allMain a{
+        font-family: 'Playfair Display', serif;
+    }
+    
+    .image2,
+    .image3,
+    .image4,
+    .image5,
+    .image6,
+    .image7 {
+        height: 360px;
+        width: 610px;
+        border-radius: 20px;
+        margin-top: 80px;
+        margin-bottom: 10px;
+    }
+    
+    
+    
+    .homePhoto1 {
+        width: 100%;
+        height: 510px;
+    }
+    
+    .homePhoto1 img {
+        width: 100%;
+        height: 620px;
+        object-fit: cover;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    
+    }
+    
+    
+    .homeTeam {
+        position: relative;
+        padding-top: 20px; 
+    }
+    
+    .homeTeam::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 20px; /* Ancho del borde */
+        background: linear-gradient(to top, transparent, #aea071);
+    }
+    
+    .homeTeam,
+    .homeTeam p{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color :white;
+        color: #aea071;
+        font-size:18px;
+        text-align: center;
+        line-height: 1.8;
+        
+    }
+    
+    .homeTeam a {
+        display: inline-block;
+        background-color: white;
+        color: #5f5636;
+        text-decoration: none;
+        transition: background-color 0.3s, color 0.3s, transform 0.3s;
+        width: 300px;
+        margin-top: 20px;
+        font-size:26px;
+        text-align: center;
+        line-height: 35px;
+        border-radius: 20px 20px;
+        
+    }
+    
+    .homeTeam a:hover {
+        height: 37px;
+        width: 130px;
+        background-color: white;
+        color: #aea071;
+        transform: scale(1.1);
+        border-radius: 20px 20px;
+        box-shadow: 0 8px 10px #aea071;
+        
+    }
+    
+    
+    .homeRepost,
+    .homeRepost p {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        color: #aea071;
+        font-size:18px;
+        text-align: center;
+        line-height: 1.8;
+        
+    }
+    
+    .homeRepost a {
+        display: inline-block;
+        background-color: white;
+        color: #5f5636;
+        text-decoration: none;
+        transition: background-color 0.3s, color 0.3s, transform 0.3s;
+        width: 300px;
+        margin-top: 20px;
+        font-size:26px;
+        text-align: center;
+        line-height: 35px;
+    }
+    
+    .homeRepost a:hover {
+        height: 37px;
+        width: 140px;
+        background-color: white;
+        color: #aea071;
+        transform: scale(1.1);
+        border-radius: 20px 20px;
+        box-shadow: 0 8px 10px #aea071;
+    }
+    
+    
+    .homePastel,
+    .homePastel p {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        color: #aea071;
+        font-size:18px;
+        text-align: center;
+        line-height: 1.8;
+        
+    }
+    
+    .homePastel a {
+        display: inline-block;
+        background-color: white;
+        color: #5f5636;
+        text-decoration: none;
+        transition: background-color 0.3s, color 0.3s, transform 0.3s;
+        width: 300px;
+        margin-top: 20px;
+        font-size:26px;
+        text-align: center;
+        line-height: 35px;
+    }
+    
+    .homePastel a:hover {
+        height: 37px;
+        width: 120px;
+        background-color: white;
+        color: #aea071;
+        transform: scale(1.1);
+        border-radius: 20px 20px;
+        box-shadow: 0 8px 10px #aea071;
+    }
+    
+    
+    .homeBriox,
+    .homeBriox p {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        color: #aea071;
+        font-size:18px;
+        text-align: center;
+        line-height: 1.8;
+       
+    }
+    
+    .homeBriox a {
+        display: inline-block;
+        background-color: white;
+        color: #5f5636;
+        text-decoration: none;
+        transition: background-color 0.3s, color 0.3s, transform 0.3s;
+        width: 300px;
+        margin-top: 20px;
+        font-size:26px;
+        text-align: center;
+        line-height: 35px;
+    }
+    
+    .homeBriox a:hover {
+        height: 37px;
+        width: 110px;
+        background-color: white;
+        color: #aea071;
+        transform: scale(1.1);
+        border-radius: 20px 20px;
+        box-shadow: 0 8px 10px #aea071;
+    }
+    
+    
+    .homeDays,
+    .homeDays p {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        color: #aea071;
+        font-size:18px;
+        text-align: center;
+        line-height: 1.8;
+        
+    }
+    
+    .homeDays a {
+        display: inline-block;
+        background-color: white;
+        color: #5f5636;
+        text-decoration: none;
+        transition: background-color 0.3s, color 0.3s, transform 0.3s;
+        width: 300px;
+        margin-top: 20px;
+        font-size:26px;
+        text-align: center;
+        line-height: 35px;
+    }
+    
+    .homeDays a:hover {
+        height: 37px;
+        width: 230px;
+        background-color: white;
+        color: #aea071;
+        transform: scale(1.1);
+        border-radius: 20px 20px;
+        box-shadow: 0 8px 10px #aea071;
+    }
+    
+    
+    
+    .homeDrinks,
+    .homeDrinks p {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        color: #aea071;
+        font-size:18px;
+        text-align: center;
+        line-height: 1.8;
+    }
+    
+    .homeDrinks a {
+        display: inline-block;
+        background-color: white;
+        color: #5f5636;
+        text-decoration: none;
+        transition: background-color 0.3s, color 0.3s, transform 0.3s;
+        width: 300px;
+        margin-top: 20px;
+        font-size:26px;
+        text-align: center;
+        line-height: 35px;
+    }
+    
+    .homeDrinks a:hover {
+        height: 37px;
+        width: 100px;
+        background-color: white;
+        color: #aea071;
+        transform: scale(1.1);
+        border-radius: 20px 20px;
+        box-shadow: 0 8px 10px #aea071;
+    }
+ }
 

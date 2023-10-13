@@ -42,7 +42,7 @@
     }
 }
 /* Tamaño Tablet Horizontal*/
-@media all and (min-width: 768px) and (max-width: 1024px) { 
+@media (min-width: 768px) { 
     .teamGeneral{
     margin-bottom: 100px;
 }
@@ -83,5 +83,44 @@
 }
 }
 /* Tamaño Pantalla*/
-@media all and (min-width: 1024px) and (max-width: 1280px) { }
+@media (min-width: 1024px){
+    .teamGeneral{
+        margin-bottom: 100px;
+    }
+    .teamGeneral a{
+        font-family: 'Playfair Display', serif;
+    }
+    
+    .teamGeneral img {
+        height: 500px;
+        width: 100%;
+    }
+    
+    .teamPhoto1 {
+        width: 100%;
+        height: 500px;
+        border-bottom: solid black 1px;
+    }
+    
+    
+    .teamGeneral h2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 28px;
+        font-family: 'Playfair Display', serif;
+        margin-top: 60px;
+    }
+    
+    .teamGeneral p {
+        text-align: justify;
+        line-height: 1.8;
+        margin-left: 200px;
+        margin-right: 200px;
+        font-size: 16px;
+        color: #aea071;
+        font-family: 'Quicksand', sans-serif;
+    }
+ }
 
