@@ -371,4 +371,186 @@
 }
 }
 /* Tamaño Pantalla*/
-@media all and (min-width: 1024px) and (max-width: 1280px) { }
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+    .pasteGeneral img {
+        height: 500px;
+        width: 100%;
+    }
+    
+    .pastePhoto1 {
+        width: 100%;
+        height: 500px;
+        border-bottom: solid black 1px;
+    }
+    
+    .pasteGeneral h2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 28px;
+        font-family: 'Playfair Display', serif;
+        margin-top: 60px;
+    }
+    
+    .pasteGeneral p {
+        text-align: justify;
+        line-height: 1.8;
+        margin-left: 100px;
+        margin-right: 100px;
+        font-size: 16px;
+        color: #aea071;
+        font-family: 'Quicksand', sans-serif;
+        margin-bottom: 100px;
+    }
+    
+    .pasteTypes img {
+        display: block;
+        margin: 60px auto;
+        width: 350px;
+        height: 250px;
+        border-radius: 30px;
+    }
+    
+    
+    .pasteTypes img:hover {
+        width: 350px;
+        height: 250px;
+        border-radius: 30px;
+        position: relative;
+        mask-image: linear-gradient(to top left, rgba(0, 0, 0, 1), transparent),
+            linear-gradient(to top right, rgba(0, 0, 0, 1), transparent),
+            linear-gradient(to bottom left, rgba(0, 0, 0, 1), transparent),
+            linear-gradient(to bottom right, rgba(0, 0, 0, 1), transparent);
+        mask-position: left top, right top, left bottom, right bottom;
+        mask-size: 50% 50%;
+        /* Controla la extensión del difuminado en cada esquina */
+        mask-repeat: no-repeat;
+        background-color: rgba(0, 0, 0, 0);
+        /* Esto asegura que el fondo sea transparente */
+    }
+    
+    .pasteTypes img:hover+.pasteNataIn,
+    .pasteTypes img:hover+.pasteTrufaIn,
+    .pasteTypes img:hover+.pasteCremaIn,
+    .pasteTypes img:hover+.pasteXocoIn,
+    .pasteTypes img:hover+.pasteMusMadIn,
+    .pasteTypes img:hover+.pasteMusLlimaIn,
+    .pasteTypes img:hover+.pasteMusTurroIn,
+    .pasteTypes img:hover+.pasteMusDosXocoIn,
+    .pasteTypes img:hover+.pasteMassiIn,
+    .pasteTypes img:hover+.pasteSachIn,
+    .pasteTypes img:hover+.pasteRedIn {
+        width: 300px;
+        height: 250px;
+        display: flex;
+        background: linear-gradient(to bottom, transparent, #aea071);
+        font-size: 20px;
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .pasteNataIn,
+    .pasteTrufaIn,
+    .pasteCremaIn,
+    .pasteXocoIn,
+    .pasteMusMadIn,
+    .pasteMusLlimaIn,
+    .pasteMusTurroIn,
+    .pasteMusDosXocoIn,
+    .pasteMassiIn,
+    .pasteSachIn,
+    .pasteRedIn {
+        position: absolute;
+        margin-right: 0px;
+        background: linear-gradient(to bottom, transparent, #aea071);
+        color: black;
+        border-radius: 30px;
+        margin-left: 50px;
+        font-size: 16px;
+        height: 40px;
+        width: 180px
+    }
+    
+    .pasteNataIn h3,
+    .pasteTrufaIn h3,
+    .pasteCremaIn h3,
+    .pasteXocoIn h3,
+    .pasteMusMadIn h3,
+    .pasteMusLlimaIn h3,
+    .pasteMusTurroIn h3,
+    .pasteMusDosXocoIn h3,
+    .pasteMassiIn h3,
+    .pasteSachIn h3,
+    .pasteRedIn h3 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Playfair Display', serif;
+        text-align: center;
+        line-height:12px;
+        font-size: 16px;
+    }
+    
+    .pasteTypes img:hover+.pasteNataIn h3,
+    .pasteTypes img:hover+.pasteTrufaIn h3,
+    .pasteTypes img:hover+.pasteCremaIn h3,
+    .pasteTypes img:hover+.pasteXocoIn h3,
+    .pasteTypes img:hover+.pasteMusMadIn h3,
+    .pasteTypes img:hover+.pasteMusLlimaIn h3,
+    .pasteTypes img:hover+.pasteMusTurroIn h3,
+    .pasteTypes img:hover+.pasteMusDosXocoIn h3,
+    .pasteTypes img:hover+.pasteMassiIn h3,
+    .pasteTypes img:hover+.pasteSachIn h3,
+    .pasteTypes img:hover+.pasteRedIn h3 {
+        display: none;
+    }
+    
+    .pasteNata,
+    .pasteTrufa,
+    .pasteCrema,
+    .pasteXoco,
+    .pasteMusMad,
+    .pasteMusLlima,
+    .pasteMusTurro,
+    .pasteMusDosXoco,
+    .pasteMassi,
+    .pasteSach,
+    .pasteRed {
+        position: relative;
+        display: flex;
+        align-items:start;
+    
+    }
+    
+    .pasteNata p,
+    .pasteTrufa p,
+    .pasteCrema p,
+    .pasteXoco p,
+    .pasteMusMad p,
+    .pasteMusLlima p,
+    .pasteMusTurro p,
+    .pasteMusDosXoco p,
+    .pasteMassi p,
+    .pasteSach p,
+    .pasteRed p {
+        display: none;
+        color: black
+    }
+    
+    .pasteTypes img:hover+.pasteNataIn p,
+    .pasteTypes img:hover+.pasteTrufaIn p,
+    .pasteTypes img:hover+.pasteCremaIn p,
+    .pasteTypes img:hover+.pasteXocoIn p,
+    .pasteTypes img:hover+.pasteMusMadIn p,
+    .pasteTypes img:hover+.pasteMusLlimaIn p,
+    .pasteTypes img:hover+.pasteMusTurroIn p,
+    .pasteTypes img:hover+.pasteMusDosXocoIn p,
+    .pasteTypes img:hover+.pasteMassiIn p,
+    .pasteTypes img:hover+.pasteSachIn p,
+    .pasteTypes img:hover+.pasteRedIn p {
+        display: block
+    }
+ }
