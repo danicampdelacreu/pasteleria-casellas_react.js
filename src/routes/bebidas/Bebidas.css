@@ -42,12 +42,9 @@
         margin: auto;
         width: 250px;
         height: 250px;
-        margin-bottom: 100px;
-        
+        margin-bottom: 100px;   
     }
-    
-    
-    
+
     .drinksTypes img:hover {
         width: 250px;
         height: 250px;
@@ -128,10 +125,14 @@
     .rata1In h3,
     .rata2In h3,
     .rata3In h3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
         font-family: 'Playfair Display', serif;
+        text-align: center;
         line-height:12px;
         font-size: 16px;
-    }
+    }    
     
     .drinksTypes img:hover+.cava1In h3,
     .drinksTypes img:hover+.cava2In h3,
@@ -245,7 +246,7 @@
         width: 250px;
         height: 250px;
         margin-bottom: 100px;
-        
+        border-radius: 30px;
     }
     
     
@@ -313,8 +314,6 @@
         font-size: 16px;
         height: 40px;
         width: 180px;
-        text-align: center;
-        
     }
     
     .cava1In h3,
@@ -330,7 +329,11 @@
     .rata1In h3,
     .rata2In h3,
     .rata3In h3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
         font-family: 'Playfair Display', serif;
+        text-align: center;
         line-height:12px;
         font-size: 16px;
     }
@@ -401,7 +404,35 @@
     .drinksTypes img:hover+.rata2In p,
     .drinksTypes img:hover+.rata3In p{
         display: block;
-    }    
+    }  
+    
+    .drinksCava{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .drinksCava > * {
+        flex: 0 0 calc(50% - 20px); /* Establece el ancho de los elementos en 2 columnas */
+        margin: 10px; /* Añade un margen entre los elementos */
+    }
+    .drinksVi{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .drinksVi > * {
+        flex: 0 0 calc(50% - 20px); /* Establece el ancho de los elementos en 2 columnas */
+        margin: 10px; /* Añade un margen entre los elementos */
+    }
+    .drinksRata{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .drinksRata > * {
+        flex: 0 0 calc(50% - 20px); /* Establece el ancho de los elementos en 2 columnas */
+        margin: 10px; /* Añade un margen entre los elementos */
+    }
 }
 /* Tamaño Pantalla*/
 @media (min-width: 1024px) {
@@ -430,9 +461,9 @@
     .drinksGeneral p {
         text-align: justify;
         line-height: 1.8;
-        margin-left: 100px;
-        margin-right: 100px;
-        font-size: 16px;
+        margin-left: 200px;
+        margin-right: 200px;
+        font-size: 18px;
         color: #aea071;
         font-family: 'Quicksand', sans-serif;
         margin-bottom: 100px;
@@ -446,7 +477,7 @@
         width: 250px;
         height: 250px;
         margin-bottom: 100px;
-        
+        border-radius: 30px;
     }
     
     
@@ -514,8 +545,6 @@
         font-size: 16px;
         height: 40px;
         width: 180px;
-        text-align: center;
-        
     }
     
     .cava1In h3,
@@ -531,7 +560,11 @@
     .rata1In h3,
     .rata2In h3,
     .rata3In h3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
         font-family: 'Playfair Display', serif;
+        text-align: center;
         line-height:12px;
         font-size: 16px;
     }
@@ -602,6 +635,34 @@
     .drinksTypes img:hover+.rata2In p,
     .drinksTypes img:hover+.rata3In p{
         display: block;
+    }
+
+    .drinksCava{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .drinksCava > * {
+        flex: 0 0 calc(33.33% - 20px); /* Establece el ancho de los elementos en 2 columnas */
+        margin: 10px; /* Añade un margen entre los elementos */
+    }
+    .drinksVi{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .drinksVi > * {
+        flex: 0 0 calc(33.33% - 20px); /* Establece el ancho de los elementos en 2 columnas */
+        margin: 10px; /* Añade un margen entre los elementos */
+    }
+    .drinksRata{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .drinksRata > * {
+        flex: 0 0 calc(33.33% - 20px); /* Establece el ancho de los elementos en 2 columnas */
+        margin: 10px; /* Añade un margen entre los elementos */
     }
      
 }
