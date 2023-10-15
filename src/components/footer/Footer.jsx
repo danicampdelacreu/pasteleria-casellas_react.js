@@ -37,20 +37,21 @@ export default function Footer() {
             <div className='footerContent'>
                 <div className='footerContacto'>
                     <div className='footerHorario'>
-                        <p>HORARI <br /><br />08:00-14:00<br />
-                            ---- <br /> 16:00-20:00</p>
+                        <p>BOTIGA <br /><br />Divendres:<br/> 10:00-13:00 <br/> 16:00 - 19:00 <br /> <br/>
+                        Dissabte i Diumenge: <br/>10:00-14:00 <br />
+                         </p>
                     </div>
                     <div className='footerTelefon'>
-                        <p>TELEFON<br /> <br/> <br />  +34 624345645</p>
+                        <p>TELEFON<br />  <br />  +34 621 199 127</p>
                     </div>
 
                     <div className='footerDireccio'>
 
-                        <p>DIRECCIO <br /> <br/> <br />--link googlemaps--</p>
+                        <p>DIRECCIO <br /> <br />Plaça Catalunya,9 Baixos (NAVÀS)</p>
                     </div>
-
+                    
                 </div>
-
+                    
                 <div className="footerMensaje">
                     <p> Info: pastisseriacasellas@gmail.com</p>
                     <form ref={form} onSubmit={sendEmail}>
