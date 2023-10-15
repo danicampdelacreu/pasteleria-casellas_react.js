@@ -37,8 +37,8 @@ export default function Footer() {
             <div className='footerContent'>
                 <div className='footerContacto'>
                     <div className='footerHorario'>
-                        <p>BOTIGA <br /><br />Divendres:<br/> 10:00-13:00 <br/> 16:00 - 19:00 <br /> <br/>
-                        Dissabte i Diumenge: <br/>10:00-14:00 <br />
+                        <p>HORARI <br /><br />Divendres:<br/> 10:00 - 13:00 <br/> 16:00 - 19:00 <br /> <br/>
+                        Dissabte i Diumenge: <br/>10:00 - 14:00 <br />
                          </p>
                     </div>
                     <div className='footerTelefon'>
