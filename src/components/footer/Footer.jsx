@@ -42,12 +42,12 @@ export default function Footer() {
                          </p>
                     </div>
                     <div className='footerTelefon'>
-                        <p>TELEFON<br /> <br/> <br />  +34 621 199 127</p>
+                        <p>TELEFON<br />  <br />  +34 621 199 127</p>
                     </div>
 
                     <div className='footerDireccio'>
 
-                        <p>DIRECCIO <br /> <br/> <br />--link googlemaps--</p>
+                        <p>DIRECCIO <br /> <br />Plaça Catalunya,9 Baixos (NAVÀS)</p>
                     </div>
                     
                 </div>
