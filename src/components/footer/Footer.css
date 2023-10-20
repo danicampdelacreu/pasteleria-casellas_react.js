@@ -1,5 +1,120 @@
 /* Tamaño movil*/
-@media all and (max-width: 480px) { }
+@media all and (max-width: 480px) {
+    .footerGeneral {
+        font-size: 14px;
+        background-color: #aea071;
+        display: flex;
+        flex-direction: column; /* Cambiamos a flex-direction: column para apilar verticalmente los elementos */
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        color: black;
+        border-top: solid black 1px;
+        font-family: 'Quicksand', sans-serif;
+    }
+    
+    .footerContent {
+        width: 100%;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    
+    .footerContacto,
+    .footerContacto p {
+        width: 100%;
+        display: flex; /* Aplicamos flexbox a footerContacto */
+        flex-direction:row;
+        align-items: center;
+        justify-content: center;
+        background-color: #aea071;
+        color: #5f5636;
+        
+    }
+    
+    .footerHorario,
+    .footerTelefon,
+    .footerDireccio {
+        width: 100%;
+        display: flex;
+        text-align: center;
+        background-color: #aea071;
+        color: #5f5636;
+        margin: 10px 0;
+        
+    }
+    
+    .footerMensaje {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #aea071;
+        color: #5f5636;
+        margin: 10px;
+        text-align: center; 
+        border-top: 1px solid #5f5636;
+        border-bottom: 1px solid #5f5636;
+    }
+    
+    
+    
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        height: 10px;
+        width: 330px;
+        padding: 10px;
+        text-align: center;
+        border: 1px solid #ccc;
+        border-radius: 5px; 
+        margin-top: 7px;
+    }
+    
+    textarea {
+        height: 10px; /* Hace que el textarea sea más grande */
+    }
+    
+    .contacto-submit {
+        text-align: center;
+    }
+    
+    /* Estilos para el botón */
+    input[type="submit"] {
+        padding: 10px 20px;
+        background-color:  #837852; 
+        color: black;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-bottom: 20px;
+    }
+    
+    
+    
+    
+    .footerLinkedin  {
+        font-size: 12px;
+        width: 100%;
+        height: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        margin-top: 10px;
+        background-color: #aea071;
+        color: black;
+        
+    }
+    .footerLinkedin a {
+        color: black;
+        text-decoration: none;
+    }
+    .footerLinkedin a:hover {
+        color: white;
+        text-decoration: none;
+    }
+ }
 /* Tamaño Tablet Vertical*/
 @media all and (min-width: 480px) and (max-width: 768px) {
     .footerGeneral {
