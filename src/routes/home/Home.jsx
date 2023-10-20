@@ -21,7 +21,7 @@ export default function Home() {
                 <img class='image2' src={team} />
                 <Link to="/team">Nosaltres</Link>
                 <p>
-                    Som la pastisseria de Navàs, un lloc dolç i acollidor on els sabors <br/> es converteixen en experiències úniques.
+                    Som la pastisseria de Navàs, un lloc dolç i acollidor on els sabors <br /> es converteixen en experiències úniques.
                 </p>
 
             </div>
@@ -29,7 +29,7 @@ export default function Home() {
                 <img class='image3' src={repost} />
                 <Link to="/repost">Reposteria</Link>
                 <p>
-                    La màgia de la reposteria pren vida.<br/>
+                    La màgia de la reposteria pren vida.<br />
                     Cada dolç és una obra d'art elaborada amb cura i destresa.
                 </p>
             </div>
@@ -37,14 +37,14 @@ export default function Home() {
                 <img class='image4' src={pastel} />
                 <Link to="/pastel">Pastissos</Link>
                 <p>
-                    La nostra pastisseria actua com el lloc on els anhels per les dolçors es <br/>transformen en realitat amb multiples opcions .
+                    La nostra pastisseria actua com el lloc on els anhels per les dolçors es <br />transformen en realitat amb multiples opcions .
                 </p>
             </div>
             <div class='homeBriox'>
                 <img class='image5' src={briox} />
                 <Link to="/briox">Brioxios</Link>
                 <p>
-                    La brioixeria és el lloc on el plaer d'un briox excepcional pren forma.<br/>
+                    La brioixeria és el lloc on el plaer d'un briox excepcional pren forma.<br />
                     Cada briox és un testimoni de la nostra dedicació i amor pel detall.
                 </p>
             </div>
@@ -52,8 +52,8 @@ export default function Home() {
                 <img class='image6' src={days} />
                 <Link to="/days">Productes Especials</Link>
                 <p>
-                    En les ocasions especials, la nostra creativitat pren volada<br/> per crear moments inoblidables
-                    Amb cada data destacada, donem vida a<br/> postres únics que capturen l'esperit de la celebració.
+                    En les ocasions especials, la nostra creativitat pren volada<br /> per crear moments inoblidables
+                    Amb cada data destacada, donem vida a<br /> postres únics que capturen l'esperit de la celebració.
                 </p>
 
             </div>
@@ -61,8 +61,8 @@ export default function Home() {
                 <img class='image7' src={drinks} />
                 <Link to="/drinks">Celler</Link>
                 <p>
-                    En el nostre racó de cava, vins i ratafia, ens endinsem en el<br/>fascinant món dels sabors i aromes.
-                    Vine i brinda amb nosaltres, on la varietat i <br/>la qualitat es fonen per celebrar els plaers del paladar.
+                    En el nostre racó de cava, vins i ratafia, ens endinsem en el<br />fascinant món dels sabors i aromes.
+                    Vine i brinda amb nosaltres, on la varietat i <br />la qualitat es fonen per celebrar els plaers del paladar.
                 </p>
 
             </div>

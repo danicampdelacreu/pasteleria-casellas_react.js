@@ -31,42 +31,42 @@ export default function Brioxeria() {
             <div className='briTypes'>
                 <div className='briCroisBig'>
                     <img src={croisantBig} />
-                    <div className ='briCroisBigIn'>
+                    <div className='briCroisBigIn'>
                         <h3>croisants grans</h3>
                         <p> explicacio del producte</p>
                     </div>
                 </div>
                 <div className='briCroisSmall'>
                     <img src={croisantLit} />
-                    <div className ='briCroisSmallIn'>
+                    <div className='briCroisSmallIn'>
                         <h3>croisants petits</h3>
                         <p> explicacio del producte</p>
                     </div>
                 </div>
                 <div className='briBriox'>
                     <img src={briox} />
-                    <div className ='briBrioxIn'>
+                    <div className='briBrioxIn'>
                         <h3>Brioix</h3>
                         <p> explicacio del producte</p>
                     </div>
                 </div>
                 <div className='briEncie'>
                     <img src={enseimada} />
-                    <div className ='briEncieIn'>
+                    <div className='briEncieIn'>
                         <h3>Enseimada</h3>
                         <p> explicacio del producte</p>
                     </div>
                 </div>
                 <div className='briXuix'>
                     <img src={xuixo} />
-                    <div className ='briXuixIn'>
+                    <div className='briXuixIn'>
                         <h3>Xuixo crema</h3>
                         <p> explicacio del producte</p>
                     </div>
                 </div>
                 <div className='briDonut'>
                     <img src={donut} />
-                    <div className ='briDonutIn'>
+                    <div className='briDonutIn'>
                         <h3>Donut sucre</h3>
                         <p> explicacio del producte</p>
                     </div>

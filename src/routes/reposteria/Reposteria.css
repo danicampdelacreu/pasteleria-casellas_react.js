@@ -1,17 +1,17 @@
 /* Tamaño movil*/
-@media  (max-width: 480px) { 
+@media (max-width: 580px) {
     .repoGeneral img {
         height: 300px;
         width: 100%;
     }
-    
+
     .repoPhoto1 {
         width: 100%;
         height: 300px;
-        border-bottom:solid black  1px;
+        border-bottom: solid black 1px;
     }
-    
-    
+
+
     .repoGeneral h2 {
         display: flex;
         flex-direction: column;
@@ -22,7 +22,7 @@
         margin-top: 30px;
         color: #514a34;
     }
-    
+
     .repoGeneral p {
         text-align: justify;
         line-height: 1.8;
@@ -33,17 +33,17 @@
         font-family: 'Quicksand', sans-serif;
         margin-bottom: 100px;
     }
-    
+
     .repoTypes img {
         display: block;
         margin: auto;
         width: 150px;
         height: 150px;
         border-radius: 30px;
-        margin-bottom: 80px; 
+        margin-bottom: 80px;
     }
-    
-    .repoTypes img:hover{
+
+    .repoTypes img:hover {
         width: 150px;
         height: 150px;
         border-radius: 30px;
@@ -59,19 +59,19 @@
         background-color: rgba(0, 0, 0, 0);
         /* Esto asegura que el fondo sea transparente */
     }
-    
-    .repoTypes img:hover +.repoLioIn,
-    .repoTypes img:hover +.repoCocoIn,
-    .repoTypes img:hover +.repoTrufIn,
-    .repoTypes img:hover +.repoBolesIn,
-    .repoTypes img:hover +.repoFullIn,
-    .repoTypes img:hover +.repoMassIn,
-    .repoTypes img:hover +.repoTociIn,
-    .repoTypes img:hover +.repoManteIn,
-    .repoTypes img:hover +.repoAmetIn,
-    .repoTypes img:hover +.repoXocoIn,
-    .repoTypes img:hover +.repoPasteIn,
-    .repoTypes img:hover +.repoVariIn{
+
+    .repoTypes img:hover+.repoLioIn,
+    .repoTypes img:hover+.repoCocoIn,
+    .repoTypes img:hover+.repoTrufIn,
+    .repoTypes img:hover+.repoBolesIn,
+    .repoTypes img:hover+.repoFullIn,
+    .repoTypes img:hover+.repoMassIn,
+    .repoTypes img:hover+.repoTociIn,
+    .repoTypes img:hover+.repoManteIn,
+    .repoTypes img:hover+.repoAmetIn,
+    .repoTypes img:hover+.repoXocoIn,
+    .repoTypes img:hover+.repoPasteIn,
+    .repoTypes img:hover+.repoVariIn {
         width: 200px;
         height: 150px;
         display: flex;
@@ -82,9 +82,9 @@
         align-items: center;
         justify-content: center;
     }
-    
-    
-    
+
+
+
     .repoLioIn,
     .repoCocoIn,
     .repoTrufIn,
@@ -96,11 +96,11 @@
     .repoAmetIn,
     .repoXocoIn,
     .repoPasteIn,
-    .repoVariIn{
+    .repoVariIn {
         position: absolute;
         margin-right: 0px;
         background: linear-gradient(to bottom, transparent, #aea071);
-        color:black;
+        color: black;
         border-radius: 30px;
         margin-left: 80px;
         font-size: 14px;
@@ -108,7 +108,7 @@
         width: 150px;
         text-align: center;
     }
-    
+
     .repoLioIn h3,
     .repoCocoIn h3,
     .repoTrufIn h3,
@@ -120,31 +120,31 @@
     .repoAmetIn h3,
     .repoXocoIn h3,
     .repoPasteIn h3,
-    .repoVariIn h3{
+    .repoVariIn h3 {
         display: flex;
         align-items: center;
         justify-content: center;
         font-family: 'Playfair Display', serif;
         text-align: center;
-        line-height:11px;
+        line-height: 11px;
         font-size: 14px;
     }
-    
-    .repoTypes img:hover +.repoLioIn h3,
-    .repoTypes img:hover +.repoCocoIn h3,
-    .repoTypes img:hover +.repoTrufIn h3,
-    .repoTypes img:hover +.repoBolesIn h3,
-    .repoTypes img:hover +.repoFullIn h3,
-    .repoTypes img:hover +.repoMassIn h3,
-    .repoTypes img:hover +.repoTociIn h3,
-    .repoTypes img:hover +.repoManteIn h3,
-    .repoTypes img:hover +.repoAmetIn h3,
-    .repoTypes img:hover +.repoXocoIn h3,
-    .repoTypes img:hover +.repoPasteIn h3,
-    .repoTypes img:hover +.repoVariIn h3{
+
+    .repoTypes img:hover+.repoLioIn h3,
+    .repoTypes img:hover+.repoCocoIn h3,
+    .repoTypes img:hover+.repoTrufIn h3,
+    .repoTypes img:hover+.repoBolesIn h3,
+    .repoTypes img:hover+.repoFullIn h3,
+    .repoTypes img:hover+.repoMassIn h3,
+    .repoTypes img:hover+.repoTociIn h3,
+    .repoTypes img:hover+.repoManteIn h3,
+    .repoTypes img:hover+.repoAmetIn h3,
+    .repoTypes img:hover+.repoXocoIn h3,
+    .repoTypes img:hover+.repoPasteIn h3,
+    .repoTypes img:hover+.repoVariIn h3 {
         display: none;
     }
-    
+
     .repoLio,
     .repoCoco,
     .repoTruf,
@@ -156,12 +156,12 @@
     .repoAmet,
     .repoXoco,
     .repoPaste,
-    .repoVari{
+    .repoVari {
         position: relative;
-        display:flex;
-        align-items:start;
+        display: flex;
+        align-items: start;
     }
-    
+
     .repoLio p,
     .repoCoco p,
     .repoTruf p,
@@ -173,40 +173,41 @@
     .repoAmet p,
     .repoXoco p,
     .repoPaste p,
-    .repoVari p{
+    .repoVari p {
         display: none;
         color: black
     }
-    
-    .repoTypes img:hover +.repoLioIn p,
-    .repoTypes img:hover +.repoCocoIn p,
-    .repoTypes img:hover +.repoTrufIn p,
-    .repoTypes img:hover +.repoBolesIn p,
-    .repoTypes img:hover +.repoFullIn p,
-    .repoTypes img:hover +.repoMassIn p,
-    .repoTypes img:hover +.repoTociIn p,
-    .repoTypes img:hover +.repoManteIn p,
-    .repoTypes img:hover +.repoAmetIn p,
-    .repoTypes img:hover +.repoXocoIn p,
-    .repoTypes img:hover +.repoPasteIn p,
-    .repoTypes img:hover +.repoVariIn p{
+
+    .repoTypes img:hover+.repoLioIn p,
+    .repoTypes img:hover+.repoCocoIn p,
+    .repoTypes img:hover+.repoTrufIn p,
+    .repoTypes img:hover+.repoBolesIn p,
+    .repoTypes img:hover+.repoFullIn p,
+    .repoTypes img:hover+.repoMassIn p,
+    .repoTypes img:hover+.repoTociIn p,
+    .repoTypes img:hover+.repoManteIn p,
+    .repoTypes img:hover+.repoAmetIn p,
+    .repoTypes img:hover+.repoXocoIn p,
+    .repoTypes img:hover+.repoPasteIn p,
+    .repoTypes img:hover+.repoVariIn p {
         display: block;
     }
 }
+
 /* Tamaño Tablet Vertical*/
-@media (min-width: 480px) and (max-width: 768px) {
+@media (min-width: 580px) and (max-width: 768px) {
     .repoGeneral img {
         height: 500px;
         width: 100%;
     }
-    
+
     .repoPhoto1 {
         width: 100%;
         height: 500px;
-        border-bottom:solid black  1px;
+        border-bottom: solid black 1px;
     }
-    
-    
+
+
     .repoGeneral h2 {
         display: flex;
         flex-direction: column;
@@ -216,7 +217,7 @@
         font-family: 'Playfair Display', serif;
         margin-top: 60px;
     }
-    
+
     .repoGeneral p {
         text-align: justify;
         line-height: 1.8;
@@ -227,7 +228,7 @@
         font-family: 'Quicksand', sans-serif;
         margin-bottom: 100px;
     }
-    
+
     .repoTypes img {
         display: block;
         margin: 60px auto;
@@ -235,8 +236,8 @@
         height: 250px;
         border-radius: 30px;
     }
-    
-    .repoTypes img:hover{
+
+    .repoTypes img:hover {
         width: 350px;
         height: 250px;
         border-radius: 30px;
@@ -252,19 +253,19 @@
         background-color: rgba(0, 0, 0, 0);
         /* Esto asegura que el fondo sea transparente */
     }
-    
-    .repoTypes img:hover +.repoLioIn,
-    .repoTypes img:hover +.repoCocoIn,
-    .repoTypes img:hover +.repoTrufIn,
-    .repoTypes img:hover +.repoBolesIn,
-    .repoTypes img:hover +.repoFullIn,
-    .repoTypes img:hover +.repoMassIn,
-    .repoTypes img:hover +.repoTociIn,
-    .repoTypes img:hover +.repoManteIn,
-    .repoTypes img:hover +.repoAmetIn,
-    .repoTypes img:hover +.repoXocoIn,
-    .repoTypes img:hover +.repoPasteIn,
-    .repoTypes img:hover +.repoVariIn{
+
+    .repoTypes img:hover+.repoLioIn,
+    .repoTypes img:hover+.repoCocoIn,
+    .repoTypes img:hover+.repoTrufIn,
+    .repoTypes img:hover+.repoBolesIn,
+    .repoTypes img:hover+.repoFullIn,
+    .repoTypes img:hover+.repoMassIn,
+    .repoTypes img:hover+.repoTociIn,
+    .repoTypes img:hover+.repoManteIn,
+    .repoTypes img:hover+.repoAmetIn,
+    .repoTypes img:hover+.repoXocoIn,
+    .repoTypes img:hover+.repoPasteIn,
+    .repoTypes img:hover+.repoVariIn {
         width: 300px;
         height: 250px;
         display: flex;
@@ -275,9 +276,9 @@
         align-items: center;
         justify-content: center;
     }
-    
-    
-    
+
+
+
     .repoLioIn,
     .repoCocoIn,
     .repoTrufIn,
@@ -289,18 +290,18 @@
     .repoAmetIn,
     .repoXocoIn,
     .repoPasteIn,
-    .repoVariIn{
+    .repoVariIn {
         position: absolute;
         margin-right: 0px;
         background: linear-gradient(to bottom, transparent, #aea071);
-        color:black;
+        color: black;
         border-radius: 30px;
         margin-left: 50px;
         font-size: 16px;
         height: 40px;
         width: 180px
     }
-    
+
     .repoLioIn h3,
     .repoCocoIn h3,
     .repoTrufIn h3,
@@ -312,31 +313,31 @@
     .repoAmetIn h3,
     .repoXocoIn h3,
     .repoPasteIn h3,
-    .repoVariIn h3{
+    .repoVariIn h3 {
         display: flex;
         align-items: center;
         justify-content: center;
         font-family: 'Playfair Display', serif;
         text-align: center;
-        line-height:12px;
+        line-height: 12px;
         font-size: 16px;
     }
-    
-    .repoTypes img:hover +.repoLioIn h3,
-    .repoTypes img:hover +.repoCocoIn h3,
-    .repoTypes img:hover +.repoTrufIn h3,
-    .repoTypes img:hover +.repoBolesIn h3,
-    .repoTypes img:hover +.repoFullIn h3,
-    .repoTypes img:hover +.repoMassIn h3,
-    .repoTypes img:hover +.repoTociIn h3,
-    .repoTypes img:hover +.repoManteIn h3,
-    .repoTypes img:hover +.repoAmetIn h3,
-    .repoTypes img:hover +.repoXocoIn h3,
-    .repoTypes img:hover +.repoPasteIn h3,
-    .repoTypes img:hover +.repoVariIn h3{
+
+    .repoTypes img:hover+.repoLioIn h3,
+    .repoTypes img:hover+.repoCocoIn h3,
+    .repoTypes img:hover+.repoTrufIn h3,
+    .repoTypes img:hover+.repoBolesIn h3,
+    .repoTypes img:hover+.repoFullIn h3,
+    .repoTypes img:hover+.repoMassIn h3,
+    .repoTypes img:hover+.repoTociIn h3,
+    .repoTypes img:hover+.repoManteIn h3,
+    .repoTypes img:hover+.repoAmetIn h3,
+    .repoTypes img:hover+.repoXocoIn h3,
+    .repoTypes img:hover+.repoPasteIn h3,
+    .repoTypes img:hover+.repoVariIn h3 {
         display: none;
     }
-    
+
     .repoLio,
     .repoCoco,
     .repoTruf,
@@ -348,12 +349,12 @@
     .repoAmet,
     .repoXoco,
     .repoPaste,
-    .repoVari{
+    .repoVari {
         position: relative;
-        display:flex;
-        align-items:start;
+        display: flex;
+        align-items: start;
     }
-    
+
     .repoLio p,
     .repoCoco p,
     .repoTruf p,
@@ -365,40 +366,41 @@
     .repoAmet p,
     .repoXoco p,
     .repoPaste p,
-    .repoVari p{
+    .repoVari p {
         display: none;
         color: black
     }
-    
-    .repoTypes img:hover +.repoLioIn p,
-    .repoTypes img:hover +.repoCocoIn p,
-    .repoTypes img:hover +.repoTrufIn p,
-    .repoTypes img:hover +.repoBolesIn p,
-    .repoTypes img:hover +.repoFullIn p,
-    .repoTypes img:hover +.repoMassIn p,
-    .repoTypes img:hover +.repoTociIn p,
-    .repoTypes img:hover +.repoManteIn p,
-    .repoTypes img:hover +.repoAmetIn p,
-    .repoTypes img:hover +.repoXocoIn p,
-    .repoTypes img:hover +.repoPasteIn p,
-    .repoTypes img:hover +.repoVariIn p{
+
+    .repoTypes img:hover+.repoLioIn p,
+    .repoTypes img:hover+.repoCocoIn p,
+    .repoTypes img:hover+.repoTrufIn p,
+    .repoTypes img:hover+.repoBolesIn p,
+    .repoTypes img:hover+.repoFullIn p,
+    .repoTypes img:hover+.repoMassIn p,
+    .repoTypes img:hover+.repoTociIn p,
+    .repoTypes img:hover+.repoManteIn p,
+    .repoTypes img:hover+.repoAmetIn p,
+    .repoTypes img:hover+.repoXocoIn p,
+    .repoTypes img:hover+.repoPasteIn p,
+    .repoTypes img:hover+.repoVariIn p {
         display: block;
     }
- }
+}
+
 /* Tamaño Tablet Horizontal*/
-@media  (min-width: 768px) and (max-width: 1024px) { 
+@media (min-width: 768px) and (max-width: 1024px) {
     .repoGeneral img {
         height: 500px;
         width: 100%;
     }
-    
+
     .repoPhoto1 {
         width: 100%;
         height: 500px;
-        border-bottom:solid black  1px;
+        border-bottom: solid black 1px;
     }
-    
-    
+
+
     .repoGeneral h2 {
         display: flex;
         flex-direction: column;
@@ -409,7 +411,7 @@
         margin-top: 60px;
         color: #514a34;
     }
-    
+
     .repoGeneral p {
         text-align: justify;
         line-height: 1.8;
@@ -420,7 +422,7 @@
         font-family: 'Quicksand', sans-serif;
         margin-bottom: 100px;
     }
-    
+
     .repoTypes img {
         display: block;
         margin: 60px auto;
@@ -428,8 +430,8 @@
         height: 200px;
         border-radius: 30px;
     }
-    
-    .repoTypes img:hover{
+
+    .repoTypes img:hover {
         width: 350px;
         height: 250px;
         border-radius: 30px;
@@ -445,19 +447,19 @@
         background-color: rgba(0, 0, 0, 0);
         /* Esto asegura que el fondo sea transparente */
     }
-    
-    .repoTypes img:hover +.repoLioIn,
-    .repoTypes img:hover +.repoCocoIn,
-    .repoTypes img:hover +.repoTrufIn,
-    .repoTypes img:hover +.repoBolesIn,
-    .repoTypes img:hover +.repoFullIn,
-    .repoTypes img:hover +.repoMassIn,
-    .repoTypes img:hover +.repoTociIn,
-    .repoTypes img:hover +.repoManteIn,
-    .repoTypes img:hover +.repoAmetIn,
-    .repoTypes img:hover +.repoXocoIn,
-    .repoTypes img:hover +.repoPasteIn,
-    .repoTypes img:hover +.repoVariIn{
+
+    .repoTypes img:hover+.repoLioIn,
+    .repoTypes img:hover+.repoCocoIn,
+    .repoTypes img:hover+.repoTrufIn,
+    .repoTypes img:hover+.repoBolesIn,
+    .repoTypes img:hover+.repoFullIn,
+    .repoTypes img:hover+.repoMassIn,
+    .repoTypes img:hover+.repoTociIn,
+    .repoTypes img:hover+.repoManteIn,
+    .repoTypes img:hover+.repoAmetIn,
+    .repoTypes img:hover+.repoXocoIn,
+    .repoTypes img:hover+.repoPasteIn,
+    .repoTypes img:hover+.repoVariIn {
         width: 300px;
         height: 250px;
         display: flex;
@@ -468,9 +470,9 @@
         align-items: center;
         justify-content: center;
     }
-    
-    
-    
+
+
+
     .repoLioIn,
     .repoCocoIn,
     .repoTrufIn,
@@ -482,18 +484,18 @@
     .repoAmetIn,
     .repoXocoIn,
     .repoPasteIn,
-    .repoVariIn{
+    .repoVariIn {
         position: absolute;
         margin-right: 0px;
         background: linear-gradient(to bottom, transparent, #aea071);
-        color:black;
+        color: black;
         border-radius: 30px;
         margin-left: 50px;
         font-size: 16px;
         height: 40px;
         width: 180px
     }
-    
+
     .repoLioIn h3,
     .repoCocoIn h3,
     .repoTrufIn h3,
@@ -505,31 +507,31 @@
     .repoAmetIn h3,
     .repoXocoIn h3,
     .repoPasteIn h3,
-    .repoVariIn h3{
+    .repoVariIn h3 {
         display: flex;
         align-items: center;
         justify-content: center;
         font-family: 'Playfair Display', serif;
         text-align: center;
-        line-height:12px;
+        line-height: 12px;
         font-size: 16px;
     }
-    
-    .repoTypes img:hover +.repoLioIn h3,
-    .repoTypes img:hover +.repoCocoIn h3,
-    .repoTypes img:hover +.repoTrufIn h3,
-    .repoTypes img:hover +.repoBolesIn h3,
-    .repoTypes img:hover +.repoFullIn h3,
-    .repoTypes img:hover +.repoMassIn h3,
-    .repoTypes img:hover +.repoTociIn h3,
-    .repoTypes img:hover +.repoManteIn h3,
-    .repoTypes img:hover +.repoAmetIn h3,
-    .repoTypes img:hover +.repoXocoIn h3,
-    .repoTypes img:hover +.repoPasteIn h3,
-    .repoTypes img:hover +.repoVariIn h3{
+
+    .repoTypes img:hover+.repoLioIn h3,
+    .repoTypes img:hover+.repoCocoIn h3,
+    .repoTypes img:hover+.repoTrufIn h3,
+    .repoTypes img:hover+.repoBolesIn h3,
+    .repoTypes img:hover+.repoFullIn h3,
+    .repoTypes img:hover+.repoMassIn h3,
+    .repoTypes img:hover+.repoTociIn h3,
+    .repoTypes img:hover+.repoManteIn h3,
+    .repoTypes img:hover+.repoAmetIn h3,
+    .repoTypes img:hover+.repoXocoIn h3,
+    .repoTypes img:hover+.repoPasteIn h3,
+    .repoTypes img:hover+.repoVariIn h3 {
         display: none;
     }
-    
+
     .repoLio,
     .repoCoco,
     .repoTruf,
@@ -541,12 +543,12 @@
     .repoAmet,
     .repoXoco,
     .repoPaste,
-    .repoVari{
+    .repoVari {
         position: relative;
-        display:flex;
-        align-items:start;
+        display: flex;
+        align-items: start;
     }
-    
+
     .repoLio p,
     .repoCoco p,
     .repoTruf p,
@@ -558,23 +560,23 @@
     .repoAmet p,
     .repoXoco p,
     .repoPaste p,
-    .repoVari p{
+    .repoVari p {
         display: none;
         color: black
     }
-    
-    .repoTypes img:hover +.repoLioIn p,
-    .repoTypes img:hover +.repoCocoIn p,
-    .repoTypes img:hover +.repoTrufIn p,
-    .repoTypes img:hover +.repoBolesIn p,
-    .repoTypes img:hover +.repoFullIn p,
-    .repoTypes img:hover +.repoMassIn p,
-    .repoTypes img:hover +.repoTociIn p,
-    .repoTypes img:hover +.repoManteIn p,
-    .repoTypes img:hover +.repoAmetIn p,
-    .repoTypes img:hover +.repoXocoIn p,
-    .repoTypes img:hover +.repoPasteIn p,
-    .repoTypes img:hover +.repoVariIn p{
+
+    .repoTypes img:hover+.repoLioIn p,
+    .repoTypes img:hover+.repoCocoIn p,
+    .repoTypes img:hover+.repoTrufIn p,
+    .repoTypes img:hover+.repoBolesIn p,
+    .repoTypes img:hover+.repoFullIn p,
+    .repoTypes img:hover+.repoMassIn p,
+    .repoTypes img:hover+.repoTociIn p,
+    .repoTypes img:hover+.repoManteIn p,
+    .repoTypes img:hover+.repoAmetIn p,
+    .repoTypes img:hover+.repoXocoIn p,
+    .repoTypes img:hover+.repoPasteIn p,
+    .repoTypes img:hover+.repoVariIn p {
         display: block;
     }
 
@@ -582,26 +584,29 @@
         display: flex;
         flex-wrap: wrap;
     }
-    
-    .repoTypes > * {
-        flex: 0 0 calc(50% - 20px); /* Establece el ancho de los elementos en 2 columnas */
-        margin: 10px; /* Añade un margen entre los elementos */
+
+    .repoTypes>* {
+        flex: 0 0 calc(50% - 20px);
+        /* Establece el ancho de los elementos en 2 columnas */
+        margin: 10px;
+        /* Añade un margen entre los elementos */
     }
 }
+
 /* Tamaño Pantalla*/
 @media (min-width: 1024px) {
     .repoGeneral img {
         height: 500px;
         width: 100%;
     }
-    
+
     .repoPhoto1 {
         width: 100%;
         height: 500px;
-        border-bottom:solid black  1px;
+        border-bottom: solid black 1px;
     }
-    
-    
+
+
     .repoGeneral h2 {
         display: flex;
         flex-direction: column;
@@ -612,7 +617,7 @@
         margin-top: 60px;
         color: #514a34;
     }
-    
+
     .repoGeneral p {
         text-align: justify;
         line-height: 1.8;
@@ -623,7 +628,7 @@
         font-family: 'Quicksand', sans-serif;
         margin-bottom: 100px;
     }
-    
+
     .repoTypes img {
         display: block;
         margin: 60px auto;
@@ -631,8 +636,8 @@
         height: 200px;
         border-radius: 30px;
     }
-    
-    .repoTypes img:hover{
+
+    .repoTypes img:hover {
         width: 350px;
         height: 250px;
         border-radius: 30px;
@@ -648,19 +653,19 @@
         background-color: rgba(0, 0, 0, 0);
         /* Esto asegura que el fondo sea transparente */
     }
-    
-    .repoTypes img:hover +.repoLioIn,
-    .repoTypes img:hover +.repoCocoIn,
-    .repoTypes img:hover +.repoTrufIn,
-    .repoTypes img:hover +.repoBolesIn,
-    .repoTypes img:hover +.repoFullIn,
-    .repoTypes img:hover +.repoMassIn,
-    .repoTypes img:hover +.repoTociIn,
-    .repoTypes img:hover +.repoManteIn,
-    .repoTypes img:hover +.repoAmetIn,
-    .repoTypes img:hover +.repoXocoIn,
-    .repoTypes img:hover +.repoPasteIn,
-    .repoTypes img:hover +.repoVariIn{
+
+    .repoTypes img:hover+.repoLioIn,
+    .repoTypes img:hover+.repoCocoIn,
+    .repoTypes img:hover+.repoTrufIn,
+    .repoTypes img:hover+.repoBolesIn,
+    .repoTypes img:hover+.repoFullIn,
+    .repoTypes img:hover+.repoMassIn,
+    .repoTypes img:hover+.repoTociIn,
+    .repoTypes img:hover+.repoManteIn,
+    .repoTypes img:hover+.repoAmetIn,
+    .repoTypes img:hover+.repoXocoIn,
+    .repoTypes img:hover+.repoPasteIn,
+    .repoTypes img:hover+.repoVariIn {
         width: 300px;
         height: 250px;
         display: flex;
@@ -671,9 +676,9 @@
         align-items: center;
         justify-content: center;
     }
-    
-    
-    
+
+
+
     .repoLioIn,
     .repoCocoIn,
     .repoTrufIn,
@@ -685,18 +690,18 @@
     .repoAmetIn,
     .repoXocoIn,
     .repoPasteIn,
-    .repoVariIn{
+    .repoVariIn {
         position: absolute;
         margin-right: 0px;
         background: linear-gradient(to bottom, transparent, #aea071);
-        color:black;
+        color: black;
         border-radius: 30px;
         margin-left: 50px;
         font-size: 16px;
         height: 40px;
         width: 180px
     }
-    
+
     .repoLioIn h3,
     .repoCocoIn h3,
     .repoTrufIn h3,
@@ -708,31 +713,31 @@
     .repoAmetIn h3,
     .repoXocoIn h3,
     .repoPasteIn h3,
-    .repoVariIn h3{
+    .repoVariIn h3 {
         display: flex;
         align-items: center;
         justify-content: center;
         font-family: 'Playfair Display', serif;
         text-align: center;
-        line-height:12px;
+        line-height: 12px;
         font-size: 16px;
     }
-    
-    .repoTypes img:hover +.repoLioIn h3,
-    .repoTypes img:hover +.repoCocoIn h3,
-    .repoTypes img:hover +.repoTrufIn h3,
-    .repoTypes img:hover +.repoBolesIn h3,
-    .repoTypes img:hover +.repoFullIn h3,
-    .repoTypes img:hover +.repoMassIn h3,
-    .repoTypes img:hover +.repoTociIn h3,
-    .repoTypes img:hover +.repoManteIn h3,
-    .repoTypes img:hover +.repoAmetIn h3,
-    .repoTypes img:hover +.repoXocoIn h3,
-    .repoTypes img:hover +.repoPasteIn h3,
-    .repoTypes img:hover +.repoVariIn h3{
+
+    .repoTypes img:hover+.repoLioIn h3,
+    .repoTypes img:hover+.repoCocoIn h3,
+    .repoTypes img:hover+.repoTrufIn h3,
+    .repoTypes img:hover+.repoBolesIn h3,
+    .repoTypes img:hover+.repoFullIn h3,
+    .repoTypes img:hover+.repoMassIn h3,
+    .repoTypes img:hover+.repoTociIn h3,
+    .repoTypes img:hover+.repoManteIn h3,
+    .repoTypes img:hover+.repoAmetIn h3,
+    .repoTypes img:hover+.repoXocoIn h3,
+    .repoTypes img:hover+.repoPasteIn h3,
+    .repoTypes img:hover+.repoVariIn h3 {
         display: none;
     }
-    
+
     .repoLio,
     .repoCoco,
     .repoTruf,
@@ -744,12 +749,12 @@
     .repoAmet,
     .repoXoco,
     .repoPaste,
-    .repoVari{
+    .repoVari {
         position: relative;
-        display:flex;
-        align-items:start;
+        display: flex;
+        align-items: start;
     }
-    
+
     .repoLio p,
     .repoCoco p,
     .repoTruf p,
@@ -761,23 +766,23 @@
     .repoAmet p,
     .repoXoco p,
     .repoPaste p,
-    .repoVari p{
+    .repoVari p {
         display: none;
         color: black
     }
-    
-    .repoTypes img:hover +.repoLioIn p,
-    .repoTypes img:hover +.repoCocoIn p,
-    .repoTypes img:hover +.repoTrufIn p,
-    .repoTypes img:hover +.repoBolesIn p,
-    .repoTypes img:hover +.repoFullIn p,
-    .repoTypes img:hover +.repoMassIn p,
-    .repoTypes img:hover +.repoTociIn p,
-    .repoTypes img:hover +.repoManteIn p,
-    .repoTypes img:hover +.repoAmetIn p,
-    .repoTypes img:hover +.repoXocoIn p,
-    .repoTypes img:hover +.repoPasteIn p,
-    .repoTypes img:hover +.repoVariIn p{
+
+    .repoTypes img:hover+.repoLioIn p,
+    .repoTypes img:hover+.repoCocoIn p,
+    .repoTypes img:hover+.repoTrufIn p,
+    .repoTypes img:hover+.repoBolesIn p,
+    .repoTypes img:hover+.repoFullIn p,
+    .repoTypes img:hover+.repoMassIn p,
+    .repoTypes img:hover+.repoTociIn p,
+    .repoTypes img:hover+.repoManteIn p,
+    .repoTypes img:hover+.repoAmetIn p,
+    .repoTypes img:hover+.repoXocoIn p,
+    .repoTypes img:hover+.repoPasteIn p,
+    .repoTypes img:hover+.repoVariIn p {
         display: block;
     }
 
@@ -786,9 +791,10 @@
         flex-wrap: wrap;
     }
 
-    .repoTypes > * {
-        flex: 0 0 calc(33.33% - 20px); /* Establece el ancho de los elementos en 2 columnas */
-        margin: 10px; /* Añade un margen entre los elementos */
+    .repoTypes>* {
+        flex: 0 0 calc(33.33% - 20px);
+        /* Establece el ancho de los elementos en 2 columnas */
+        margin: 10px;
+        /* Añade un margen entre los elementos */
     }
- }
-
+}

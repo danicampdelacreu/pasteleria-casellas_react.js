@@ -1,5 +1,5 @@
 /* Tamaño movil*/
-@media all and (max-width: 580px) {
+@media (max-width: 580px) {
 
     .headerNav ul {
         list-style: none;
@@ -9,9 +9,7 @@
         margin: 20px 0;
         /* Agregar margen para separar los enlaces del botón "Menú" */
         padding: 40px;
-        background: #aea071;
-        ;
-        /* Fondo transparente de color dorado */
+        background: rgba(174, 160, 113, 0.9);
         position: absolute;
         top: 40px;
         left: 0;
@@ -30,6 +28,7 @@
         font-family: 'Quicksand', sans-serif;
         cursor: pointer;
         font-size: 16px;
+        color: #5f5636;
     }
 
     .headerGeneral {
@@ -37,7 +36,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background: #aea071;
+        background-color: #aea071;
     }
 
     .headerNav a {
@@ -58,7 +57,7 @@
 }
 
 /* Tamaño Tablet Vertical*/
-@media all and (min-width: 580px) and (max-width: 768px) {
+@media (min-width: 580px) and (max-width: 768px) {
     .headerGeneral {
         height: 60px;
         display: flex;
@@ -106,11 +105,12 @@
         font-family: 'Quicksand', sans-serif;
         cursor: pointer;
         font-size: 16px;
+        color: #5f5636;
     }
 }
 
 /* Tamaño Tablet Horizontal*/
-@media all and (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
     .headerGeneral {
         height: 60px;
         display: flex;
@@ -153,6 +153,7 @@
         font-family: 'Quicksand', sans-serif;
         cursor: pointer;
         font-size: 16px;
+        color: #5f5636;
     }
 
     .menuButton.hide {
@@ -216,6 +217,7 @@
         font-family: 'Quicksand', sans-serif;
         cursor: pointer;
         font-size: 16px;
+        color: #5f5636;
     }
 
 }
