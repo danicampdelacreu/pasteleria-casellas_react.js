@@ -13,7 +13,6 @@ export default function Header() {
   return (
     <div className='headerGeneral'>
       <button className={`menuButton ${isMenuOpen ? 'hide' : ''}`} onClick={toggleMenu}>
-      
         Menú
       </button>
       {isMenuOpen && (

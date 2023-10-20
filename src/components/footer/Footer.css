@@ -1,36 +1,36 @@
 /* Tamaño movil*/
-@media all and (max-width: 480px) {
+@media (max-width: 580px) {
     .footerGeneral {
         font-size: 14px;
         background-color: #aea071;
         display: flex;
-        flex-direction: column; /* Cambiamos a flex-direction: column para apilar verticalmente los elementos */
+        flex-direction: column;
+        /* Cambiamos a flex-direction: column para apilar verticalmente los elementos */
         justify-content: center;
         align-items: center;
-        padding: 20px;
         color: black;
         border-top: solid black 1px;
         font-family: 'Quicksand', sans-serif;
     }
-    
+
     .footerContent {
         width: 100%;
-        max-width: 800px;
-        margin: 0 auto;
+        max-width: 700px;
     }
-    
+
     .footerContacto,
     .footerContacto p {
         width: 100%;
-        display: flex; /* Aplicamos flexbox a footerContacto */
-        flex-direction:row;
+        display: flex;
+        /* Aplicamos flexbox a footerContacto */
+        flex-direction: row;
         align-items: center;
         justify-content: center;
         background-color: #aea071;
         color: #5f5636;
-        
+
     }
-    
+
     .footerHorario,
     .footerTelefon,
     .footerDireccio {
@@ -40,9 +40,9 @@
         background-color: #aea071;
         color: #5f5636;
         margin: 10px 0;
-        
+
     }
-    
+
     .footerMensaje {
         width: 100%;
         display: flex;
@@ -51,14 +51,13 @@
         align-items: center;
         background-color: #aea071;
         color: #5f5636;
-        margin: 10px;
-        text-align: center; 
+        text-align: center;
         border-top: 1px solid #5f5636;
         border-bottom: 1px solid #5f5636;
     }
-    
-    
-    
+
+
+
     input[type="text"],
     input[type="email"],
     textarea {
@@ -67,36 +66,37 @@
         padding: 10px;
         text-align: center;
         border: 1px solid #ccc;
-        border-radius: 5px; 
+        border-radius: 5px;
         margin-top: 7px;
     }
-    
+
     textarea {
-        height: 10px; /* Hace que el textarea sea más grande */
+        height: 10px;
+        /* Hace que el textarea sea más grande */
     }
-    
+
     .contacto-submit {
         text-align: center;
     }
-    
+
     /* Estilos para el botón */
     input[type="submit"] {
         padding: 10px 20px;
-        background-color:  #837852; 
+        background-color: #837852;
         color: black;
         border: none;
         border-radius: 5px;
         cursor: pointer;
         margin-bottom: 20px;
     }
-    
-    
-    
-    
-    .footerLinkedin  {
+
+
+
+
+    .footerLinkedin {
         font-size: 12px;
         width: 100%;
-        height: 10px;
+        height: 40px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -104,24 +104,28 @@
         margin-top: 10px;
         background-color: #aea071;
         color: black;
-        
+
     }
+
     .footerLinkedin a {
         color: black;
         text-decoration: none;
     }
+
     .footerLinkedin a:hover {
         color: white;
         text-decoration: none;
     }
- }
+}
+
 /* Tamaño Tablet Vertical*/
-@media all and (min-width: 480px) and (max-width: 768px) {
+@media (min-width: 580px) and (max-width: 768px) {
     .footerGeneral {
         font-size: 14px;
         background-color: #aea071;
         display: flex;
-        flex-direction: column; /* Cambiamos a flex-direction: column para apilar verticalmente los elementos */
+        flex-direction: column;
+        /* Cambiamos a flex-direction: column para apilar verticalmente los elementos */
         justify-content: center;
         align-items: center;
         padding: 20px;
@@ -129,25 +133,26 @@
         border-top: solid black 1px;
         font-family: 'Quicksand', sans-serif;
     }
-    
+
     .footerContent {
         width: 100%;
         max-width: 800px;
         margin: 0 auto;
     }
-    
+
     .footerContacto,
     .footerContacto p {
         width: 100%;
-        display: flex; /* Aplicamos flexbox a footerContacto */
-        flex-direction:row;
+        display: flex;
+        /* Aplicamos flexbox a footerContacto */
+        flex-direction: row;
         align-items: center;
         justify-content: center;
         background-color: #aea071;
         color: #5f5636;
-        
+
     }
-    
+
     .footerHorario,
     .footerTelefon,
     .footerDireccio {
@@ -157,9 +162,9 @@
         background-color: #aea071;
         color: #5f5636;
         margin: 10px 0;
-        
+
     }
-    
+
     .footerMensaje {
         width: 100%;
         display: flex;
@@ -169,13 +174,13 @@
         background-color: #aea071;
         color: #5f5636;
         margin: 10px;
-        text-align: center; 
+        text-align: center;
         border-top: 1px solid #5f5636;
         border-bottom: 1px solid #5f5636;
     }
-    
-    
-    
+
+
+
     input[type="text"],
     input[type="email"],
     textarea {
@@ -184,33 +189,34 @@
         padding: 10px;
         text-align: center;
         border: 1px solid #ccc;
-        border-radius: 5px; 
+        border-radius: 5px;
         margin-top: 7px;
     }
-    
+
     textarea {
-        height: 10px; /* Hace que el textarea sea más grande */
+        height: 10px;
+        /* Hace que el textarea sea más grande */
     }
-    
+
     .contacto-submit {
         text-align: center;
     }
-    
+
     /* Estilos para el botón */
     input[type="submit"] {
         padding: 10px 20px;
-        background-color:  #837852; 
+        background-color: #837852;
         color: black;
         border: none;
         border-radius: 5px;
         cursor: pointer;
         margin-bottom: 20px;
     }
-    
-    
-    
-    
-    .footerLinkedin  {
+
+
+
+
+    .footerLinkedin {
         font-size: 12px;
         width: 100%;
         height: 10px;
@@ -221,26 +227,30 @@
         margin-top: 10px;
         background-color: #aea071;
         color: black;
-        
+
     }
+
     .footerLinkedin a {
         color: black;
         text-decoration: none;
     }
+
     .footerLinkedin a:hover {
         color: white;
         text-decoration: none;
     }
-    
-    
- }
+
+
+}
+
 /* Tamaño Tablet Horizontal*/
-@media all and (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
     .footerGeneral {
         font-size: 15px;
         background-color: #aea071;
         display: flex;
-        flex-direction: column; /* Cambiamos a flex-direction: column para apilar verticalmente los elementos */
+        flex-direction: column;
+        /* Cambiamos a flex-direction: column para apilar verticalmente los elementos */
         justify-content: center;
         align-items: center;
         padding: 20px;
@@ -248,25 +258,26 @@
         border-top: solid black 1px;
         font-family: 'Quicksand', sans-serif;
     }
-    
+
     .footerContent {
         width: 100%;
         max-width: 800px;
         margin: 0 auto;
     }
-    
+
     .footerContacto,
     .footerContacto p {
         width: 100%;
-        display: flex; /* Aplicamos flexbox a footerContacto */
-        flex-direction:row;
+        display: flex;
+        /* Aplicamos flexbox a footerContacto */
+        flex-direction: row;
         align-items: center;
         justify-content: center;
         background-color: #aea071;
         color: #5f5636;
-        
+
     }
-     
+
     .footerHorario,
     .footerTelefon,
     .footerDireccio {
@@ -276,9 +287,9 @@
         background-color: #aea071;
         color: #5f5636;
         margin: 10px 0;
-        
+
     }
-    
+
     .footerMensaje {
         width: 100%;
         display: flex;
@@ -288,13 +299,13 @@
         background-color: #aea071;
         color: #5f5636;
         margin: 10px;
-        text-align: center; 
+        text-align: center;
         border-top: 1px solid #5f5636;
         border-bottom: 1px solid #5f5636;
     }
-    
-    
-    
+
+
+
     input[type="text"],
     input[type="email"],
     textarea {
@@ -303,33 +314,34 @@
         padding: 10px;
         text-align: center;
         border: 1px solid #ccc;
-        border-radius: 5px; 
+        border-radius: 5px;
         margin-top: 7px;
     }
-    
+
     textarea {
-        height: 40px; /* Hace que el textarea sea más grande */
+        height: 40px;
+        /* Hace que el textarea sea más grande */
     }
-    
+
     .contacto-submit {
         text-align: center;
     }
-    
+
     /* Estilos para el botón */
     input[type="submit"] {
         padding: 10px 20px;
-        background-color:  #837852; 
+        background-color: #837852;
         color: black;
         border: none;
         border-radius: 5px;
         cursor: pointer;
         margin-bottom: 20px;
     }
-    
-    
-    
-    
-    .footerLinkedin  {
+
+
+
+
+    .footerLinkedin {
         font-size: 12px;
         width: 100%;
         height: 10px;
@@ -340,27 +352,30 @@
         margin-top: 10px;
         background-color: #aea071;
         color: black;
-        
+
     }
+
     .footerLinkedin a {
         color: black;
         text-decoration: none;
     }
+
     .footerLinkedin a:hover {
         color: white;
         text-decoration: none;
     }
-    
-    
- }
+
+
+}
 
 /* Tamaño Pantalla*/
-@media(min-width: 1024px){ 
+@media(min-width: 1024px) {
     .footerGeneral {
         font-size: 16px;
         background-color: #aea071;
         display: flex;
-        flex-direction: column; /* Cambiamos a flex-direction: column para apilar verticalmente los elementos */
+        flex-direction: column;
+        /* Cambiamos a flex-direction: column para apilar verticalmente los elementos */
         justify-content: center;
         align-items: center;
         padding: 20px;
@@ -368,26 +383,26 @@
         border-top: solid black 1px;
         font-family: 'Quicksand', sans-serif;
     }
-    
+
     .footerContent {
         width: 100%;
         max-width: 800px;
         margin: 0 auto;
     }
-    
+
     .footerContacto,
     .footerContacto p {
         width: 100%;
-        display: flex; 
-        flex-direction:row;
+        display: flex;
+        flex-direction: row;
         align-items: center;
         justify-content: center;
         background-color: #aea071;
         color: #5f5636;
-        
+
     }
-    
-    
+
+
     .footerHorario,
     .footerTelefon,
     .footerDireccio {
@@ -397,9 +412,9 @@
         background-color: #aea071;
         color: #5f5636;
         margin: 10px 0;
-        
+
     }
-    
+
     .footerMensaje {
         width: 100%;
         display: flex;
@@ -409,13 +424,13 @@
         background-color: #aea071;
         color: #5f5636;
         margin: 10px;
-        text-align: center; 
+        text-align: center;
         border-top: 1px solid #5f5636;
         border-bottom: 1px solid #5f5636;
     }
-    
-    
-    
+
+
+
     input[type="text"],
     input[type="email"],
     textarea {
@@ -424,33 +439,34 @@
         padding: 10px;
         text-align: center;
         border: 1px solid #ccc;
-        border-radius: 5px; 
+        border-radius: 5px;
         margin-top: 7px;
     }
-    
+
     textarea {
-        height: 50px; /* Hace que el textarea sea más grande */
+        height: 50px;
+        /* Hace que el textarea sea más grande */
     }
-    
+
     .contacto-submit {
         text-align: center;
     }
-    
+
     /* Estilos para el botón */
     input[type="submit"] {
         padding: 10px 20px;
-        background-color:  #837852; 
+        background-color: #837852;
         color: black;
         border: none;
         border-radius: 5px;
         cursor: pointer;
         margin-bottom: 20px;
     }
-    
-    
-    
-    
-    .footerLinkedin  {
+
+
+
+
+    .footerLinkedin {
         font-size: 12px;
         width: 100%;
         height: 10px;
@@ -461,17 +477,18 @@
         margin-top: 10px;
         background-color: #aea071;
         color: black;
-        
+
     }
+
     .footerLinkedin a {
         color: black;
         text-decoration: none;
     }
+
     .footerLinkedin a:hover {
         color: white;
         text-decoration: none;
     }
-    
-    
-}
 
+
+}

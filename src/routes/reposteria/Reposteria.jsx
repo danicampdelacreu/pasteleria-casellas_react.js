@@ -34,84 +34,84 @@ export default function Repost() {
             <div className='repoTypes'>
                 <div className='repoLio'>
                     <img src={lioneses} />
-                    <div className ='repoLioIn'>
+                    <div className='repoLioIn'>
                         <h3>Lioneses</h3>
                         <p> explicacio producte</p>
                     </div>
                 </div>
                 <div className='repoCoco'>
                     <img src={coco} />
-                    <div className ='repoCocoIn'>
+                    <div className='repoCocoIn'>
                         <h3>boles de Coco</h3>
                         <p> explicacio producte</p>
                     </div>
                 </div>
                 <div className='repoTruf'>
                     <img src={trufes} />
-                    <div className ='repoTrufIn'>
+                    <div className='repoTrufIn'>
                         <h3>Trufes</h3>
                         <p> explicacio producte</p>
                     </div>
                 </div>
                 <div className='repoBoles'>
                     <img src={boles} />
-                    <div className ='repoBolesIn'>
+                    <div className='repoBolesIn'>
                         <h3>Boles xoco ametlla</h3>
                         <p> explicacio producte</p>
                     </div>
                 </div>
                 <div className='repoFull'>
                     <img src={full} />
-                    <div className ='repoFullIn'>
+                    <div className='repoFullIn'>
                         <h3>Pastes de full</h3>
                         <p> explicacio producte</p>
                     </div>
                 </div>
                 <div className='repoMass'>
                     <img src={miniMas} />
-                    <div className ='repoMassIn'>
+                    <div className='repoMassIn'>
                         <h3>Mini massini</h3>
                         <p> explicacio producte</p>
                     </div>
                 </div>
                 <div className='repoToci'>
                     <img src={tocinets} />
-                    <div className ='repoTociIn'>
+                    <div className='repoTociIn'>
                         <h3>Tocinets cel</h3>
                         <p> explicacio producte</p>
                     </div>
                 </div>
                 <div className='repoMante'>
                     <img src={mantecados} />
-                    <div className ='repoManteIn'>
+                    <div className='repoManteIn'>
                         <h3>Mantecats</h3>
                         <p> explicacio producte</p>
                     </div>
                 </div>
                 <div className='repoAmet'>
                     <img src={galetaAmet} />
-                    <div className ='repoAmetIn'>
+                    <div className='repoAmetIn'>
                         <h3>Galetes ametllades</h3>
                         <p> explicacio producte</p>
                     </div>
                 </div>
                 <div className='repoXoco'>
                     <img src={galetaXoco} />
-                    <div className ='repoXocoIn'>
+                    <div className='repoXocoIn'>
                         <h3>Galetes xoco llet</h3>
                         <p> explicacio producte</p>
                     </div>
                 </div>
                 <div className='repoPaste'>
                     <img src={seques} />
-                    <div className ='repoPasteIn'>
+                    <div className='repoPasteIn'>
                         <h3>Pastes seques</h3>
                         <p> explicacio producte</p>
                     </div>
                 </div>
                 <div className='repoVari'>
                     <img src={variat} />
-                    <div className ='repoVariIn'>
+                    <div className='repoVariIn'>
                         <h3>Variat Galetes</h3>
                         <p> explicacio producte</p>
                     </div>

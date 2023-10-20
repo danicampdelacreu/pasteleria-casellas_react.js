@@ -37,9 +37,9 @@ export default function Footer() {
             <div className='footerContent'>
                 <div className='footerContacto'>
                     <div className='footerHorario'>
-                        <p>HORARI <br /><br />Divendres:<br/> 10:00 - 13:00 <br/> 16:00 - 19:00 <br /> <br/>
-                        Dissabte i Diumenge: <br/>10:00 - 14:00 <br />
-                         </p>
+                        <p>HORARI <br /><br />Divendres:<br /> 10:00 - 13:00 <br /> 16:00 - 19:00 <br /> <br />
+                            Dissabte i Diumenge: <br />10:00 - 14:00 <br />
+                        </p>
                     </div>
                     <div className='footerTelefon'>
                         <p>TELEFON<br />  <br />  +34 621 199 127</p>
@@ -49,9 +49,9 @@ export default function Footer() {
 
                         <p>DIRECCIO <br /> <br />Plaça Catalunya,9 Baixos (NAVÀS)</p>
                     </div>
-                    
+
                 </div>
-                    
+
                 <div className="footerMensaje">
                     <p> Info: pastisseriacasellas@gmail.com</p>
                     <form ref={form} onSubmit={sendEmail}>
@@ -59,11 +59,11 @@ export default function Footer() {
                             <input type="text" name="user_name" placeholder='Nom' />
                         </div>
                         <div className="contacto-email">
-                            
+
                             <input type="email" name="user_email" placeholder='Email' />
                         </div>
                         <div className="contacto-message">
-                            <textarea name="message" placeholder='Missatge'/>
+                            <textarea name="message" placeholder='Missatge' />
                         </div>
                         <div className="contacto-submit">
                             <input type="submit" value="Enviar" />
@@ -82,8 +82,8 @@ export default function Footer() {
                             "https://linkedin.com/in/danicampdelacreu-developer">
                             _LinkedIn
                         </a>
-                        <a href= 
-                        "https://github.com/danicampdelacreu">
+                        <a href=
+                            "https://github.com/danicampdelacreu">
                             _GitHub_//
                         </a>
                     </p>
