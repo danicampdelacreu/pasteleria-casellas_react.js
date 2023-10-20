@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
-import './Header.css'
+import './Header.css';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -10,23 +10,14 @@ export default function Header() {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  useEffect(() => {
-    if (isMenuOpen) {
-      const timeoutId = setTimeout(() => {
-        setIsMenuOpen(false);
-      }, 4000);
-
-      return () => clearTimeout(timeoutId);
-    }
-  }, [isMenuOpen]);
-
   return (
     <div className='headerGeneral'>
-      <button className='menuButton' onClick={toggleMenu}>
+      <button className={`menuButton ${isMenuOpen ? 'hide' : ''}`} onClick={toggleMenu}>
+      
         Menú
       </button>
-      <nav className={`headerNav ${isMenuOpen ? 'open' : ''}`}>
-        {isMenuOpen && (
+      {isMenuOpen && (
+        <nav className='headerNav'>
           <ul>
             <li>
               <Link to="/">Home</Link>
@@ -50,9 +41,11 @@ export default function Header() {
               <Link to="/drinks">Begudes</Link>
             </li>
           </ul>
-        )}
-      </nav>
+        </nav>
+      )}
     </div>
   );
 }
+
+
 

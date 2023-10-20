@@ -1,17 +1,21 @@
 /* Tamaño movil*/
-@media all and (max-width: 680px) {
+@media all and (max-width: 580px) {
 
     .headerNav ul {
         list-style: none;
         display: flex;
-        flex-direction: column; /* Mostrar los enlaces uno debajo del otro */
-        margin: 10px 0; /* Agregar margen para separar los enlaces del botón "Menú" */
-        padding: 30px;
-        background: rgba(174, 160, 97, 0.7); /* Fondo transparente de color dorado */
+        flex-direction: column;
+        /* Mostrar los enlaces uno debajo del otro */
+        margin: 20px 0;
+        /* Agregar margen para separar los enlaces del botón "Menú" */
+        padding: 40px;
+        background: #aea071;
+        ;
+        /* Fondo transparente de color dorado */
         position: absolute;
-        top:50px;
-        right: 0;
-      }
+        top: 40px;
+        left: 0;
+    }
 
     .headerNav.open ul {
         display: flex;
@@ -25,6 +29,7 @@
         padding: 10px;
         font-family: 'Quicksand', sans-serif;
         cursor: pointer;
+        font-size: 16px;
     }
 
     .headerGeneral {
@@ -38,21 +43,22 @@
     .headerNav a {
         text-decoration: none;
         color: #5f5636;
-        font-size: 16px;
+        font-size: 18px;
         font-family: 'Quicksand', sans-serif;
-      }
+    }
 
     .headerNav li {
-        margin-right: 0; /* Eliminar el margen derecho para que los enlaces estén centrados */
-        margin-bottom: 10px; /* Agregar margen inferior para separar los enlaces */
-      }
+        margin-right: 0;
+        /* Eliminar el margen derecho para que los enlaces estén centrados */
+        margin-bottom: 20px;
+        /* Agregar margen inferior para separar los enlaces */
+    }
 
-    
 
 }
 
 /* Tamaño Tablet Vertical*/
-@media all and (min-width: 680px) and (max-width: 768px) {
+@media all and (min-width: 580px) and (max-width: 768px) {
     .headerGeneral {
         height: 60px;
         display: flex;
@@ -63,10 +69,10 @@
 
     .headerNav {
         display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 100%;
-    padding: 0 20px;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 100%;
+        padding: 0 20px;
     }
 
     .headerNav ul {
@@ -77,19 +83,29 @@
     }
 
     .headerNav li {
-        margin-right: 35px;
+        margin-right: 15px;
         margin-left: 20px;
     }
 
     .headerNav a {
         text-decoration: none;
         color: #5f5636;
-        font-size: 15px;
+        font-size: 13px;
         font-family: 'Quicksand', sans-serif;
     }
 
+    .menuButton.hide {
+        display: none;
+        /* Oculta el botón de menú cuando se hace clic */
+    }
+
     .menuButton {
-        display: none; /* Oculta el botón de menú en pantallas más grandes */
+        background: #aea071;
+        border: none;
+        padding: 10px;
+        font-family: 'Quicksand', sans-serif;
+        cursor: pointer;
+        font-size: 16px;
     }
 }
 
@@ -131,8 +147,19 @@
     }
 
     .menuButton {
-        display: none; /* Oculta el botón de menú en pantallas más grandes */
+        background: #aea071;
+        border: none;
+        padding: 10px;
+        font-family: 'Quicksand', sans-serif;
+        cursor: pointer;
+        font-size: 16px;
     }
+
+    .menuButton.hide {
+        display: none;
+        /* Oculta el botón de menú cuando se hace clic */
+    }
+
 }
 
 /* Tamaño Pantalla*/
@@ -177,6 +204,18 @@
         font-family: 'Quicksand', sans-serif;
     }
 
+    .menuButton.hide {
+        display: none;
+        /* Oculta el botón de menú cuando se hace clic */
+    }
 
+    .menuButton {
+        background: #aea071;
+        border: none;
+        padding: 10px;
+        font-family: 'Quicksand', sans-serif;
+        cursor: pointer;
+        font-size: 16px;
+    }
 
 }
