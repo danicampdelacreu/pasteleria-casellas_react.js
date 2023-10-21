@@ -33,12 +33,105 @@
         margin-bottom: 100px;
     }
 
-    .daysTypes {
-        border: 20px;
-        display: inline-block;
-        width: auto;
-        margin: 30px;
-        padding: 50px, 50px;
+    .daysTypes img {
+        display: block;
+        margin: auto;
+        width: 150px;
+        height: 150px;
+        border-radius: 30px;
+        margin-bottom: 80px;
+    }
+
+    .daysTypes img:hover {
+        width: 150px;
+        height: 150px;
+        border-radius: 30px;
+        position: relative;
+        mask-image: linear-gradient(to top left, rgba(0, 0, 0, 1), transparent),
+            linear-gradient(to top right, rgba(0, 0, 0, 1), transparent),
+            linear-gradient(to bottom left, rgba(0, 0, 0, 1), transparent),
+            linear-gradient(to bottom right, rgba(0, 0, 0, 1), transparent);
+        mask-position: left top, right top, left bottom, right bottom;
+        mask-size: 50% 50%;
+        /* Controla la extensión del difuminado en cada esquina */
+        mask-repeat: no-repeat;
+        background-color: rgba(0, 0, 0, 0);
+        /* Esto asegura que el fondo sea transparente */
+    }
+
+    .daysTypes img:hover+.pasteXocoIn,
+    .daysTypes img:hover+.pasteMusMadIn,
+    .daysTypes img:hover+.pasteMusLlimaIn,
+    .daysTypes img:hover+.pasteMusDosXocoIn{
+        width: 200px;
+        height: 150px;
+        display: flex;
+        background: linear-gradient(to bottom, transparent, #aea071);
+        font-size: 14px;
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .pasteXocoIn,
+    .pasteMusMadIn,
+    .pasteMusLlimaIn,
+    .pasteMusDosXocoIn{
+        position: absolute;
+        margin-right: 0px;
+        background: linear-gradient(to bottom, transparent, #aea071);
+        color: black;
+        border-radius: 30px;
+        margin-left: 80px;
+        font-size: 14px;
+        height: 40px;
+        width: 150px;
+        text-align: center;
+    }
+
+    .pasteXocoIn h3,
+    .pasteMusMadIn h3,
+    .pasteMusLlimaIn h3,
+    .pasteMusDosXocoIn h3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Playfair Display', serif;
+        text-align: center;
+        line-height: 11px;
+        font-size: 14px;
+    }
+
+    .daysTypes img:hover+.pasteXocoIn h3,
+    .daysTypes img:hover+.pasteMusMadIn h3,
+    .daysTypes img:hover+.pasteMusLlimaIn h3,
+    .daysTypes img:hover+.pasteMusDosXocoIn h3{
+        display: none;
+    }
+
+    .pasteXoco,
+    .pasteMusMad,
+    .pasteMusLlima,
+    .pasteMusDosXoco{
+        position: relative;
+        display: flex;
+        align-items: start;
+    }
+
+    .pasteXoco p,
+    .pasteMusMad p,
+    .pasteMusLlima p,
+    .pasteMusDosXoco p{
+        display: none;
+        color: black
+    }
+
+    .daysTypes img:hover+.pasteXocoIn p,
+    .daysTypes img:hover+.pasteMusMadIn p,
+    .daysTypes img:hover+.pasteMusLlimaIn p,
+    .daysTypes img:hover+.pasteMusDosXocoIn p{
+        display: block
     }
 }
 
@@ -77,12 +170,104 @@
         margin-bottom: 100px;
     }
 
-    .daysTypes {
-        border: 20px;
-        display: inline-block;
-        width: auto;
-        margin: 30px;
-        padding: 50px, 50px;
+    .daysTypes img {
+        display: block;
+        margin: auto;
+        width: 300px;
+        height: 200px;
+        border-radius: 30px;
+        margin-bottom: 80px;
+    }
+
+    .daysTypes img:hover {
+        width: 350px;
+        height: 250px;
+        border-radius: 30px;
+        position: relative;
+        mask-image: linear-gradient(to top left, rgba(0, 0, 0, 1), transparent),
+            linear-gradient(to top right, rgba(0, 0, 0, 1), transparent),
+            linear-gradient(to bottom left, rgba(0, 0, 0, 1), transparent),
+            linear-gradient(to bottom right, rgba(0, 0, 0, 1), transparent);
+        mask-position: left top, right top, left bottom, right bottom;
+        mask-size: 50% 50%;
+        /* Controla la extensión del difuminado en cada esquina */
+        mask-repeat: no-repeat;
+        background-color: rgba(0, 0, 0, 0);
+        /* Esto asegura que el fondo sea transparente */
+    }
+
+    .daysTypes img:hover+.pasteXocoIn,
+    .daysTypes img:hover+.pasteMusMadIn,
+    .daysTypes img:hover+.pasteMusLlimaIn,
+    .daysTypes img:hover+.pasteMusDosXocoIn{
+        width: 300px;
+        height: 250px;
+        display: flex;
+        background: linear-gradient(to bottom, transparent, #aea071);
+        font-size: 20px;
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .pasteXocoIn,
+    .pasteMusMadIn,
+    .pasteMusLlimaIn,
+    .pasteMusDosXocoIn{
+        position: absolute;
+        margin-right: 0px;
+        background: linear-gradient(to bottom, transparent, #aea071);
+        color: black;
+        border-radius: 30px;
+        margin-left: 50px;
+        font-size: 16px;
+        height: 40px;
+        width: 180px;
+    }
+
+    .pasteXocoIn h3,
+    .pasteMusMadIn h3,
+    .pasteMusLlimaIn h3,
+    .pasteMusDosXocoIn h3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Playfair Display', serif;
+        text-align: center;
+        line-height: 12px;
+        font-size: 16px;
+    }
+
+    .daysTypes img:hover+.pasteXocoIn h3,
+    .daysTypes img:hover+.pasteMusMadIn h3,
+    .daysTypes img:hover+.pasteMusLlimaIn h3,
+    .daysTypes img:hover+.pasteMusDosXocoIn h3{
+        display: none;
+    }
+
+    .pasteXoco,
+    .pasteMusMad,
+    .pasteMusLlima,
+    .pasteMusDosXoco{
+        position: relative;
+        display: flex;
+        align-items: start;
+    }
+
+    .pasteXoco p,
+    .pasteMusMad p,
+    .pasteMusLlima p,
+    .pasteMusDosXoco p{
+        display: none;
+        color: black
+    }
+
+    .daysTypes img:hover+.pasteXocoIn p,
+    .daysTypes img:hover+.pasteMusMadIn p,
+    .daysTypes img:hover+.pasteMusLlimaIn p,
+    .daysTypes img:hover+.pasteMusDosXocoIn p{
+        display: block
     }
 }
 
@@ -122,12 +307,116 @@
         margin-bottom: 100px;
     }
 
+    .daysTypes img {
+        display: block;
+        margin: auto;
+        width: 300px;
+        height: 200px;
+        border-radius: 30px;
+        margin-bottom: 80px;
+    }
+
+    .daysTypes img:hover {
+        width: 350px;
+        height: 250px;
+        border-radius: 30px;
+        position: relative;
+        mask-image: linear-gradient(to top left, rgba(0, 0, 0, 1), transparent),
+            linear-gradient(to top right, rgba(0, 0, 0, 1), transparent),
+            linear-gradient(to bottom left, rgba(0, 0, 0, 1), transparent),
+            linear-gradient(to bottom right, rgba(0, 0, 0, 1), transparent);
+        mask-position: left top, right top, left bottom, right bottom;
+        mask-size: 50% 50%;
+        /* Controla la extensión del difuminado en cada esquina */
+        mask-repeat: no-repeat;
+        background-color: rgba(0, 0, 0, 0);
+        /* Esto asegura que el fondo sea transparente */
+    }
+
+    .daysTypes img:hover+.pasteXocoIn,
+    .daysTypes img:hover+.pasteMusMadIn,
+    .daysTypes img:hover+.pasteMusLlimaIn,
+    .daysTypes img:hover+.pasteMusDosXocoIn{
+        width: 300px;
+        height: 250px;
+        display: flex;
+        background: linear-gradient(to bottom, transparent, #aea071);
+        font-size: 20px;
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .pasteXocoIn,
+    .pasteMusMadIn,
+    .pasteMusLlimaIn,
+    .pasteMusDosXocoIn{
+        position: absolute;
+        margin-right: 0px;
+        background: linear-gradient(to bottom, transparent, #aea071);
+        color: black;
+        border-radius: 30px;
+        margin-left: 50px;
+        font-size: 16px;
+        height: 40px;
+        width: 180px;
+    }
+
+    .pasteXocoIn h3,
+    .pasteMusMadIn h3,
+    .pasteMusLlimaIn h3,
+    .pasteMusDosXocoIn h3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Playfair Display', serif;
+        text-align: center;
+        line-height: 12px;
+        font-size: 16px;
+    }
+
+    .daysTypes img:hover+.pasteXocoIn h3,
+    .daysTypes img:hover+.pasteMusMadIn h3,
+    .daysTypes img:hover+.pasteMusLlimaIn h3,
+    .daysTypes img:hover+.pasteMusDosXocoIn h3{
+        display: none;
+    }
+
+    .pasteXoco,
+    .pasteMusMad,
+    .pasteMusLlima,
+    .pasteMusDosXoco{
+        position: relative;
+        display: flex;
+        align-items: start;
+    }
+
+    .pasteXoco p,
+    .pasteMusMad p,
+    .pasteMusLlima p,
+    .pasteMusDosXoco p{
+        display: none;
+        color: black
+    }
+
+    .daysTypes img:hover+.pasteXocoIn p,
+    .daysTypes img:hover+.pasteMusMadIn p,
+    .daysTypes img:hover+.pasteMusLlimaIn p,
+    .daysTypes img:hover+.pasteMusDosXocoIn p{
+        display: block
+    }
+
     .daysTypes {
-        border: 20px;
-        display: inline-block;
-        width: auto;
-        margin: 30px;
-        padding: 50px, 50px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .daysTypes>* {
+        flex: 0 0 calc(50% - 20px);
+        /* Establece el ancho de los elementos en 2 columnas */
+        margin: 10px;
+        /* Añade un margen entre los elementos */
     }
 }
 
@@ -161,16 +450,121 @@
         line-height: 1.8;
         margin-left: 200px;
         margin-right: 200px;
-        font-size: 18px;
+        font-size: 16px;
         color: #aea071;
         font-family: 'Quicksand', sans-serif;
+        margin-bottom: 100px;
+    }
+
+    .daysTypes img {
+        display: block;
+        margin: auto;
+        width: 300px;
+        height: 200px;
+        border-radius: 30px;
+        margin-bottom: 80px;
+    }
+
+    .daysTypes img:hover {
+        width: 350px;
+        height: 250px;
+        border-radius: 30px;
+        position: relative;
+        mask-image: linear-gradient(to top left, rgba(0, 0, 0, 1), transparent),
+            linear-gradient(to top right, rgba(0, 0, 0, 1), transparent),
+            linear-gradient(to bottom left, rgba(0, 0, 0, 1), transparent),
+            linear-gradient(to bottom right, rgba(0, 0, 0, 1), transparent);
+        mask-position: left top, right top, left bottom, right bottom;
+        mask-size: 50% 50%;
+        /* Controla la extensión del difuminado en cada esquina */
+        mask-repeat: no-repeat;
+        background-color: rgba(0, 0, 0, 0);
+        /* Esto asegura que el fondo sea transparente */
+    }
+
+    .daysTypes img:hover+.pasteXocoIn,
+    .daysTypes img:hover+.pasteMusMadIn,
+    .daysTypes img:hover+.pasteMusLlimaIn,
+    .daysTypes img:hover+.pasteMusDosXocoIn{
+        width: 300px;
+        height: 250px;
+        display: flex;
+        background: linear-gradient(to bottom, transparent, #aea071);
+        font-size: 20px;
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .pasteXocoIn,
+    .pasteMusMadIn,
+    .pasteMusLlimaIn,
+    .pasteMusDosXocoIn{
+        position: absolute;
+        margin-right: 0px;
+        background: linear-gradient(to bottom, transparent, #aea071);
+        color: black;
+        border-radius: 30px;
+        margin-left: 50px;
+        font-size: 16px;
+        height: 40px;
+        width: 180px;
+    }
+
+    .pasteXocoIn h3,
+    .pasteMusMadIn h3,
+    .pasteMusLlimaIn h3,
+    .pasteMusDosXocoIn h3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Playfair Display', serif;
+        text-align: center;
+        line-height: 12px;
+        font-size: 16px;
+    }
+
+    .daysTypes img:hover+.pasteXocoIn h3,
+    .daysTypes img:hover+.pasteMusMadIn h3,
+    .daysTypes img:hover+.pasteMusLlimaIn h3,
+    .daysTypes img:hover+.pasteMusDosXocoIn h3{
+        display: none;
+    }
+
+    .pasteXoco,
+    .pasteMusMad,
+    .pasteMusLlima,
+    .pasteMusDosXoco{
+        position: relative;
+        display: flex;
+        align-items: start;
+    }
+
+    .pasteXoco p,
+    .pasteMusMad p,
+    .pasteMusLlima p,
+    .pasteMusDosXoco p{
+        display: none;
+        color: black
+    }
+
+    .daysTypes img:hover+.pasteXocoIn p,
+    .daysTypes img:hover+.pasteMusMadIn p,
+    .daysTypes img:hover+.pasteMusLlimaIn p,
+    .daysTypes img:hover+.pasteMusDosXocoIn p{
+        display: block
     }
 
     .daysTypes {
-        border: 20px;
-        display: inline-block;
-        width: auto;
-        margin: 30px;
-        padding: 50px, 50px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .daysTypes>* {
+        flex: 0 0 calc(33.33% - 20px);
+        /* Establece el ancho de los elementos en 2 columnas */
+        margin: 10px;
+        /* Añade un margen entre los elementos */
     }
 }

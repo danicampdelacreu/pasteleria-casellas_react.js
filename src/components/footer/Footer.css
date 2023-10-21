@@ -24,8 +24,8 @@
         display: flex;
         /* Aplicamos flexbox a footerContacto */
         flex-direction: row;
-        align-items: center;
-        justify-content: center;
+        align-items: flex-start;
+        justify-content:center;
         background-color: #aea071;
         color: #5f5636;
 
@@ -35,12 +35,10 @@
     .footerTelefon,
     .footerDireccio {
         width: 100%;
-        display: flex;
         text-align: center;
         background-color: #aea071;
         color: #5f5636;
         margin: 10px 0;
-
     }
 
     .footerMensaje {
@@ -52,8 +50,8 @@
         background-color: #aea071;
         color: #5f5636;
         text-align: center;
-        border-top: 1px solid #5f5636;
         border-bottom: 1px solid #5f5636;
+        border-top: 1px solid #5f5636;
     }
 
 
@@ -94,17 +92,16 @@
 
 
     .footerLinkedin {
-        font-size: 12px;
+        font-size: 10px;
         width: 100%;
-        height: 40px;
+        height: 20px;
         display: flex;
         justify-content: space-between;
         align-items: center;
         text-align: center;
-        margin-top: 10px;
+        
         background-color: #aea071;
         color: black;
-
     }
 
     .footerLinkedin a {
@@ -128,7 +125,6 @@
         /* Cambiamos a flex-direction: column para apilar verticalmente los elementos */
         justify-content: center;
         align-items: center;
-        padding: 20px;
         color: black;
         border-top: solid black 1px;
         font-family: 'Quicksand', sans-serif;
@@ -136,8 +132,6 @@
 
     .footerContent {
         width: 100%;
-        max-width: 800px;
-        margin: 0 auto;
     }
 
     .footerContacto,
@@ -146,7 +140,7 @@
         display: flex;
         /* Aplicamos flexbox a footerContacto */
         flex-direction: row;
-        align-items: center;
+        align-items: flex-start;
         justify-content: center;
         background-color: #aea071;
         color: #5f5636;
@@ -161,7 +155,7 @@
         text-align: center;
         background-color: #aea071;
         color: #5f5636;
-        margin: 10px 0;
+        
 
     }
 
@@ -173,7 +167,6 @@
         align-items: center;
         background-color: #aea071;
         color: #5f5636;
-        margin: 10px;
         text-align: center;
         border-top: 1px solid #5f5636;
         border-bottom: 1px solid #5f5636;
@@ -219,12 +212,11 @@
     .footerLinkedin {
         font-size: 12px;
         width: 100%;
-        height: 10px;
+        height: 20px;
         display: flex;
         justify-content: space-between;
         align-items: center;
         text-align: center;
-        margin-top: 10px;
         background-color: #aea071;
         color: black;
 
@@ -253,7 +245,6 @@
         /* Cambiamos a flex-direction: column para apilar verticalmente los elementos */
         justify-content: center;
         align-items: center;
-        padding: 20px;
         color: black;
         border-top: solid black 1px;
         font-family: 'Quicksand', sans-serif;
@@ -261,8 +252,6 @@
 
     .footerContent {
         width: 100%;
-        max-width: 800px;
-        margin: 0 auto;
     }
 
     .footerContacto,
@@ -271,7 +260,7 @@
         display: flex;
         /* Aplicamos flexbox a footerContacto */
         flex-direction: row;
-        align-items: center;
+        align-items: flex-start;
         justify-content: center;
         background-color: #aea071;
         color: #5f5636;
@@ -286,7 +275,6 @@
         text-align: center;
         background-color: #aea071;
         color: #5f5636;
-        margin: 10px 0;
 
     }
 
@@ -298,7 +286,6 @@
         align-items: center;
         background-color: #aea071;
         color: #5f5636;
-        margin: 10px;
         text-align: center;
         border-top: 1px solid #5f5636;
         border-bottom: 1px solid #5f5636;
@@ -344,12 +331,11 @@
     .footerLinkedin {
         font-size: 12px;
         width: 100%;
-        height: 10px;
+        height: 20px;
         display: flex;
         justify-content: space-between;
         align-items: center;
         text-align: center;
-        margin-top: 10px;
         background-color: #aea071;
         color: black;
 
@@ -378,7 +364,6 @@
         /* Cambiamos a flex-direction: column para apilar verticalmente los elementos */
         justify-content: center;
         align-items: center;
-        padding: 20px;
         color: black;
         border-top: solid black 1px;
         font-family: 'Quicksand', sans-serif;
@@ -386,8 +371,6 @@
 
     .footerContent {
         width: 100%;
-        max-width: 800px;
-        margin: 0 auto;
     }
 
     .footerContacto,
@@ -395,7 +378,7 @@
         width: 100%;
         display: flex;
         flex-direction: row;
-        align-items: center;
+        align-items: flex-start;
         justify-content: center;
         background-color: #aea071;
         color: #5f5636;
@@ -411,7 +394,6 @@
         text-align: center;
         background-color: #aea071;
         color: #5f5636;
-        margin: 10px 0;
 
     }
 
@@ -423,7 +405,6 @@
         align-items: center;
         background-color: #aea071;
         color: #5f5636;
-        margin: 10px;
         text-align: center;
         border-top: 1px solid #5f5636;
         border-bottom: 1px solid #5f5636;
@@ -469,12 +450,11 @@
     .footerLinkedin {
         font-size: 12px;
         width: 100%;
-        height: 10px;
+        height: 20px;
         display: flex;
         justify-content: space-between;
         align-items: center;
         text-align: center;
-        margin-top: 10px;
         background-color: #aea071;
         color: black;
 
