@@ -44,7 +44,7 @@ export default function Footer() {
                         </p>
                     </div>
                     <div className='footerTelefon'>
-                        <p>TELEFON<br />  <br />  +34 621 199 127 <br /> <br />  (ESTER)</p>
+                        <p>TELEFON<br />  <br />  +34 621 199 127 <br />(ESTER)</p>
                     </div>
 
                     <div className='footerDireccio'>
