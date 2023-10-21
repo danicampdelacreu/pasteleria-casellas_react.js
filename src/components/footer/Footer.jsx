@@ -1,7 +1,9 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { Link } from 'react-router-dom';
 
 import './Footer.css'
+import maps from '../../assets/img/maps.png'
 
 export default function Footer() {
 
@@ -42,13 +44,22 @@ export default function Footer() {
                         </p>
                     </div>
                     <div className='footerTelefon'>
-                        <p>TELEFON<br />  <br />  +34 621 199 127 <br /> <br />  ( ESTER )</p>
+                        <p>TELEFON<br />  <br />  +34 621 199 127 <br /> <br />  (ESTER)</p>
                     </div>
 
                     <div className='footerDireccio'>
-
-                        <p>DIRECCIO <br /> <br />Plaça Catalunya,9 Baixos <br /> <br /> (NAVÀS)</p>
+                        <p>
+                            DIRECCIO <br /><br />
+                            Plaça Catalunya, 9 Baixos <br />
+                            (NAVÀS)
+                        </p>
+                        <div className="mapLink">
+                            <Link to="https://www.google.es/maps/place/Plaça+Catalunya,+9,+08670+Navàs,+Barcelona/@41.9029244,1.8745783,17z/data=!3m1!4b1!4m6!3m5!1s0x12a4fe29bc2b5da5:0x51076f23800a988e!8m2!3d41.9029244!4d1.8771532!16s%2Fg%2F11cp99658z?entry=ttu">
+                                <img className="logoLF" src={maps} />
+                            </Link>
+                        </div>
                     </div>
+
 
                 </div>
 

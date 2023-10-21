@@ -25,7 +25,7 @@
         /* Aplicamos flexbox a footerContacto */
         flex-direction: row;
         align-items: flex-start;
-        justify-content:center;
+        justify-content: center;
         background-color: #aea071;
         color: #5f5636;
 
@@ -88,9 +88,6 @@
         margin-bottom: 20px;
     }
 
-
-
-
     .footerLinkedin {
         font-size: 10px;
         width: 100%;
@@ -99,7 +96,7 @@
         justify-content: space-between;
         align-items: center;
         text-align: center;
-        
+
         background-color: #aea071;
         color: black;
     }
@@ -112,6 +109,16 @@
     .footerLinkedin a:hover {
         color: white;
         text-decoration: none;
+    }
+
+    .logoLF {
+        max-width: 70px;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .logoLF:hover {
+        transform: scale(1.8);
     }
 }
 
@@ -152,11 +159,15 @@
     .footerDireccio {
         width: 100%;
         display: flex;
+        flex-direction: column;
+        align-items: center;
         text-align: center;
         background-color: #aea071;
         color: #5f5636;
-        
+    }
 
+    .mapLink {
+        margin-top: 0; 
     }
 
     .footerMensaje {
@@ -232,6 +243,15 @@
         text-decoration: none;
     }
 
+    .logoLF {
+        max-width: 70px;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .logoLF:hover {
+        transform: scale(1.8);
+    }
 
 }
 
@@ -272,10 +292,15 @@
     .footerDireccio {
         width: 100%;
         display: flex;
+        flex-direction: column;
+        align-items: center;
         text-align: center;
         background-color: #aea071;
         color: #5f5636;
+    }
 
+    .mapLink {
+        margin-top: 0; 
     }
 
     .footerMensaje {
@@ -351,6 +376,15 @@
         text-decoration: none;
     }
 
+    .logoLF {
+        max-width: 70px;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .logoLF:hover {
+        transform: scale(1.8);
+    }
 
 }
 
@@ -385,16 +419,20 @@
 
     }
 
-
     .footerHorario,
     .footerTelefon,
     .footerDireccio {
         width: 100%;
         display: flex;
+        flex-direction: column;
+        align-items: center;
         text-align: center;
         background-color: #aea071;
         color: #5f5636;
+    }
 
+    .mapLink {
+        margin-top: 0; 
     }
 
     .footerMensaje {
@@ -470,5 +508,13 @@
         text-decoration: none;
     }
 
+    .logoLF {
+        max-width: 70px;
+        height: auto;
+        margin-top: 20px;
+    }
 
+    .logoLF:hover {
+        transform: scale(1.8);
+    }
 }
