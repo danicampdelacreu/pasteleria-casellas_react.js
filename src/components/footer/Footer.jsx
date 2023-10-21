@@ -37,24 +37,17 @@ export default function Footer() {
             <div className='footerContent'>
                 <div className='footerContacto'>
                     <div className='footerHorario'>
-                        <p>HORARI </p>
-                        <p>Divendres:</p>
-                        <p>10:00 - 13:00</p>
-                        <p>16:00 - 19:00 </p>
-                        <p>Dissabte i Diumenge:</p>
-                        <p>10:00 - 14:00</p>
+                        <p>HORARI <br /><br />Divendres:<br /> 10:00 - 13:00 <br /> 16:00 - 19:00 <br /> <br />
+                            Dissabte i Diumenge: <br />10:00 - 14:00 <br />
+                        </p>
                     </div>
                     <div className='footerTelefon'>
-                        <p>TELEFON</p>
-                        <p> +34 621 199 127</p> 
-                        <p>(ESTER)</p>
+                        <p>TELEFON<br />  <br />  +34 621 199 127 <br /> <br />  ( ESTER )</p>
                     </div>
 
                     <div className='footerDireccio'>
 
-                        <p>DIRECCIO</p>
-                        <p>Plaça Catalunya,9 Baixos</p>
-                        <p>(NAVÀS)</p>
+                        <p>DIRECCIO <br /> <br />Plaça Catalunya,9 Baixos <br /> <br /> (NAVÀS)</p>
                     </div>
 
                 </div>
