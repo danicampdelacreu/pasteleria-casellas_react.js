@@ -2,7 +2,10 @@
 import './Dias.css';
 
 import days from "../../assets/img/foto_homeDays.png"
-
+import llimona from '../../assets/img/llimona.jpeg'
+import maduixa from '../../assets/img/maduixa.jpeg'
+import xoco from '../../assets/img/xoco.jpeg'
+import dosXoco from '../../assets/img/dos xocos.jpeg'
 
 
 export default function Days() {
@@ -24,9 +27,34 @@ export default function Days() {
                 </p>
             </div>
             <div className='daysTypes'>
-                <p> imagen producto</p>
-                <p> imagen producto</p>
-                <p> imagen producto</p>
+                <div className='pasteXoco'>
+                    <img src={xoco} />
+                    <div className='pasteXocoIn'>
+                        <h3>Pastis de Xoco</h3>
+                        <p> explicacio del producte</p>
+                    </div>
+                </div>
+                <div className='pasteMusMad'>
+                    <img src={maduixa} />
+                    <div className='pasteMusMadIn'>
+                        <h3>Mus madiuxa</h3>
+                        <p> explicacio del producte</p>
+                    </div>
+                </div>
+                <div className='pasteMusLlima'>
+                    <img src={llimona} />
+                    <div className='pasteMusLlimaIn'>
+                        <h3>Mus de llimona</h3>
+                        <p> explicacio del producte</p>
+                    </div>
+                </div>
+                <div className='pasteMusDosXoco'>
+                    <img src={dosXoco} />
+                    <div className='pasteMusDosXocoIn'>
+                        <h3>Mus dos choco</h3>
+                        <p> explicacio del producte</p>
+                    </div>
+                </div>
             </div>
         </div>
     );
