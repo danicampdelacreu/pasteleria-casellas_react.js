@@ -42,7 +42,7 @@ export default function Home() {
             </div>
             <div class='homeBriox'>
                 <img class='image5' src={briox} />
-                <Link to="/briox">Brioxios</Link>
+                <Link to="/briox">Brioxos</Link>
                 <p>
                     La brioixeria és el lloc on el plaer d'un briox excepcional pren forma.<br />
                     Cada briox és un testimoni de la nostra dedicació i amor pel detall.
