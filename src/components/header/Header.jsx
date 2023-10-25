@@ -13,31 +13,31 @@ export default function Header() {
   return (
     <div className='headerGeneral'>
       <button className={`menuButton ${isMenuOpen ? 'hide' : ''}`} onClick={toggleMenu}>
-        Menú
+        MENU
       </button>
       {isMenuOpen && (
         <nav className='headerNav'>
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/">HOME</Link>
             </li>
             <li>
-              <Link to="/team">Equip</Link>
+              <Link to="/team">EQUIP</Link>
             </li>
             <li>
-              <Link to="/repost">Reposteria</Link>
+              <Link to="/repost">REPOSTERIA</Link>
             </li>
             <li>
-              <Link to="/pastel">Pastisseria</Link>
+              <Link to="/pastel">PASTISSERIA</Link>
             </li>
             <li>
-              <Link to="/briox">Brioxeria</Link>
+              <Link to="/briox">BRIOXERIA</Link>
             </li>
             <li>
-              <Link to="/days">Dias</Link>
+              <Link to="/days">ESPECIALS</Link>
             </li>
             <li>
-              <Link to="/drinks">Begudes</Link>
+              <Link to="/drinks">CELLER</Link>
             </li>
           </ul>
         </nav>
