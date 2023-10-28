@@ -42,7 +42,12 @@
         margin-bottom: 80px;
     }
 
-    .briTypes img:hover {
+    .briCroisBig:hover img,
+    .briCroisSmall:hover img,
+    .briBriox:hover img,
+    .briEncie:hover img,
+    .briXuix:hover img,
+    .briDonut:hover img{
         width: 150px;
         height: 150px;
         border-radius: 30px;
@@ -58,13 +63,14 @@
         background-color: rgba(0, 0, 0, 0);
         /* Esto asegura que el fondo sea transparente */
     }
+    
 
-    .briTypes img:hover+.briCroisBigIn,
-    .briTypes img:hover+.briCroisSmallIn,
-    .briTypes img:hover+.briBrioxIn,
-    .briTypes img:hover+.briEncieIn,
-    .briTypes img:hover+.briXuixIn,
-    .briTypes img:hover+.briDonutIn {
+    .briCroisBig:hover .briCroisBigIn,
+    .briCroisSmall:hover .briCroisSmallIn,
+    .briBriox:hover .briBrioxIn,
+    .briEncie:hover .briEncieIn,
+    .briXuix:hover .briXuixIn,
+    .briDonut:hover .briDonutIn {
         width: 200px;
         height: 150px;
         display: flex;
@@ -110,12 +116,12 @@
         font-size: 14px;
     }
 
-    .briTypes img:hover+.briCroisBigIn h3,
-    .briTypes img:hover+.briCroisSmallIn h3,
-    .briTypes img:hover+.briBrioxIn h3,
-    .briTypes img:hover+.briEncieIn h3,
-    .briTypes img:hover+.briXuixIn h3,
-    .briTypes img:hover+.briDonutIn h3 {
+    .briCroisBig:hover .briCroisBigIn h3,
+    .briCroisSmall:hover .briCroisSmallIn h3,
+    .briBriox:hover .briBrioxIn h3,
+    .briEncie:hover .briEncieIn h3,
+    .briXuix:hover .briXuixIn h3,
+    .briDonut:hover .briDonutIn h3 {
         display: none;
     }
 
@@ -141,12 +147,12 @@
         color: black
     }
 
-    .briTypes img:hover+.briCroisBigIn p,
-    .briTypes img:hover+.briCroisSmallIn p,
-    .briTypes img:hover+.briBrioxIn p,
-    .briTypes img:hover+.briEncieIn p,
-    .briTypes img:hover+.briXuixIn p,
-    .briTypes img:hover+.briDonutIn p {
+    .briCroisBig:hover .briCroisBigIn p,
+    .briCroisSmall:hover .briCroisSmallIn p,
+    .briBriox:hover .briBrioxIn p,
+    .briEncie:hover .briEncieIn p,
+    .briXuix:hover .briXuixIn p,
+    .briDonut:hover .briDonutIn p {
         display: block;
     }
 }
@@ -188,15 +194,21 @@
 
     .briTypes img {
         display: block;
-        margin: 60px auto;
-        width: 250px;
-        height: 250px;
+        margin: auto;
+        width: 300px;
+        height: 200px;
         border-radius: 30px;
+        margin-bottom: 80px;
     }
 
-    .briTypes img:hover {
-        width: 250px;
-        height: 250px;
+    .briCroisBig:hover img,
+    .briCroisSmall:hover img,
+    .briBriox:hover img,
+    .briEncie:hover img,
+    .briXuix:hover img,
+    .briDonut:hover img {
+        width: 300px;
+        height: 200px;
         border-radius: 30px;
         position: relative;
         mask-image: linear-gradient(to top left, rgba(0, 0, 0, 1), transparent),
@@ -211,12 +223,12 @@
         /* Esto asegura que el fondo sea transparente */
     }
 
-    .briTypes img:hover+.briCroisBigIn,
-    .briTypes img:hover+.briCroisSmallIn,
-    .briTypes img:hover+.briBrioxIn,
-    .briTypes img:hover+.briEncieIn,
-    .briTypes img:hover+.briXuixIn,
-    .briTypes img:hover+.briDonutIn {
+    .briCroisBig:hover .briCroisBigIn,
+    .briCroisSmall:hover .briCroisSmallIn,
+    .briBriox:hover .briBrioxIn,
+    .briEncie:hover .briEncieIn,
+    .briXuix:hover .briXuixIn,
+    .briDonut:hover .briDonutIn {
         width: 300px;
         height: 250px;
         display: flex;
@@ -260,12 +272,12 @@
         font-size: 16px;
     }
 
-    .briTypes img:hover+.briCroisBigIn h3,
-    .briTypes img:hover+.briCroisSmallIn h3,
-    .briTypes img:hover+.briBrioxIn h3,
-    .briTypes img:hover+.briEncieIn h3,
-    .briTypes img:hover+.briXuixIn h3,
-    .briTypes img:hover+.briDonutIn h3 {
+    .briCroisBig:hover .briCroisBigIn h3,
+    .briCroisSmall:hover .briCroisSmallIn h3,
+    .briBriox:hover .briBrioxIn h3,
+    .briEncie:hover .briEncieIn h3,
+    .briXuix:hover .briXuixIn h3,
+    .briDonut:hover .briDonutIn h3 {
         display: none;
     }
 
@@ -291,12 +303,12 @@
         color: black
     }
 
-    .briTypes img:hover+.briCroisBigIn p,
-    .briTypes img:hover+.briCroisSmallIn p,
-    .briTypes img:hover+.briBrioxIn p,
-    .briTypes img:hover+.briEncieIn p,
-    .briTypes img:hover+.briXuixIn p,
-    .briTypes img:hover+.briDonutIn p {
+    .briCroisBig:hover .briCroisBigIn p,
+    .briCroisSmall:hover .briCroisSmallIn p,
+    .briBriox:hover .briBrioxIn p,
+    .briEncie:hover .briEncieIn p,
+    .briXuix:hover .briXuixIn p,
+    .briDonut:hover .briDonutIn p {
         display: block;
     }
 }
@@ -338,13 +350,19 @@
 
     .briTypes img {
         display: block;
-        margin: 60px auto;
+        margin: auto;
         width: 300px;
         height: 200px;
         border-radius: 30px;
+        margin-bottom: 80px;
     }
 
-    .briTypes img:hover {
+    .briCroisBig:hover img,
+    .briCroisSmall:hover img,
+    .briBriox:hover img,
+    .briEncie:hover img,
+    .briXuix:hover img,
+    .briDonut:hover img  {
         width: 300px;
         height: 200px;
         border-radius: 30px;
@@ -361,12 +379,12 @@
         /* Esto asegura que el fondo sea transparente */
     }
 
-    .briTypes img:hover+.briCroisBigIn,
-    .briTypes img:hover+.briCroisSmallIn,
-    .briTypes img:hover+.briBrioxIn,
-    .briTypes img:hover+.briEncieIn,
-    .briTypes img:hover+.briXuixIn,
-    .briTypes img:hover+.briDonutIn {
+    .briCroisBig:hover .briCroisBigIn,
+    .briCroisSmall:hover .briCroisSmallIn,
+    .briBriox:hover .briBrioxIn,
+    .briEncie:hover .briEncieIn,
+    .briXuix:hover .briXuixIn,
+    .briDonut:hover .briDonutIn {
         width: 300px;
         height: 250px;
         display: flex;
@@ -410,12 +428,12 @@
         font-size: 16px;
     }
 
-    .briTypes img:hover+.briCroisBigIn h3,
-    .briTypes img:hover+.briCroisSmallIn h3,
-    .briTypes img:hover+.briBrioxIn h3,
-    .briTypes img:hover+.briEncieIn h3,
-    .briTypes img:hover+.briXuixIn h3,
-    .briTypes img:hover+.briDonutIn h3 {
+    .briCroisBig:hover .briCroisBigIn h3,
+    .briCroisSmall:hover .briCroisSmallIn h3,
+    .briBriox:hover .briBrioxIn h3,
+    .briEncie:hover .briEncieIn h3,
+    .briXuix:hover .briXuixIn h3,
+    .briDonut:hover .briDonutIn h3 {
         display: none;
     }
 
@@ -441,12 +459,12 @@
         color: black
     }
 
-    .briTypes img:hover+.briCroisBigIn p,
-    .briTypes img:hover+.briCroisSmallIn p,
-    .briTypes img:hover+.briBrioxIn p,
-    .briTypes img:hover+.briEncieIn p,
-    .briTypes img:hover+.briXuixIn p,
-    .briTypes img:hover+.briDonutIn p {
+    .briCroisBig:hover .briCroisBigIn p,
+    .briCroisSmall:hover .briCroisSmallIn p,
+    .briBriox:hover .briBrioxIn p,
+    .briEncie:hover .briEncieIn p,
+    .briXuix:hover .briXuixIn p,
+    .briDonut:hover .briDonutIn p {
         display: block;
     }
 
@@ -500,13 +518,19 @@
 
     .briTypes img {
         display: block;
-        margin: 60px auto;
+        margin:auto;
         width: 300px;
         height: 200px;
         border-radius: 30px;
+        margin-bottom: 80px;
     }
 
-    .briTypes img:hover {
+    .briCroisBig:hover img,
+    .briCroisSmall:hover img,
+    .briBriox:hover img,
+    .briEncie:hover img,
+    .briXuix:hover img,
+    .briDonut:hover img {
         width: 300px;
         height: 200px;
         border-radius: 30px;
@@ -523,12 +547,12 @@
         /* Esto asegura que el fondo sea transparente */
     }
 
-    .briTypes img:hover+.briCroisBigIn,
-    .briTypes img:hover+.briCroisSmallIn,
-    .briTypes img:hover+.briBrioxIn,
-    .briTypes img:hover+.briEncieIn,
-    .briTypes img:hover+.briXuixIn,
-    .briTypes img:hover+.briDonutIn {
+    .briCroisBig:hover .briCroisBigIn,
+    .briCroisSmall:hover .briCroisSmallIn,
+    .briBriox:hover .briBrioxIn,
+    .briEncie:hover .briEncieIn,
+    .briXuix:hover .briXuixIn,
+    .briDonut:hover .briDonutIn {
         width: 300px;
         height: 250px;
         display: flex;
@@ -572,12 +596,12 @@
         font-size: 16px;
     }
 
-    .briTypes img:hover+.briCroisBigIn h3,
-    .briTypes img:hover+.briCroisSmallIn h3,
-    .briTypes img:hover+.briBrioxIn h3,
-    .briTypes img:hover+.briEncieIn h3,
-    .briTypes img:hover+.briXuixIn h3,
-    .briTypes img:hover+.briDonutIn h3 {
+    .briCroisBig:hover .briCroisBigIn h3,
+    .briCroisSmall:hover .briCroisSmallIn h3,
+    .briBriox:hover .briBrioxIn h3,
+    .briEncie:hover .briEncieIn h3,
+    .briXuix:hover .briXuixIn h3,
+    .briDonut:hover .briDonutIn h3 {
         display: none;
     }
 
@@ -603,12 +627,12 @@
         color: black
     }
 
-    .briTypes img:hover+.briCroisBigIn p,
-    .briTypes img:hover+.briCroisSmallIn p,
-    .briTypes img:hover+.briBrioxIn p,
-    .briTypes img:hover+.briEncieIn p,
-    .briTypes img:hover+.briXuixIn p,
-    .briTypes img:hover+.briDonutIn p {
+    .briCroisBig:hover .briCroisBigIn p,
+    .briCroisSmall:hover .briCroisSmallIn p,
+    .briBriox:hover .briBrioxIn p,
+    .briEncie:hover .briEncieIn p,
+    .briXuix:hover .briXuixIn p,
+    .briDonut:hover .briDonutIn p {
         display: block;
     }
 

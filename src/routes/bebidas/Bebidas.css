@@ -43,7 +43,19 @@
         margin-bottom: 80px;
     }
 
-    .drinksTypes img:hover {
+    .cava1:hover img,
+    .cava2:hover img,
+    .cava3:hover img,
+    .cava4:hover img,
+    .cava5:hover img,
+    .vino1:hover img,
+    .vino2:hover img,
+    .vino3:hover img,
+    .vino4:hover img,
+    .vino5:hover img,
+    .rata1:hover img,
+    .rata2:hover img,
+    .rata3:hover img {
         width: 150px;
         height: 150px;
         border-radius: 30px;
@@ -60,19 +72,19 @@
         /* Esto asegura que el fondo sea transparente */
     }
 
-    .drinksTypes img:hover+.cava1In,
-    .drinksTypes img:hover+.cava2In,
-    .drinksTypes img:hover+.cava3In,
-    .drinksTypes img:hover+.cava4In,
-    .drinksTypes img:hover+.cava5In,
-    .drinksTypes img:hover+.vino1In,
-    .drinksTypes img:hover+.vino2In,
-    .drinksTypes img:hover+.vino3In,
-    .drinksTypes img:hover+.vino4In,
-    .drinksTypes img:hover+.vino5In,
-    .drinksTypes img:hover+.rata1In,
-    .drinksTypes img:hover+.rata2In,
-    .drinksTypes img:hover+.rata3In {
+    .cava1:hover .cava1In,
+    .cava2:hover .cava2In,
+    .cava3:hover .cava3In,
+    .cava4:hover .cava4In,
+    .cava5:hover .cava5In,
+    .vino1:hover .vino1In,
+    .vino2:hover .vino2In,
+    .vino3:hover .vino3In,
+    .vino4:hover .vino4In,
+    .vino5:hover .vino5In,
+    .rata1:hover .rata1In,
+    .rata2:hover .rata2In,
+    .rata3:hover .rata3In {
         width: 200px;
         height: 150px;
         display: flex;
@@ -132,19 +144,19 @@
         font-size: 14px;
     }
 
-    .drinksTypes img:hover+.cava1In h3,
-    .drinksTypes img:hover+.cava2In h3,
-    .drinksTypes img:hover+.cava3In h3,
-    .drinksTypes img:hover+.cava4In h3,
-    .drinksTypes img:hover+.cava5In h3,
-    .drinksTypes img:hover+.vino1In h3,
-    .drinksTypes img:hover+.vino2In h3,
-    .drinksTypes img:hover+.vino3In h3,
-    .drinksTypes img:hover+.vino4In h3,
-    .drinksTypes img:hover+.vino5In h3,
-    .drinksTypes img:hover+.rata1In h3,
-    .drinksTypes img:hover+.rata2In h3,
-    .drinksTypes img:hover+.rata3In h3 {
+    .cava1:hover .cava1In h3,
+    .cava2:hover .cava2In h3,
+    .cava3:hover .cava3In h3,
+    .cava4:hover .cava4In h3,
+    .cava5:hover .cava5In h3,
+    .vino1:hover .vino1In h3,
+    .vino2:hover .vino2In h3,
+    .vino3:hover .vino3In h3,
+    .vino4:hover .vino4In h3,
+    .vino5:hover .vino5In h3,
+    .rata1:hover .rata1In h3,
+    .rata2:hover .rata2In h3,
+    .rata3:hover .rata3In h3 {
         display: none;
     }
 
@@ -183,20 +195,19 @@
         color: black
     }
 
-    .drinksTypes img:hover+.cava1In p,
-    .drinksTypes img:hover+.cava2In p,
-    .drinksTypes img:hover+.cava3In p,
-    .drinksTypes img:hover+.cava4In p,
-    .drinksTypes img:hover+.cava5In p,
-    .drinksTypes img:hover+.vino1In p,
-    .drinksTypes img:hover+.vino2In p,
-    .drinksTypes img:hover+.vino3In p,
-    .drinksTypes img:hover+.vino4In p,
-    .drinksTypes img:hover+.vino5In p,
-    .drinksTypes img:hover+.rata1In p,
-    .drinksTypes img:hover+.rata1In p,
-    .drinksTypes img:hover+.rata2In p,
-    .drinksTypes img:hover+.rata3In p {
+    .cava1:hover .cava1In p,
+    .cava2:hover .cava2In p,
+    .cava3:hover .cava3In p,
+    .cava4:hover .cava4In p,
+    .cava5:hover .cava5In p,
+    .vino1:hover .vino1In p,
+    .vino2:hover .vino2In p,
+    .vino3:hover .vino3In p,
+    .vino4:hover .vino4In p,
+    .vino5:hover .vino5In p,
+    .rata1:hover .rata1In p,
+    .rata2:hover .rata2In p,
+    .rata3:hover .rata3In p{
         display: block;
     }
 }
@@ -246,7 +257,19 @@
         margin-bottom: 100px;
     }
 
-    .drinksTypes img:hover {
+    .cava1:hover img,
+    .cava2:hover img,
+    .cava3:hover img,
+    .cava4:hover img,
+    .cava5:hover img,
+    .vino1:hover img,
+    .vino2:hover img,
+    .vino3:hover img,
+    .vino4:hover img,
+    .vino5:hover img,
+    .rata1:hover img,
+    .rata2:hover img,
+    .rata3:hover img{
         width: 250px;
         height: 250px;
         border-radius: 30px;
@@ -263,19 +286,19 @@
         /* Esto asegura que el fondo sea transparente */
     }
 
-    .drinksTypes img:hover+.cava1In,
-    .drinksTypes img:hover+.cava2In,
-    .drinksTypes img:hover+.cava3In,
-    .drinksTypes img:hover+.cava4In,
-    .drinksTypes img:hover+.cava5In,
-    .drinksTypes img:hover+.vino1In,
-    .drinksTypes img:hover+.vino2In,
-    .drinksTypes img:hover+.vino3In,
-    .drinksTypes img:hover+.vino4In,
-    .drinksTypes img:hover+.vino5In,
-    .drinksTypes img:hover+.rata1In,
-    .drinksTypes img:hover+.rata2In,
-    .drinksTypes img:hover+.rata3In {
+    .cava1:hover .cava1In,
+    .cava2:hover .cava2In,
+    .cava3:hover .cava3In,
+    .cava4:hover .cava4In,
+    .cava5:hover .cava5In,
+    .vino1:hover .vino1In,
+    .vino2:hover .vino2In,
+    .vino3:hover .vino3In,
+    .vino4:hover .vino4In,
+    .vino5:hover .vino5In,
+    .rata1:hover .rata1In,
+    .rata2:hover .rata2In,
+    .rata3:hover .rata3In{
         width: 300px;
         height: 250px;
         display: flex;
@@ -335,19 +358,19 @@
         font-size: 16px;
     }
 
-    .drinksTypes img:hover+.cava1In h3,
-    .drinksTypes img:hover+.cava2In h3,
-    .drinksTypes img:hover+.cava3In h3,
-    .drinksTypes img:hover+.cava4In h3,
-    .drinksTypes img:hover+.cava5In h3,
-    .drinksTypes img:hover+.vino1In h3,
-    .drinksTypes img:hover+.vino2In h3,
-    .drinksTypes img:hover+.vino3In h3,
-    .drinksTypes img:hover+.vino4In h3,
-    .drinksTypes img:hover+.vino5In h3,
-    .drinksTypes img:hover+.rata1In h3,
-    .drinksTypes img:hover+.rata2In h3,
-    .drinksTypes img:hover+.rata3In h3 {
+    .cava1:hover .cava1In h3,
+    .cava2:hover .cava2In h3,
+    .cava3:hover .cava3In h3,
+    .cava4:hover .cava4In h3,
+    .cava5:hover .cava5In h3,
+    .vino1:hover .vino1In h3,
+    .vino2:hover .vino2In h3,
+    .vino3:hover .vino3In h3,
+    .vino4:hover .vino4In h3,
+    .vino5:hover .vino5In h3,
+    .rata1:hover .rata1In h3,
+    .rata2:hover .rata2In h3,
+    .rata3:hover .rata3In h3  {
         display: none;
     }
 
@@ -386,20 +409,19 @@
         color: black
     }
 
-    .drinksTypes img:hover+.cava1In p,
-    .drinksTypes img:hover+.cava2In p,
-    .drinksTypes img:hover+.cava3In p,
-    .drinksTypes img:hover+.cava4In p,
-    .drinksTypes img:hover+.cava5In p,
-    .drinksTypes img:hover+.vino1In p,
-    .drinksTypes img:hover+.vino2In p,
-    .drinksTypes img:hover+.vino3In p,
-    .drinksTypes img:hover+.vino4In p,
-    .drinksTypes img:hover+.vino5In p,
-    .drinksTypes img:hover+.rata1In p,
-    .drinksTypes img:hover+.rata1In p,
-    .drinksTypes img:hover+.rata2In p,
-    .drinksTypes img:hover+.rata3In p {
+    .cava1:hover .cava1In p,
+    .cava2:hover .cava2In p,
+    .cava3:hover .cava3In p,
+    .cava4:hover .cava4In p,
+    .cava5:hover .cava5In p,
+    .vino1:hover .vino1In p,
+    .vino2:hover .vino2In p,
+    .vino3:hover .vino3In p,
+    .vino4:hover .vino4In p,
+    .vino5:hover .vino5In p,
+    .rata1:hover .rata1In p,
+    .rata2:hover .rata2In p,
+    .rata3:hover .rata3In p {
         display: block;
     }
 
@@ -453,7 +475,19 @@
 
 
 
-    .drinksTypes img:hover {
+    .cava1:hover img,
+    .cava2:hover img,
+    .cava3:hover img,
+    .cava4:hover img,
+    .cava5:hover img,
+    .vino1:hover img,
+    .vino2:hover img,
+    .vino3:hover img,
+    .vino4:hover img,
+    .vino5:hover img,
+    .rata1:hover img,
+    .rata2:hover img,
+    .rata3:hover img{
         width: 250px;
         height: 250px;
         border-radius: 30px;
@@ -470,19 +504,19 @@
         /* Esto asegura que el fondo sea transparente */
     }
 
-    .drinksTypes img:hover+.cava1In,
-    .drinksTypes img:hover+.cava2In,
-    .drinksTypes img:hover+.cava3In,
-    .drinksTypes img:hover+.cava4In,
-    .drinksTypes img:hover+.cava5In,
-    .drinksTypes img:hover+.vino1In,
-    .drinksTypes img:hover+.vino2In,
-    .drinksTypes img:hover+.vino3In,
-    .drinksTypes img:hover+.vino4In,
-    .drinksTypes img:hover+.vino5In,
-    .drinksTypes img:hover+.rata1In,
-    .drinksTypes img:hover+.rata2In,
-    .drinksTypes img:hover+.rata3In {
+    .cava1:hover .cava1In,
+    .cava2:hover .cava2In,
+    .cava3:hover .cava3In,
+    .cava4:hover .cava4In,
+    .cava5:hover .cava5In,
+    .vino1:hover .vino1In,
+    .vino2:hover .vino2In,
+    .vino3:hover .vino3In,
+    .vino4:hover .vino4In,
+    .vino5:hover .vino5In,
+    .rata1:hover .rata1In,
+    .rata2:hover .rata2In,
+    .rata3:hover .rata3In {
         width: 300px;
         height: 250px;
         display: flex;
@@ -540,19 +574,19 @@
         font-size: 16px;
     }
 
-    .drinksTypes img:hover+.cava1In h3,
-    .drinksTypes img:hover+.cava2In h3,
-    .drinksTypes img:hover+.cava3In h3,
-    .drinksTypes img:hover+.cava4In h3,
-    .drinksTypes img:hover+.cava5In h3,
-    .drinksTypes img:hover+.vino1In h3,
-    .drinksTypes img:hover+.vino2In h3,
-    .drinksTypes img:hover+.vino3In h3,
-    .drinksTypes img:hover+.vino4In h3,
-    .drinksTypes img:hover+.vino5In h3,
-    .drinksTypes img:hover+.rata1In h3,
-    .drinksTypes img:hover+.rata2In h3,
-    .drinksTypes img:hover+.rata3In h3 {
+    .cava1:hover .cava1In h3,
+    .cava2:hover .cava2In h3,
+    .cava3:hover .cava3In h3,
+    .cava4:hover .cava4In h3,
+    .cava5:hover .cava5In h3,
+    .vino1:hover .vino1In h3,
+    .vino2:hover .vino2In h3,
+    .vino3:hover .vino3In h3,
+    .vino4:hover .vino4In h3,
+    .vino5:hover .vino5In h3,
+    .rata1:hover .rata1In h3,
+    .rata2:hover .rata2In h3,
+    .rata3:hover .rata3In h3 {
         display: none;
     }
 
@@ -591,20 +625,19 @@
         color: black
     }
 
-    .drinksTypes img:hover+.cava1In p,
-    .drinksTypes img:hover+.cava2In p,
-    .drinksTypes img:hover+.cava3In p,
-    .drinksTypes img:hover+.cava4In p,
-    .drinksTypes img:hover+.cava5In p,
-    .drinksTypes img:hover+.vino1In p,
-    .drinksTypes img:hover+.vino2In p,
-    .drinksTypes img:hover+.vino3In p,
-    .drinksTypes img:hover+.vino4In p,
-    .drinksTypes img:hover+.vino5In p,
-    .drinksTypes img:hover+.rata1In p,
-    .drinksTypes img:hover+.rata1In p,
-    .drinksTypes img:hover+.rata2In p,
-    .drinksTypes img:hover+.rata3In p {
+    .cava1:hover .cava1In p,
+    .cava2:hover .cava2In p,
+    .cava3:hover .cava3In p,
+    .cava4:hover .cava4In p,
+    .cava5:hover .cava5In p,
+    .vino1:hover .vino1In p,
+    .vino2:hover .vino2In p,
+    .vino3:hover .vino3In p,
+    .vino4:hover .vino4In p,
+    .vino5:hover .vino5In p,
+    .rata1:hover .rata1In p,
+    .rata2:hover .rata2In p,
+    .rata3:hover .rata3In p {
         display: block;
     }
 
@@ -693,7 +726,19 @@
 
 
 
-    .drinksTypes img:hover {
+    .cava1:hover img,
+    .cava2:hover img,
+    .cava3:hover img,
+    .cava4:hover img,
+    .cava5:hover img,
+    .vino1:hover img,
+    .vino2:hover img,
+    .vino3:hover img,
+    .vino4:hover img,
+    .vino5:hover img,
+    .rata1:hover img,
+    .rata2:hover img,
+    .rata3:hover img{
         width: 250px;
         height: 250px;
         border-radius: 30px;
@@ -710,19 +755,19 @@
         /* Esto asegura que el fondo sea transparente */
     }
 
-    .drinksTypes img:hover+.cava1In,
-    .drinksTypes img:hover+.cava2In,
-    .drinksTypes img:hover+.cava3In,
-    .drinksTypes img:hover+.cava4In,
-    .drinksTypes img:hover+.cava5In,
-    .drinksTypes img:hover+.vino1In,
-    .drinksTypes img:hover+.vino2In,
-    .drinksTypes img:hover+.vino3In,
-    .drinksTypes img:hover+.vino4In,
-    .drinksTypes img:hover+.vino5In,
-    .drinksTypes img:hover+.rata1In,
-    .drinksTypes img:hover+.rata2In,
-    .drinksTypes img:hover+.rata3In {
+    .cava1:hover .cava1In,
+    .cava2:hover .cava2In,
+    .cava3:hover .cava3In,
+    .cava4:hover .cava4In,
+    .cava5:hover .cava5In,
+    .vino1:hover .vino1In,
+    .vino2:hover .vino2In,
+    .vino3:hover .vino3In,
+    .vino4:hover .vino4In,
+    .vino5:hover .vino5In,
+    .rata1:hover .rata1In,
+    .rata2:hover .rata2In,
+    .rata3:hover .rata3In{
         width: 300px;
         height: 250px;
         display: flex;
@@ -780,19 +825,19 @@
         font-size: 16px;
     }
 
-    .drinksTypes img:hover+.cava1In h3,
-    .drinksTypes img:hover+.cava2In h3,
-    .drinksTypes img:hover+.cava3In h3,
-    .drinksTypes img:hover+.cava4In h3,
-    .drinksTypes img:hover+.cava5In h3,
-    .drinksTypes img:hover+.vino1In h3,
-    .drinksTypes img:hover+.vino2In h3,
-    .drinksTypes img:hover+.vino3In h3,
-    .drinksTypes img:hover+.vino4In h3,
-    .drinksTypes img:hover+.vino5In h3,
-    .drinksTypes img:hover+.rata1In h3,
-    .drinksTypes img:hover+.rata2In h3,
-    .drinksTypes img:hover+.rata3In h3 {
+    .cava1:hover .cava1In h3,
+    .cava2:hover .cava2In h3,
+    .cava3:hover .cava3In h3,
+    .cava4:hover .cava4In h3,
+    .cava5:hover .cava5In h3,
+    .vino1:hover .vino1In h3,
+    .vino2:hover .vino2In h3,
+    .vino3:hover .vino3In h3,
+    .vino4:hover .vino4In h3,
+    .vino5:hover .vino5In h3,
+    .rata1:hover .rata1In h3,
+    .rata2:hover .rata2In h3,
+    .rata3:hover .rata3In h3 {
         display: none;
     }
 
@@ -831,20 +876,19 @@
         color: black
     }
 
-    .drinksTypes img:hover+.cava1In p,
-    .drinksTypes img:hover+.cava2In p,
-    .drinksTypes img:hover+.cava3In p,
-    .drinksTypes img:hover+.cava4In p,
-    .drinksTypes img:hover+.cava5In p,
-    .drinksTypes img:hover+.vino1In p,
-    .drinksTypes img:hover+.vino2In p,
-    .drinksTypes img:hover+.vino3In p,
-    .drinksTypes img:hover+.vino4In p,
-    .drinksTypes img:hover+.vino5In p,
-    .drinksTypes img:hover+.rata1In p,
-    .drinksTypes img:hover+.rata1In p,
-    .drinksTypes img:hover+.rata2In p,
-    .drinksTypes img:hover+.rata3In p {
+    .cava1:hover .cava1In p,
+    .cava2:hover .cava2In p,
+    .cava3:hover .cava3In p,
+    .cava4:hover .cava4In p,
+    .cava5:hover .cava5In p,
+    .vino1:hover .vino1In p,
+    .vino2:hover .vino2In p,
+    .vino3:hover .vino3In p,
+    .vino4:hover .vino4In p,
+    .vino5:hover .vino5In p,
+    .rata1:hover .rata1In p,
+    .rata2:hover .rata2In p,
+    .rata3:hover .rata3In p {
         display: block;
     }
 
