@@ -42,7 +42,17 @@
         margin-bottom: 80px;
     }
 
-    .pasteTypes img:hover {
+    .pasteNata:hover img,
+    .pasteTrufa:hover img,
+    .pasteCrema:hover img,
+    .pasteXoco:hover img,
+    .pasteMusMad:hover img,
+    .pasteMusLlima:hover img,
+    .pasteMusTurro:hover img,
+    .pasteMusDosXoco:hover img,
+    .pasteMassi:hover img,
+    .pasteSach:hover img,
+    .pasteRed:hover img{
         width: 150px;
         height: 150px;
         border-radius: 30px;
@@ -59,17 +69,17 @@
         /* Esto asegura que el fondo sea transparente */
     }
 
-    .pasteTypes img:hover+.pasteNataIn,
-    .pasteTypes img:hover+.pasteTrufaIn,
-    .pasteTypes img:hover+.pasteCremaIn,
-    .pasteTypes img:hover+.pasteXocoIn,
-    .pasteTypes img:hover+.pasteMusMadIn,
-    .pasteTypes img:hover+.pasteMusLlimaIn,
-    .pasteTypes img:hover+.pasteMusTurroIn,
-    .pasteTypes img:hover+.pasteMusDosXocoIn,
-    .pasteTypes img:hover+.pasteMassiIn,
-    .pasteTypes img:hover+.pasteSachIn,
-    .pasteTypes img:hover+.pasteRedIn {
+    .pasteNata:hover .pasteNataIn,
+    .pasteTrufa:hover .pasteTrufaIn,
+    .pasteCrema:hover .pasteCremaIn,
+    .pasteXoco:hover .pasteXocoIn,
+    .pasteMusMad:hover .pasteMusMadIn,
+    .pasteMusLlima:hover .pasteMusLlimaIn,
+    .pasteMusTurro:hover .pasteMusTurroIn,
+    .pasteMusDosXoco:hover .pasteMusDosXocoIn,
+    .pasteMassi:hover .pasteMassiIn,
+    .pasteSach:hover .pasteSachIn,
+    .pasteRed:hover .pasteRedIn {
         width: 200px;
         height: 150px;
         display: flex;
@@ -124,17 +134,17 @@
         font-size: 14px;
     }
 
-    .pasteTypes img:hover+.pasteNataIn h3,
-    .pasteTypes img:hover+.pasteTrufaIn h3,
-    .pasteTypes img:hover+.pasteCremaIn h3,
-    .pasteTypes img:hover+.pasteXocoIn h3,
-    .pasteTypes img:hover+.pasteMusMadIn h3,
-    .pasteTypes img:hover+.pasteMusLlimaIn h3,
-    .pasteTypes img:hover+.pasteMusTurroIn h3,
-    .pasteTypes img:hover+.pasteMusDosXocoIn h3,
-    .pasteTypes img:hover+.pasteMassiIn h3,
-    .pasteTypes img:hover+.pasteSachIn h3,
-    .pasteTypes img:hover+.pasteRedIn h3 {
+    .pasteNata:hover .pasteNataIn h3,
+    .pasteTrufa:hover .pasteTrufaIn h3,
+    .pasteCrema:hover .pasteCremaIn h3,
+    .pasteXoco:hover .pasteXocoIn h3,
+    .pasteMusMad:hover .pasteMusMadIn h3,
+    .pasteMusLlima:hover .pasteMusLlimaIn h3,
+    .pasteMusTurro:hover .pasteMusTurroIn h3,
+    .pasteMusDosXoco:hover .pasteMusDosXocoIn h3,
+    .pasteMassi:hover .pasteMassiIn h3,
+    .pasteSach:hover .pasteSachIn h3,
+    .pasteRed:hover .pasteRedIn h3{
         display: none;
     }
 
@@ -170,17 +180,17 @@
         color: black
     }
 
-    .pasteTypes img:hover+.pasteNataIn p,
-    .pasteTypes img:hover+.pasteTrufaIn p,
-    .pasteTypes img:hover+.pasteCremaIn p,
-    .pasteTypes img:hover+.pasteXocoIn p,
-    .pasteTypes img:hover+.pasteMusMadIn p,
-    .pasteTypes img:hover+.pasteMusLlimaIn p,
-    .pasteTypes img:hover+.pasteMusTurroIn p,
-    .pasteTypes img:hover+.pasteMusDosXocoIn p,
-    .pasteTypes img:hover+.pasteMassiIn p,
-    .pasteTypes img:hover+.pasteSachIn p,
-    .pasteTypes img:hover+.pasteRedIn p {
+    .pasteNata:hover .pasteNataIn p,
+    .pasteTrufa:hover .pasteTrufaIn p,
+    .pasteCrema:hover .pasteCremaIn p,
+    .pasteXoco:hover .pasteXocoIn p,
+    .pasteMusMad:hover .pasteMusMadIn p,
+    .pasteMusLlima:hover .pasteMusLlimaIn p,
+    .pasteMusTurro:hover .pasteMusTurroIn p,
+    .pasteMusDosXoco:hover .pasteMusDosXocoIn p,
+    .pasteMassi:hover .pasteMassiIn p,
+    .pasteSach:hover .pasteSachIn p,
+    .pasteRed:hover .pasteRedIn p{
         display: block
     }
 }
@@ -230,9 +240,19 @@
         margin-bottom: 80px;
     }
 
-    .pasteTypes img:hover {
-        width: 350px;
-        height: 250px;
+    .pasteNata:hover img,
+    .pasteTrufa:hover img,
+    .pasteCrema:hover img,
+    .pasteXoco:hover img,
+    .pasteMusMad:hover img,
+    .pasteMusLlima:hover img,
+    .pasteMusTurro:hover img,
+    .pasteMusDosXoco:hover img,
+    .pasteMassi:hover img,
+    .pasteSach:hover img,
+    .pasteRed:hover img{
+        width: 300px;
+        height: 200px;
         border-radius: 30px;
         position: relative;
         mask-image: linear-gradient(to top left, rgba(0, 0, 0, 1), transparent),
@@ -247,17 +267,17 @@
         /* Esto asegura que el fondo sea transparente */
     }
 
-    .pasteTypes img:hover+.pasteNataIn,
-    .pasteTypes img:hover+.pasteTrufaIn,
-    .pasteTypes img:hover+.pasteCremaIn,
-    .pasteTypes img:hover+.pasteXocoIn,
-    .pasteTypes img:hover+.pasteMusMadIn,
-    .pasteTypes img:hover+.pasteMusLlimaIn,
-    .pasteTypes img:hover+.pasteMusTurroIn,
-    .pasteTypes img:hover+.pasteMusDosXocoIn,
-    .pasteTypes img:hover+.pasteMassiIn,
-    .pasteTypes img:hover+.pasteSachIn,
-    .pasteTypes img:hover+.pasteRedIn {
+    .pasteNata:hover .pasteNataIn,
+    .pasteTrufa:hover .pasteTrufaIn,
+    .pasteCrema:hover .pasteCremaIn,
+    .pasteXoco:hover .pasteXocoIn,
+    .pasteMusMad:hover .pasteMusMadIn,
+    .pasteMusLlima:hover .pasteMusLlimaIn,
+    .pasteMusTurro:hover .pasteMusTurroIn,
+    .pasteMusDosXoco:hover .pasteMusDosXocoIn,
+    .pasteMassi:hover .pasteMassiIn,
+    .pasteSach:hover .pasteSachIn,
+    .pasteRed:hover .pasteRedIn {
         width: 300px;
         height: 250px;
         display: flex;
@@ -311,17 +331,17 @@
         font-size: 16px;
     }
 
-    .pasteTypes img:hover+.pasteNataIn h3,
-    .pasteTypes img:hover+.pasteTrufaIn h3,
-    .pasteTypes img:hover+.pasteCremaIn h3,
-    .pasteTypes img:hover+.pasteXocoIn h3,
-    .pasteTypes img:hover+.pasteMusMadIn h3,
-    .pasteTypes img:hover+.pasteMusLlimaIn h3,
-    .pasteTypes img:hover+.pasteMusTurroIn h3,
-    .pasteTypes img:hover+.pasteMusDosXocoIn h3,
-    .pasteTypes img:hover+.pasteMassiIn h3,
-    .pasteTypes img:hover+.pasteSachIn h3,
-    .pasteTypes img:hover+.pasteRedIn h3 {
+    .pasteNata:hover .pasteNataIn h3,
+    .pasteTrufa:hover .pasteTrufaIn h3,
+    .pasteCrema:hover .pasteCremaIn h3,
+    .pasteXoco:hover .pasteXocoIn h3,
+    .pasteMusMad:hover .pasteMusMadIn h3,
+    .pasteMusLlima:hover .pasteMusLlimaIn h3,
+    .pasteMusTurro:hover .pasteMusTurroIn h3,
+    .pasteMusDosXoco:hover .pasteMusDosXocoIn h3,
+    .pasteMassi:hover .pasteMassiIn h3,
+    .pasteSach:hover .pasteSachIn h3,
+    .pasteRed:hover .pasteRedIn h3{
         display: none;
     }
 
@@ -357,17 +377,17 @@
         color: black
     }
 
-    .pasteTypes img:hover+.pasteNataIn p,
-    .pasteTypes img:hover+.pasteTrufaIn p,
-    .pasteTypes img:hover+.pasteCremaIn p,
-    .pasteTypes img:hover+.pasteXocoIn p,
-    .pasteTypes img:hover+.pasteMusMadIn p,
-    .pasteTypes img:hover+.pasteMusLlimaIn p,
-    .pasteTypes img:hover+.pasteMusTurroIn p,
-    .pasteTypes img:hover+.pasteMusDosXocoIn p,
-    .pasteTypes img:hover+.pasteMassiIn p,
-    .pasteTypes img:hover+.pasteSachIn p,
-    .pasteTypes img:hover+.pasteRedIn p {
+    .pasteNata:hover .pasteNataIn p,
+    .pasteTrufa:hover .pasteTrufaIn p,
+    .pasteCrema:hover .pasteCremaIn p,
+    .pasteXoco:hover .pasteXocoIn p,
+    .pasteMusMad:hover .pasteMusMadIn p,
+    .pasteMusLlima:hover .pasteMusLlimaIn p,
+    .pasteMusTurro:hover .pasteMusTurroIn p,
+    .pasteMusDosXoco:hover .pasteMusDosXocoIn p,
+    .pasteMassi:hover .pasteMassiIn p,
+    .pasteSach:hover .pasteSachIn p,
+    .pasteRed:hover .pasteRedIn p {
         display: block
     }
 }
@@ -418,9 +438,19 @@
     }
 
 
-    .pasteTypes img:hover {
-        width: 350px;
-        height: 250px;
+    .pasteNata:hover img,
+    .pasteTrufa:hover img,
+    .pasteCrema:hover img,
+    .pasteXoco:hover img,
+    .pasteMusMad:hover img,
+    .pasteMusLlima:hover img,
+    .pasteMusTurro:hover img,
+    .pasteMusDosXoco:hover img,
+    .pasteMassi:hover img,
+    .pasteSach:hover img,
+    .pasteRed:hover img{
+        width: 300px;
+        height: 200px;
         border-radius: 30px;
         position: relative;
         mask-image: linear-gradient(to top left, rgba(0, 0, 0, 1), transparent),
@@ -435,17 +465,17 @@
         /* Esto asegura que el fondo sea transparente */
     }
 
-    .pasteTypes img:hover+.pasteNataIn,
-    .pasteTypes img:hover+.pasteTrufaIn,
-    .pasteTypes img:hover+.pasteCremaIn,
-    .pasteTypes img:hover+.pasteXocoIn,
-    .pasteTypes img:hover+.pasteMusMadIn,
-    .pasteTypes img:hover+.pasteMusLlimaIn,
-    .pasteTypes img:hover+.pasteMusTurroIn,
-    .pasteTypes img:hover+.pasteMusDosXocoIn,
-    .pasteTypes img:hover+.pasteMassiIn,
-    .pasteTypes img:hover+.pasteSachIn,
-    .pasteTypes img:hover+.pasteRedIn {
+    .pasteNata:hover .pasteNataIn,
+    .pasteTrufa:hover .pasteTrufaIn,
+    .pasteCrema:hover .pasteCremaIn,
+    .pasteXoco:hover .pasteXocoIn,
+    .pasteMusMad:hover .pasteMusMadIn,
+    .pasteMusLlima:hover .pasteMusLlimaIn,
+    .pasteMusTurro:hover .pasteMusTurroIn,
+    .pasteMusDosXoco:hover .pasteMusDosXocoIn,
+    .pasteMassi:hover .pasteMassiIn,
+    .pasteSach:hover .pasteSachIn,
+    .pasteRed:hover .pasteRedIn {
         width: 300px;
         height: 250px;
         display: flex;
@@ -499,17 +529,17 @@
         font-size: 16px;
     }
 
-    .pasteTypes img:hover+.pasteNataIn h3,
-    .pasteTypes img:hover+.pasteTrufaIn h3,
-    .pasteTypes img:hover+.pasteCremaIn h3,
-    .pasteTypes img:hover+.pasteXocoIn h3,
-    .pasteTypes img:hover+.pasteMusMadIn h3,
-    .pasteTypes img:hover+.pasteMusLlimaIn h3,
-    .pasteTypes img:hover+.pasteMusTurroIn h3,
-    .pasteTypes img:hover+.pasteMusDosXocoIn h3,
-    .pasteTypes img:hover+.pasteMassiIn h3,
-    .pasteTypes img:hover+.pasteSachIn h3,
-    .pasteTypes img:hover+.pasteRedIn h3 {
+    .pasteNata:hover .pasteNataIn h3,
+    .pasteTrufa:hover .pasteTrufaIn h3,
+    .pasteCrema:hover .pasteCremaIn h3,
+    .pasteXoco:hover .pasteXocoIn h3,
+    .pasteMusMad:hover .pasteMusMadIn h3,
+    .pasteMusLlima:hover .pasteMusLlimaIn h3,
+    .pasteMusTurro:hover .pasteMusTurroIn h3,
+    .pasteMusDosXoco:hover .pasteMusDosXocoIn h3,
+    .pasteMassi:hover .pasteMassiIn h3,
+    .pasteSach:hover .pasteSachIn h3,
+    .pasteRed:hover .pasteRedIn h3{
         display: none;
     }
 
@@ -545,17 +575,17 @@
         color: black
     }
 
-    .pasteTypes img:hover+.pasteNataIn p,
-    .pasteTypes img:hover+.pasteTrufaIn p,
-    .pasteTypes img:hover+.pasteCremaIn p,
-    .pasteTypes img:hover+.pasteXocoIn p,
-    .pasteTypes img:hover+.pasteMusMadIn p,
-    .pasteTypes img:hover+.pasteMusLlimaIn p,
-    .pasteTypes img:hover+.pasteMusTurroIn p,
-    .pasteTypes img:hover+.pasteMusDosXocoIn p,
-    .pasteTypes img:hover+.pasteMassiIn p,
-    .pasteTypes img:hover+.pasteSachIn p,
-    .pasteTypes img:hover+.pasteRedIn p {
+    .pasteNata:hover .pasteNataIn p,
+    .pasteTrufa:hover .pasteTrufaIn p,
+    .pasteCrema:hover .pasteCremaIn p,
+    .pasteXoco:hover .pasteXocoIn p,
+    .pasteMusMad:hover .pasteMusMadIn p,
+    .pasteMusLlima:hover .pasteMusLlimaIn p,
+    .pasteMusTurro:hover .pasteMusTurroIn p,
+    .pasteMusDosXoco:hover .pasteMusDosXocoIn p,
+    .pasteMassi:hover .pasteMassiIn p,
+    .pasteSach:hover .pasteSachIn p,
+    .pasteRed:hover .pasteRedIn p{
         display: block
     }
 
@@ -617,9 +647,19 @@
     }
 
 
-    .pasteTypes img:hover {
-        width: 350px;
-        height: 250px;
+    .pasteNata:hover img,
+    .pasteTrufa:hover img,
+    .pasteCrema:hover img,
+    .pasteXoco:hover img,
+    .pasteMusMad:hover img,
+    .pasteMusLlima:hover img,
+    .pasteMusTurro:hover img,
+    .pasteMusDosXoco:hover img,
+    .pasteMassi:hover img,
+    .pasteSach:hover img,
+    .pasteRed:hover img{
+        width: 300px;
+        height: 200px;
         border-radius: 30px;
         position: relative;
         mask-image: linear-gradient(to top left, rgba(0, 0, 0, 1), transparent),
@@ -634,17 +674,17 @@
         /* Esto asegura que el fondo sea transparente */
     }
 
-    .pasteTypes img:hover+.pasteNataIn,
-    .pasteTypes img:hover+.pasteTrufaIn,
-    .pasteTypes img:hover+.pasteCremaIn,
-    .pasteTypes img:hover+.pasteXocoIn,
-    .pasteTypes img:hover+.pasteMusMadIn,
-    .pasteTypes img:hover+.pasteMusLlimaIn,
-    .pasteTypes img:hover+.pasteMusTurroIn,
-    .pasteTypes img:hover+.pasteMusDosXocoIn,
-    .pasteTypes img:hover+.pasteMassiIn,
-    .pasteTypes img:hover+.pasteSachIn,
-    .pasteTypes img:hover+.pasteRedIn {
+    .pasteNata:hover .pasteNataIn,
+    .pasteTrufa:hover .pasteTrufaIn,
+    .pasteCrema:hover .pasteCremaIn,
+    .pasteXoco:hover .pasteXocoIn,
+    .pasteMusMad:hover .pasteMusMadIn,
+    .pasteMusLlima:hover .pasteMusLlimaIn,
+    .pasteMusTurro:hover .pasteMusTurroIn,
+    .pasteMusDosXoco:hover .pasteMusDosXocoIn,
+    .pasteMassi:hover .pasteMassiIn,
+    .pasteSach:hover .pasteSachIn,
+    .pasteRed:hover .pasteRedIn {
         width: 300px;
         height: 250px;
         display: flex;
@@ -698,17 +738,17 @@
         font-size: 16px;
     }
 
-    .pasteTypes img:hover+.pasteNataIn h3,
-    .pasteTypes img:hover+.pasteTrufaIn h3,
-    .pasteTypes img:hover+.pasteCremaIn h3,
-    .pasteTypes img:hover+.pasteXocoIn h3,
-    .pasteTypes img:hover+.pasteMusMadIn h3,
-    .pasteTypes img:hover+.pasteMusLlimaIn h3,
-    .pasteTypes img:hover+.pasteMusTurroIn h3,
-    .pasteTypes img:hover+.pasteMusDosXocoIn h3,
-    .pasteTypes img:hover+.pasteMassiIn h3,
-    .pasteTypes img:hover+.pasteSachIn h3,
-    .pasteTypes img:hover+.pasteRedIn h3 {
+    .pasteNata:hover .pasteNataIn h3,
+    .pasteTrufa:hover .pasteTrufaIn h3,
+    .pasteCrema:hover .pasteCremaIn h3,
+    .pasteXoco:hover .pasteXocoIn h3,
+    .pasteMusMad:hover .pasteMusMadIn h3,
+    .pasteMusLlima:hover .pasteMusLlimaIn h3,
+    .pasteMusTurro:hover .pasteMusTurroIn h3,
+    .pasteMusDosXoco:hover .pasteMusDosXocoIn h3,
+    .pasteMassi:hover .pasteMassiIn h3,
+    .pasteSach:hover .pasteSachIn h3,
+    .pasteRed:hover .pasteRedIn h3{
         display: none;
     }
 
@@ -744,17 +784,17 @@
         color: black
     }
 
-    .pasteTypes img:hover+.pasteNataIn p,
-    .pasteTypes img:hover+.pasteTrufaIn p,
-    .pasteTypes img:hover+.pasteCremaIn p,
-    .pasteTypes img:hover+.pasteXocoIn p,
-    .pasteTypes img:hover+.pasteMusMadIn p,
-    .pasteTypes img:hover+.pasteMusLlimaIn p,
-    .pasteTypes img:hover+.pasteMusTurroIn p,
-    .pasteTypes img:hover+.pasteMusDosXocoIn p,
-    .pasteTypes img:hover+.pasteMassiIn p,
-    .pasteTypes img:hover+.pasteSachIn p,
-    .pasteTypes img:hover+.pasteRedIn p {
+    .pasteNata:hover .pasteNataIn p,
+    .pasteTrufa:hover .pasteTrufaIn p,
+    .pasteCrema:hover .pasteCremaIn p,
+    .pasteXoco:hover .pasteXocoIn p,
+    .pasteMusMad:hover .pasteMusMadIn p,
+    .pasteMusLlima:hover .pasteMusLlimaIn p,
+    .pasteMusTurro:hover .pasteMusTurroIn p,
+    .pasteMusDosXoco:hover .pasteMusDosXocoIn p,
+    .pasteMassi:hover .pasteMassiIn p,
+    .pasteSach:hover .pasteSachIn p,
+    .pasteRed:hover .pasteRedIn p{
         display: block
     }
 

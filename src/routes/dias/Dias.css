@@ -42,7 +42,10 @@
         margin-bottom: 80px;
     }
 
-    .daysTypes img:hover {
+    .pasteXoco:hover img,
+    .pasteMusMad:hover img,
+    .pasteMusLlima:hover img,
+    .pasteMusDosXoco:hover img{
         width: 150px;
         height: 150px;
         border-radius: 30px;
@@ -59,10 +62,10 @@
         /* Esto asegura que el fondo sea transparente */
     }
 
-    .daysTypes img:hover+.pasteXocoIn,
-    .daysTypes img:hover+.pasteMusMadIn,
-    .daysTypes img:hover+.pasteMusLlimaIn,
-    .daysTypes img:hover+.pasteMusDosXocoIn{
+    .pasteXoco:hover .pasteXocoIn,
+    .pasteMusMad:hover .pasteMusMadIn,
+    .pasteMusLlima:hover .pasteMusLlimaIn,
+    .pasteMusDosXoco:hover .pasteMusDosXocoIn{
         width: 200px;
         height: 150px;
         display: flex;
@@ -103,10 +106,10 @@
         font-size: 14px;
     }
 
-    .daysTypes img:hover+.pasteXocoIn h3,
-    .daysTypes img:hover+.pasteMusMadIn h3,
-    .daysTypes img:hover+.pasteMusLlimaIn h3,
-    .daysTypes img:hover+.pasteMusDosXocoIn h3{
+    .pasteXoco:hover .pasteXocoIn h3,
+    .pasteMusMad:hover .pasteMusMadIn h3,
+    .pasteMusLlima:hover .pasteMusLlimaIn h3,
+    .pasteMusDosXoco:hover .pasteMusDosXocoIn h3{
         display: none;
     }
 
@@ -127,10 +130,10 @@
         color: black
     }
 
-    .daysTypes img:hover+.pasteXocoIn p,
-    .daysTypes img:hover+.pasteMusMadIn p,
-    .daysTypes img:hover+.pasteMusLlimaIn p,
-    .daysTypes img:hover+.pasteMusDosXocoIn p{
+    .pasteXoco:hover .pasteXocoIn p,
+    .pasteMusMad:hover .pasteMusMadIn p,
+    .pasteMusLlima:hover .pasteMusLlimaIn p,
+    .pasteMusDosXoco:hover .pasteMusDosXocoIn p{
         display: block
     }
 }
@@ -179,7 +182,10 @@
         margin-bottom: 80px;
     }
 
-    .daysTypes img:hover {
+    .pasteXoco:hover img,
+    .pasteMusMad:hover img,
+    .pasteMusLlima:hover img,
+    .pasteMusDosXoco:hover img{
         width: 350px;
         height: 250px;
         border-radius: 30px;
@@ -196,10 +202,10 @@
         /* Esto asegura que el fondo sea transparente */
     }
 
-    .daysTypes img:hover+.pasteXocoIn,
-    .daysTypes img:hover+.pasteMusMadIn,
-    .daysTypes img:hover+.pasteMusLlimaIn,
-    .daysTypes img:hover+.pasteMusDosXocoIn{
+    .pasteXoco:hover .pasteXocoIn,
+    .pasteMusMad:hover .pasteMusMadIn,
+    .pasteMusLlima:hover .pasteMusLlimaIn,
+    .pasteMusDosXoco:hover .pasteMusDosXocoIn{
         width: 300px;
         height: 250px;
         display: flex;
@@ -239,10 +245,10 @@
         font-size: 16px;
     }
 
-    .daysTypes img:hover+.pasteXocoIn h3,
-    .daysTypes img:hover+.pasteMusMadIn h3,
-    .daysTypes img:hover+.pasteMusLlimaIn h3,
-    .daysTypes img:hover+.pasteMusDosXocoIn h3{
+    .pasteXoco:hover .pasteXocoIn h3,
+    .pasteMusMad:hover .pasteMusMadIn h3,
+    .pasteMusLlima:hover .pasteMusLlimaIn h3,
+    .pasteMusDosXoco:hover .pasteMusDosXocoIn h3{
         display: none;
     }
 
@@ -263,10 +269,10 @@
         color: black
     }
 
-    .daysTypes img:hover+.pasteXocoIn p,
-    .daysTypes img:hover+.pasteMusMadIn p,
-    .daysTypes img:hover+.pasteMusLlimaIn p,
-    .daysTypes img:hover+.pasteMusDosXocoIn p{
+    .pasteXoco:hover .pasteXocoIn p,
+    .pasteMusMad:hover .pasteMusMadIn p,
+    .pasteMusLlima:hover .pasteMusLlimaIn p,
+    .pasteMusDosXoco:hover .pasteMusDosXocoIn p{
         display: block
     }
 }
@@ -316,7 +322,10 @@
         margin-bottom: 80px;
     }
 
-    .daysTypes img:hover {
+    .pasteXoco:hover img,
+    .pasteMusMad:hover img,
+    .pasteMusLlima:hover img,
+    .pasteMusDosXoco:hover img{
         width: 350px;
         height: 250px;
         border-radius: 30px;
@@ -333,10 +342,10 @@
         /* Esto asegura que el fondo sea transparente */
     }
 
-    .daysTypes img:hover+.pasteXocoIn,
-    .daysTypes img:hover+.pasteMusMadIn,
-    .daysTypes img:hover+.pasteMusLlimaIn,
-    .daysTypes img:hover+.pasteMusDosXocoIn{
+    .pasteXoco:hover .pasteXocoIn,
+    .pasteMusMad:hover .pasteMusMadIn,
+    .pasteMusLlima:hover .pasteMusLlimaIn,
+    .pasteMusDosXoco:hover .pasteMusDosXocoIn{
         width: 300px;
         height: 250px;
         display: flex;
@@ -376,10 +385,10 @@
         font-size: 16px;
     }
 
-    .daysTypes img:hover+.pasteXocoIn h3,
-    .daysTypes img:hover+.pasteMusMadIn h3,
-    .daysTypes img:hover+.pasteMusLlimaIn h3,
-    .daysTypes img:hover+.pasteMusDosXocoIn h3{
+    .pasteXoco:hover .pasteXocoIn h3,
+    .pasteMusMad:hover .pasteMusMadIn h3,
+    .pasteMusLlima:hover .pasteMusLlimaIn h3,
+    .pasteMusDosXoco:hover .pasteMusDosXocoIn h3{
         display: none;
     }
 
@@ -400,10 +409,10 @@
         color: black
     }
 
-    .daysTypes img:hover+.pasteXocoIn p,
-    .daysTypes img:hover+.pasteMusMadIn p,
-    .daysTypes img:hover+.pasteMusLlimaIn p,
-    .daysTypes img:hover+.pasteMusDosXocoIn p{
+    .pasteXoco:hover .pasteXocoIn p,
+    .pasteMusMad:hover .pasteMusMadIn p,
+    .pasteMusLlima:hover .pasteMusLlimaIn p,
+    .pasteMusDosXoco:hover .pasteMusDosXocoIn p{
         display: block
     }
 
@@ -465,7 +474,10 @@
         margin-bottom: 80px;
     }
 
-    .daysTypes img:hover {
+    .pasteXoco:hover img,
+    .pasteMusMad:hover img,
+    .pasteMusLlima:hover img,
+    .pasteMusDosXoco:hover img{
         width: 350px;
         height: 250px;
         border-radius: 30px;
@@ -482,10 +494,10 @@
         /* Esto asegura que el fondo sea transparente */
     }
 
-    .daysTypes img:hover+.pasteXocoIn,
-    .daysTypes img:hover+.pasteMusMadIn,
-    .daysTypes img:hover+.pasteMusLlimaIn,
-    .daysTypes img:hover+.pasteMusDosXocoIn{
+    .pasteXoco:hover .pasteXocoIn,
+    .pasteMusMad:hover .pasteMusMadIn,
+    .pasteMusLlima:hover .pasteMusLlimaIn,
+    .pasteMusDosXoco:hover .pasteMusDosXocoIn{
         width: 300px;
         height: 250px;
         display: flex;
@@ -525,10 +537,10 @@
         font-size: 16px;
     }
 
-    .daysTypes img:hover+.pasteXocoIn h3,
-    .daysTypes img:hover+.pasteMusMadIn h3,
-    .daysTypes img:hover+.pasteMusLlimaIn h3,
-    .daysTypes img:hover+.pasteMusDosXocoIn h3{
+    .pasteXoco:hover .pasteXocoIn h3,
+    .pasteMusMad:hover .pasteMusMadIn h3,
+    .pasteMusLlima:hover .pasteMusLlimaIn h3,
+    .pasteMusDosXoco:hover .pasteMusDosXocoIn h3{
         display: none;
     }
 
@@ -549,10 +561,10 @@
         color: black
     }
 
-    .daysTypes img:hover+.pasteXocoIn p,
-    .daysTypes img:hover+.pasteMusMadIn p,
-    .daysTypes img:hover+.pasteMusLlimaIn p,
-    .daysTypes img:hover+.pasteMusDosXocoIn p{
+    .pasteXoco:hover .pasteXocoIn p,
+    .pasteMusMad:hover .pasteMusMadIn p,
+    .pasteMusLlima:hover .pasteMusLlimaIn p,
+    .pasteMusDosXoco:hover .pasteMusDosXocoIn p{
         display: block
     }
 

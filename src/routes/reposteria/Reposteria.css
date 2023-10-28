@@ -43,7 +43,18 @@
         margin-bottom: 80px;
     }
 
-    .repoTypes img:hover {
+    .repoLio:hover img,
+    .repoCoco:hover img,
+    .repoTruf:hover img,
+    .repoBoles:hover img,
+    .repoFull:hover img,
+    .repoMass:hover img,
+    .repoToci:hover img,
+    .repoMante:hover img,
+    .repoAmet:hover img,
+    .repoXoco:hover img,
+    .repoPaste:hover img,
+    .repoVari:hover img{
         width: 150px;
         height: 150px;
         border-radius: 30px;
@@ -60,18 +71,18 @@
         /* Esto asegura que el fondo sea transparente */
     }
 
-    .repoTypes img:hover+.repoLioIn,
-    .repoTypes img:hover+.repoCocoIn,
-    .repoTypes img:hover+.repoTrufIn,
-    .repoTypes img:hover+.repoBolesIn,
-    .repoTypes img:hover+.repoFullIn,
-    .repoTypes img:hover+.repoMassIn,
-    .repoTypes img:hover+.repoTociIn,
-    .repoTypes img:hover+.repoManteIn,
-    .repoTypes img:hover+.repoAmetIn,
-    .repoTypes img:hover+.repoXocoIn,
-    .repoTypes img:hover+.repoPasteIn,
-    .repoTypes img:hover+.repoVariIn {
+    .repoLio:hover .repoLioIn,
+    .repoCoco:hover .repoCocoIn,
+    .repoTruf:hover .repoTrufIn,
+    .repoBoles:hover .repoBolesIn,
+    .repoFull:hover .repoFullIn,
+    .repoMass:hover .repoMassIn,
+    .repoToci:hover .repoTociIn,
+    .repoMante:hover .repoManteIn,
+    .repoAmet:hover .repoAmetIn,
+    .repoXoco:hover .repoXocoIn,
+    .repoPaste:hover .repoPasteIn,
+    .repoVari:hover .repoVariIn {
         width: 200px;
         height: 150px;
         display: flex;
@@ -130,18 +141,18 @@
         font-size: 14px;
     }
 
-    .repoTypes img:hover+.repoLioIn h3,
-    .repoTypes img:hover+.repoCocoIn h3,
-    .repoTypes img:hover+.repoTrufIn h3,
-    .repoTypes img:hover+.repoBolesIn h3,
-    .repoTypes img:hover+.repoFullIn h3,
-    .repoTypes img:hover+.repoMassIn h3,
-    .repoTypes img:hover+.repoTociIn h3,
-    .repoTypes img:hover+.repoManteIn h3,
-    .repoTypes img:hover+.repoAmetIn h3,
-    .repoTypes img:hover+.repoXocoIn h3,
-    .repoTypes img:hover+.repoPasteIn h3,
-    .repoTypes img:hover+.repoVariIn h3 {
+    .repoLio:hover .repoLioIn h3,
+    .repoCoco:hover .repoCocoIn h3,
+    .repoTruf:hover .repoTrufIn h3,
+    .repoBoles:hover .repoBolesIn h3,
+    .repoFull:hover .repoFullIn h3,
+    .repoMass:hover .repoMassIn h3,
+    .repoToci:hover .repoTociIn h3,
+    .repoMante:hover .repoManteIn h3,
+    .repoAmet:hover .repoAmetIn h3,
+    .repoXoco:hover .repoXocoIn h3,
+    .repoPaste:hover .repoPasteIn h3,
+    .repoVari:hover .repoVariIn h3{
         display: none;
     }
 
@@ -178,18 +189,18 @@
         color: black
     }
 
-    .repoTypes img:hover+.repoLioIn p,
-    .repoTypes img:hover+.repoCocoIn p,
-    .repoTypes img:hover+.repoTrufIn p,
-    .repoTypes img:hover+.repoBolesIn p,
-    .repoTypes img:hover+.repoFullIn p,
-    .repoTypes img:hover+.repoMassIn p,
-    .repoTypes img:hover+.repoTociIn p,
-    .repoTypes img:hover+.repoManteIn p,
-    .repoTypes img:hover+.repoAmetIn p,
-    .repoTypes img:hover+.repoXocoIn p,
-    .repoTypes img:hover+.repoPasteIn p,
-    .repoTypes img:hover+.repoVariIn p {
+    .repoLio:hover .repoLioIn p,
+    .repoCoco:hover .repoCocoIn p,
+    .repoTruf:hover .repoTrufIn p,
+    .repoBoles:hover .repoBolesIn p,
+    .repoFull:hover .repoFullIn p,
+    .repoMass:hover .repoMassIn p,
+    .repoToci:hover .repoTociIn p,
+    .repoMante:hover .repoManteIn p,
+    .repoAmet:hover .repoAmetIn p,
+    .repoXoco:hover .repoXocoIn p,
+    .repoPaste:hover .repoPasteIn p,
+    .repoVari:hover .repoVariIn p{
         display: block;
     }
 }
@@ -238,9 +249,20 @@
         border-radius: 30px;
     }
 
-    .repoTypes img:hover {
-        width: 350px;
-        height: 250px;
+    .repoLio:hover img,
+    .repoCoco:hover img,
+    .repoTruf:hover img,
+    .repoBoles:hover img,
+    .repoFull:hover img,
+    .repoMass:hover img,
+    .repoToci:hover img,
+    .repoMante:hover img,
+    .repoAmet:hover img,
+    .repoXoco:hover img,
+    .repoPaste:hover img,
+    .repoVari:hover img{
+        width: 300px;
+        height: 200px;
         border-radius: 30px;
         position: relative;
         mask-image: linear-gradient(to top left, rgba(0, 0, 0, 1), transparent),
@@ -255,18 +277,18 @@
         /* Esto asegura que el fondo sea transparente */
     }
 
-    .repoTypes img:hover+.repoLioIn,
-    .repoTypes img:hover+.repoCocoIn,
-    .repoTypes img:hover+.repoTrufIn,
-    .repoTypes img:hover+.repoBolesIn,
-    .repoTypes img:hover+.repoFullIn,
-    .repoTypes img:hover+.repoMassIn,
-    .repoTypes img:hover+.repoTociIn,
-    .repoTypes img:hover+.repoManteIn,
-    .repoTypes img:hover+.repoAmetIn,
-    .repoTypes img:hover+.repoXocoIn,
-    .repoTypes img:hover+.repoPasteIn,
-    .repoTypes img:hover+.repoVariIn {
+    .repoLio:hover .repoLioIn,
+    .repoCoco:hover .repoCocoIn,
+    .repoTruf:hover .repoTrufIn,
+    .repoBoles:hover .repoBolesIn,
+    .repoFull:hover .repoFullIn,
+    .repoMass:hover .repoMassIn,
+    .repoToci:hover .repoTociIn,
+    .repoMante:hover .repoManteIn,
+    .repoAmet:hover .repoAmetIn,
+    .repoXoco:hover .repoXocoIn,
+    .repoPaste:hover .repoPasteIn,
+    .repoVari:hover .repoVariIn {
         width: 300px;
         height: 250px;
         display: flex;
@@ -324,18 +346,18 @@
         font-size: 16px;
     }
 
-    .repoTypes img:hover+.repoLioIn h3,
-    .repoTypes img:hover+.repoCocoIn h3,
-    .repoTypes img:hover+.repoTrufIn h3,
-    .repoTypes img:hover+.repoBolesIn h3,
-    .repoTypes img:hover+.repoFullIn h3,
-    .repoTypes img:hover+.repoMassIn h3,
-    .repoTypes img:hover+.repoTociIn h3,
-    .repoTypes img:hover+.repoManteIn h3,
-    .repoTypes img:hover+.repoAmetIn h3,
-    .repoTypes img:hover+.repoXocoIn h3,
-    .repoTypes img:hover+.repoPasteIn h3,
-    .repoTypes img:hover+.repoVariIn h3 {
+    .repoLio:hover .repoLioIn h3,
+    .repoCoco:hover .repoCocoIn h3,
+    .repoTruf:hover .repoTrufIn h3,
+    .repoBoles:hover .repoBolesIn h3,
+    .repoFull:hover .repoFullIn h3,
+    .repoMass:hover .repoMassIn h3,
+    .repoToci:hover .repoTociIn h3,
+    .repoMante:hover .repoManteIn h3,
+    .repoAmet:hover .repoAmetIn h3,
+    .repoXoco:hover .repoXocoIn h3,
+    .repoPaste:hover .repoPasteIn h3,
+    .repoVari:hover .repoVariIn h3{
         display: none;
     }
 
@@ -372,18 +394,18 @@
         color: black
     }
 
-    .repoTypes img:hover+.repoLioIn p,
-    .repoTypes img:hover+.repoCocoIn p,
-    .repoTypes img:hover+.repoTrufIn p,
-    .repoTypes img:hover+.repoBolesIn p,
-    .repoTypes img:hover+.repoFullIn p,
-    .repoTypes img:hover+.repoMassIn p,
-    .repoTypes img:hover+.repoTociIn p,
-    .repoTypes img:hover+.repoManteIn p,
-    .repoTypes img:hover+.repoAmetIn p,
-    .repoTypes img:hover+.repoXocoIn p,
-    .repoTypes img:hover+.repoPasteIn p,
-    .repoTypes img:hover+.repoVariIn p {
+    .repoLio:hover .repoLioIn p,
+    .repoCoco:hover .repoCocoIn p,
+    .repoTruf:hover .repoTrufIn p,
+    .repoBoles:hover .repoBolesIn p,
+    .repoFull:hover .repoFullIn p,
+    .repoMass:hover .repoMassIn p,
+    .repoToci:hover .repoTociIn p,
+    .repoMante:hover .repoManteIn p,
+    .repoAmet:hover .repoAmetIn p,
+    .repoXoco:hover .repoXocoIn p,
+    .repoPaste:hover .repoPasteIn p,
+    .repoVari:hover .repoVariIn p {
         display: block;
     }
 }
@@ -432,9 +454,20 @@
         border-radius: 30px;
     }
 
-    .repoTypes img:hover {
-        width: 350px;
-        height: 250px;
+    .repoLio:hover img,
+    .repoCoco:hover img,
+    .repoTruf:hover img,
+    .repoBoles:hover img,
+    .repoFull:hover img,
+    .repoMass:hover img,
+    .repoToci:hover img,
+    .repoMante:hover img,
+    .repoAmet:hover img,
+    .repoXoco:hover img,
+    .repoPaste:hover img,
+    .repoVari:hover img{
+        width: 300px;
+        height: 200px;
         border-radius: 30px;
         position: relative;
         mask-image: linear-gradient(to top left, rgba(0, 0, 0, 1), transparent),
@@ -449,18 +482,18 @@
         /* Esto asegura que el fondo sea transparente */
     }
 
-    .repoTypes img:hover+.repoLioIn,
-    .repoTypes img:hover+.repoCocoIn,
-    .repoTypes img:hover+.repoTrufIn,
-    .repoTypes img:hover+.repoBolesIn,
-    .repoTypes img:hover+.repoFullIn,
-    .repoTypes img:hover+.repoMassIn,
-    .repoTypes img:hover+.repoTociIn,
-    .repoTypes img:hover+.repoManteIn,
-    .repoTypes img:hover+.repoAmetIn,
-    .repoTypes img:hover+.repoXocoIn,
-    .repoTypes img:hover+.repoPasteIn,
-    .repoTypes img:hover+.repoVariIn {
+    .repoLio:hover .repoLioIn,
+    .repoCoco:hover .repoCocoIn,
+    .repoTruf:hover .repoTrufIn,
+    .repoBoles:hover .repoBolesIn,
+    .repoFull:hover .repoFullIn,
+    .repoMass:hover .repoMassIn,
+    .repoToci:hover .repoTociIn,
+    .repoMante:hover .repoManteIn,
+    .repoAmet:hover .repoAmetIn,
+    .repoXoco:hover .repoXocoIn,
+    .repoPaste:hover .repoPasteIn,
+    .repoVari:hover .repoVariIn {
         width: 300px;
         height: 250px;
         display: flex;
@@ -518,18 +551,18 @@
         font-size: 16px;
     }
 
-    .repoTypes img:hover+.repoLioIn h3,
-    .repoTypes img:hover+.repoCocoIn h3,
-    .repoTypes img:hover+.repoTrufIn h3,
-    .repoTypes img:hover+.repoBolesIn h3,
-    .repoTypes img:hover+.repoFullIn h3,
-    .repoTypes img:hover+.repoMassIn h3,
-    .repoTypes img:hover+.repoTociIn h3,
-    .repoTypes img:hover+.repoManteIn h3,
-    .repoTypes img:hover+.repoAmetIn h3,
-    .repoTypes img:hover+.repoXocoIn h3,
-    .repoTypes img:hover+.repoPasteIn h3,
-    .repoTypes img:hover+.repoVariIn h3 {
+    .repoLio:hover .repoLioIn h3,
+    .repoCoco:hover .repoCocoIn h3,
+    .repoTruf:hover .repoTrufIn h3,
+    .repoBoles:hover .repoBolesIn h3,
+    .repoFull:hover .repoFullIn h3,
+    .repoMass:hover .repoMassIn h3,
+    .repoToci:hover .repoTociIn h3,
+    .repoMante:hover .repoManteIn h3,
+    .repoAmet:hover .repoAmetIn h3,
+    .repoXoco:hover .repoXocoIn h3,
+    .repoPaste:hover .repoPasteIn h3,
+    .repoVari:hover .repoVariIn h3 {
         display: none;
     }
 
@@ -566,18 +599,18 @@
         color: black
     }
 
-    .repoTypes img:hover+.repoLioIn p,
-    .repoTypes img:hover+.repoCocoIn p,
-    .repoTypes img:hover+.repoTrufIn p,
-    .repoTypes img:hover+.repoBolesIn p,
-    .repoTypes img:hover+.repoFullIn p,
-    .repoTypes img:hover+.repoMassIn p,
-    .repoTypes img:hover+.repoTociIn p,
-    .repoTypes img:hover+.repoManteIn p,
-    .repoTypes img:hover+.repoAmetIn p,
-    .repoTypes img:hover+.repoXocoIn p,
-    .repoTypes img:hover+.repoPasteIn p,
-    .repoTypes img:hover+.repoVariIn p {
+    .repoLio:hover .repoLioIn p,
+    .repoCoco:hover .repoCocoIn p,
+    .repoTruf:hover .repoTrufIn p,
+    .repoBoles:hover .repoBolesIn p,
+    .repoFull:hover .repoFullIn p,
+    .repoMass:hover .repoMassIn p,
+    .repoToci:hover .repoTociIn p,
+    .repoMante:hover .repoManteIn p,
+    .repoAmet:hover .repoAmetIn p,
+    .repoXoco:hover .repoXocoIn p,
+    .repoPaste:hover .repoPasteIn p,
+    .repoVari:hover .repoVariIn p {
         display: block;
     }
 
@@ -638,9 +671,20 @@
         border-radius: 30px;
     }
 
-    .repoTypes img:hover {
-        width: 350px;
-        height: 250px;
+    .repoLio:hover img,
+    .repoCoco:hover img,
+    .repoTruf:hover img,
+    .repoBoles:hover img,
+    .repoFull:hover img,
+    .repoMass:hover img,
+    .repoToci:hover img,
+    .repoMante:hover img,
+    .repoAmet:hover img,
+    .repoXoco:hover img,
+    .repoPaste:hover img,
+    .repoVari:hover img{
+        width: 300px;
+        height: 200px;
         border-radius: 30px;
         position: relative;
         mask-image: linear-gradient(to top left, rgba(0, 0, 0, 1), transparent),
@@ -655,18 +699,18 @@
         /* Esto asegura que el fondo sea transparente */
     }
 
-    .repoTypes img:hover+.repoLioIn,
-    .repoTypes img:hover+.repoCocoIn,
-    .repoTypes img:hover+.repoTrufIn,
-    .repoTypes img:hover+.repoBolesIn,
-    .repoTypes img:hover+.repoFullIn,
-    .repoTypes img:hover+.repoMassIn,
-    .repoTypes img:hover+.repoTociIn,
-    .repoTypes img:hover+.repoManteIn,
-    .repoTypes img:hover+.repoAmetIn,
-    .repoTypes img:hover+.repoXocoIn,
-    .repoTypes img:hover+.repoPasteIn,
-    .repoTypes img:hover+.repoVariIn {
+    .repoLio:hover .repoLioIn,
+    .repoCoco:hover .repoCocoIn,
+    .repoTruf:hover .repoTrufIn,
+    .repoBoles:hover .repoBolesIn,
+    .repoFull:hover .repoFullIn,
+    .repoMass:hover .repoMassIn,
+    .repoToci:hover .repoTociIn,
+    .repoMante:hover .repoManteIn,
+    .repoAmet:hover .repoAmetIn,
+    .repoXoco:hover .repoXocoIn,
+    .repoPaste:hover .repoPasteIn,
+    .repoVari:hover .repoVariIn {
         width: 300px;
         height: 250px;
         display: flex;
@@ -724,18 +768,18 @@
         font-size: 16px;
     }
 
-    .repoTypes img:hover+.repoLioIn h3,
-    .repoTypes img:hover+.repoCocoIn h3,
-    .repoTypes img:hover+.repoTrufIn h3,
-    .repoTypes img:hover+.repoBolesIn h3,
-    .repoTypes img:hover+.repoFullIn h3,
-    .repoTypes img:hover+.repoMassIn h3,
-    .repoTypes img:hover+.repoTociIn h3,
-    .repoTypes img:hover+.repoManteIn h3,
-    .repoTypes img:hover+.repoAmetIn h3,
-    .repoTypes img:hover+.repoXocoIn h3,
-    .repoTypes img:hover+.repoPasteIn h3,
-    .repoTypes img:hover+.repoVariIn h3 {
+    .repoLio:hover .repoLioIn h3,
+    .repoCoco:hover .repoCocoIn h3,
+    .repoTruf:hover .repoTrufIn h3,
+    .repoBoles:hover .repoBolesIn h3,
+    .repoFull:hover .repoFullIn h3,
+    .repoMass:hover .repoMassIn h3,
+    .repoToci:hover .repoTociIn h3,
+    .repoMante:hover .repoManteIn h3,
+    .repoAmet:hover .repoAmetIn h3,
+    .repoXoco:hover .repoXocoIn h3,
+    .repoPaste:hover .repoPasteIn h3,
+    .repoVari:hover .repoVariIn h3{
         display: none;
     }
 
@@ -772,18 +816,18 @@
         color: black
     }
 
-    .repoTypes img:hover+.repoLioIn p,
-    .repoTypes img:hover+.repoCocoIn p,
-    .repoTypes img:hover+.repoTrufIn p,
-    .repoTypes img:hover+.repoBolesIn p,
-    .repoTypes img:hover+.repoFullIn p,
-    .repoTypes img:hover+.repoMassIn p,
-    .repoTypes img:hover+.repoTociIn p,
-    .repoTypes img:hover+.repoManteIn p,
-    .repoTypes img:hover+.repoAmetIn p,
-    .repoTypes img:hover+.repoXocoIn p,
-    .repoTypes img:hover+.repoPasteIn p,
-    .repoTypes img:hover+.repoVariIn p {
+    .repoLio:hover .repoLioIn p,
+    .repoCoco:hover .repoCocoIn p,
+    .repoTruf:hover .repoTrufIn p,
+    .repoBoles:hover .repoBolesIn p,
+    .repoFull:hover .repoFullIn p,
+    .repoMass:hover .repoMassIn p,
+    .repoToci:hover .repoTociIn p,
+    .repoMante:hover .repoManteIn p,
+    .repoAmet:hover .repoAmetIn p,
+    .repoXoco:hover .repoXocoIn p,
+    .repoPaste:hover .repoPasteIn p,
+    .repoVari:hover .repoVariIn p{
         display: block;
     }
 
