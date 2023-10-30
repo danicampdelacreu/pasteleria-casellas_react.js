@@ -45,7 +45,7 @@
     .pasteXoco:hover img,
     .pasteMusMad:hover img,
     .pasteMusLlima:hover img,
-    .pasteMusDosXoco:hover img{
+    .pasteMusDosXoco:hover img {
         width: 150px;
         height: 150px;
         border-radius: 30px;
@@ -65,7 +65,7 @@
     .pasteXoco:hover .pasteXocoIn,
     .pasteMusMad:hover .pasteMusMadIn,
     .pasteMusLlima:hover .pasteMusLlimaIn,
-    .pasteMusDosXoco:hover .pasteMusDosXocoIn{
+    .pasteMusDosXoco:hover .pasteMusDosXocoIn {
         width: 200px;
         height: 150px;
         display: flex;
@@ -80,7 +80,7 @@
     .pasteXocoIn,
     .pasteMusMadIn,
     .pasteMusLlimaIn,
-    .pasteMusDosXocoIn{
+    .pasteMusDosXocoIn {
         position: absolute;
         margin-right: 0px;
         background: linear-gradient(to bottom, transparent, #aea071);
@@ -96,7 +96,7 @@
     .pasteXocoIn h3,
     .pasteMusMadIn h3,
     .pasteMusLlimaIn h3,
-    .pasteMusDosXocoIn h3{
+    .pasteMusDosXocoIn h3 {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -109,14 +109,14 @@
     .pasteXoco:hover .pasteXocoIn h3,
     .pasteMusMad:hover .pasteMusMadIn h3,
     .pasteMusLlima:hover .pasteMusLlimaIn h3,
-    .pasteMusDosXoco:hover .pasteMusDosXocoIn h3{
+    .pasteMusDosXoco:hover .pasteMusDosXocoIn h3 {
         display: none;
     }
 
     .pasteXoco,
     .pasteMusMad,
     .pasteMusLlima,
-    .pasteMusDosXoco{
+    .pasteMusDosXoco {
         position: relative;
         display: flex;
         align-items: start;
@@ -125,7 +125,7 @@
     .pasteXoco p,
     .pasteMusMad p,
     .pasteMusLlima p,
-    .pasteMusDosXoco p{
+    .pasteMusDosXoco p {
         display: none;
         color: black
     }
@@ -133,7 +133,7 @@
     .pasteXoco:hover .pasteXocoIn p,
     .pasteMusMad:hover .pasteMusMadIn p,
     .pasteMusLlima:hover .pasteMusLlimaIn p,
-    .pasteMusDosXoco:hover .pasteMusDosXocoIn p{
+    .pasteMusDosXoco:hover .pasteMusDosXocoIn p {
         display: block
     }
 }
@@ -185,7 +185,7 @@
     .pasteXoco:hover img,
     .pasteMusMad:hover img,
     .pasteMusLlima:hover img,
-    .pasteMusDosXoco:hover img{
+    .pasteMusDosXoco:hover img {
         width: 350px;
         height: 250px;
         border-radius: 30px;
@@ -205,7 +205,7 @@
     .pasteXoco:hover .pasteXocoIn,
     .pasteMusMad:hover .pasteMusMadIn,
     .pasteMusLlima:hover .pasteMusLlimaIn,
-    .pasteMusDosXoco:hover .pasteMusDosXocoIn{
+    .pasteMusDosXoco:hover .pasteMusDosXocoIn {
         width: 300px;
         height: 250px;
         display: flex;
@@ -220,7 +220,7 @@
     .pasteXocoIn,
     .pasteMusMadIn,
     .pasteMusLlimaIn,
-    .pasteMusDosXocoIn{
+    .pasteMusDosXocoIn {
         position: absolute;
         margin-right: 0px;
         background: linear-gradient(to bottom, transparent, #aea071);
@@ -235,7 +235,7 @@
     .pasteXocoIn h3,
     .pasteMusMadIn h3,
     .pasteMusLlimaIn h3,
-    .pasteMusDosXocoIn h3{
+    .pasteMusDosXocoIn h3 {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -248,14 +248,14 @@
     .pasteXoco:hover .pasteXocoIn h3,
     .pasteMusMad:hover .pasteMusMadIn h3,
     .pasteMusLlima:hover .pasteMusLlimaIn h3,
-    .pasteMusDosXoco:hover .pasteMusDosXocoIn h3{
+    .pasteMusDosXoco:hover .pasteMusDosXocoIn h3 {
         display: none;
     }
 
     .pasteXoco,
     .pasteMusMad,
     .pasteMusLlima,
-    .pasteMusDosXoco{
+    .pasteMusDosXoco {
         position: relative;
         display: flex;
         align-items: start;
@@ -264,7 +264,7 @@
     .pasteXoco p,
     .pasteMusMad p,
     .pasteMusLlima p,
-    .pasteMusDosXoco p{
+    .pasteMusDosXoco p {
         display: none;
         color: black
     }
@@ -272,7 +272,7 @@
     .pasteXoco:hover .pasteXocoIn p,
     .pasteMusMad:hover .pasteMusMadIn p,
     .pasteMusLlima:hover .pasteMusLlimaIn p,
-    .pasteMusDosXoco:hover .pasteMusDosXocoIn p{
+    .pasteMusDosXoco:hover .pasteMusDosXocoIn p {
         display: block
     }
 }
@@ -325,7 +325,7 @@
     .pasteXoco:hover img,
     .pasteMusMad:hover img,
     .pasteMusLlima:hover img,
-    .pasteMusDosXoco:hover img{
+    .pasteMusDosXoco:hover img {
         width: 350px;
         height: 250px;
         border-radius: 30px;
@@ -345,7 +345,7 @@
     .pasteXoco:hover .pasteXocoIn,
     .pasteMusMad:hover .pasteMusMadIn,
     .pasteMusLlima:hover .pasteMusLlimaIn,
-    .pasteMusDosXoco:hover .pasteMusDosXocoIn{
+    .pasteMusDosXoco:hover .pasteMusDosXocoIn {
         width: 300px;
         height: 250px;
         display: flex;
@@ -360,7 +360,7 @@
     .pasteXocoIn,
     .pasteMusMadIn,
     .pasteMusLlimaIn,
-    .pasteMusDosXocoIn{
+    .pasteMusDosXocoIn {
         position: absolute;
         margin-right: 0px;
         background: linear-gradient(to bottom, transparent, #aea071);
@@ -375,7 +375,7 @@
     .pasteXocoIn h3,
     .pasteMusMadIn h3,
     .pasteMusLlimaIn h3,
-    .pasteMusDosXocoIn h3{
+    .pasteMusDosXocoIn h3 {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -388,14 +388,14 @@
     .pasteXoco:hover .pasteXocoIn h3,
     .pasteMusMad:hover .pasteMusMadIn h3,
     .pasteMusLlima:hover .pasteMusLlimaIn h3,
-    .pasteMusDosXoco:hover .pasteMusDosXocoIn h3{
+    .pasteMusDosXoco:hover .pasteMusDosXocoIn h3 {
         display: none;
     }
 
     .pasteXoco,
     .pasteMusMad,
     .pasteMusLlima,
-    .pasteMusDosXoco{
+    .pasteMusDosXoco {
         position: relative;
         display: flex;
         align-items: start;
@@ -404,7 +404,7 @@
     .pasteXoco p,
     .pasteMusMad p,
     .pasteMusLlima p,
-    .pasteMusDosXoco p{
+    .pasteMusDosXoco p {
         display: none;
         color: black
     }
@@ -412,7 +412,7 @@
     .pasteXoco:hover .pasteXocoIn p,
     .pasteMusMad:hover .pasteMusMadIn p,
     .pasteMusLlima:hover .pasteMusLlimaIn p,
-    .pasteMusDosXoco:hover .pasteMusDosXocoIn p{
+    .pasteMusDosXoco:hover .pasteMusDosXocoIn p {
         display: block
     }
 
@@ -477,7 +477,7 @@
     .pasteXoco:hover img,
     .pasteMusMad:hover img,
     .pasteMusLlima:hover img,
-    .pasteMusDosXoco:hover img{
+    .pasteMusDosXoco:hover img {
         width: 350px;
         height: 250px;
         border-radius: 30px;
@@ -497,7 +497,7 @@
     .pasteXoco:hover .pasteXocoIn,
     .pasteMusMad:hover .pasteMusMadIn,
     .pasteMusLlima:hover .pasteMusLlimaIn,
-    .pasteMusDosXoco:hover .pasteMusDosXocoIn{
+    .pasteMusDosXoco:hover .pasteMusDosXocoIn {
         width: 300px;
         height: 250px;
         display: flex;
@@ -512,7 +512,7 @@
     .pasteXocoIn,
     .pasteMusMadIn,
     .pasteMusLlimaIn,
-    .pasteMusDosXocoIn{
+    .pasteMusDosXocoIn {
         position: absolute;
         margin-right: 0px;
         background: linear-gradient(to bottom, transparent, #aea071);
@@ -527,7 +527,7 @@
     .pasteXocoIn h3,
     .pasteMusMadIn h3,
     .pasteMusLlimaIn h3,
-    .pasteMusDosXocoIn h3{
+    .pasteMusDosXocoIn h3 {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -540,14 +540,14 @@
     .pasteXoco:hover .pasteXocoIn h3,
     .pasteMusMad:hover .pasteMusMadIn h3,
     .pasteMusLlima:hover .pasteMusLlimaIn h3,
-    .pasteMusDosXoco:hover .pasteMusDosXocoIn h3{
+    .pasteMusDosXoco:hover .pasteMusDosXocoIn h3 {
         display: none;
     }
 
     .pasteXoco,
     .pasteMusMad,
     .pasteMusLlima,
-    .pasteMusDosXoco{
+    .pasteMusDosXoco {
         position: relative;
         display: flex;
         align-items: start;
@@ -556,7 +556,7 @@
     .pasteXoco p,
     .pasteMusMad p,
     .pasteMusLlima p,
-    .pasteMusDosXoco p{
+    .pasteMusDosXoco p {
         display: none;
         color: black
     }
@@ -564,7 +564,7 @@
     .pasteXoco:hover .pasteXocoIn p,
     .pasteMusMad:hover .pasteMusMadIn p,
     .pasteMusLlima:hover .pasteMusLlimaIn p,
-    .pasteMusDosXoco:hover .pasteMusDosXocoIn p{
+    .pasteMusDosXoco:hover .pasteMusDosXocoIn p {
         display: block
     }
 
