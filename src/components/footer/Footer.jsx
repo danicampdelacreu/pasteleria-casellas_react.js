@@ -79,7 +79,8 @@ export default function Footer() {
                         <div className="checkbox">
                             <label>
                                 <input type="checkbox" />
-                                <Link to="/Privi">Acepto politica de privacidad</Link> // <Link to="/faqs">Preguntas frequentes</Link>
+                                <Link to="/Privi">Política de privacidad y Aviso legal</Link> <br/>
+                                <Link to="/faqs">Preguntas frequentes</Link>
                             </label>
                         </div>
                         <div className="contacto-submit">

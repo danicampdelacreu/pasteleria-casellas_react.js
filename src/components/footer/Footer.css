@@ -30,6 +30,11 @@
         color: #5f5636;
 
     }
+    .checkbox a{
+        text-decoration: none;
+        color: #5f5636;
+        font-size: 10px;
+    }
 
     .footerHorario,
     .footerTelefon,
@@ -151,7 +156,11 @@
         justify-content: center;
         background-color: #aea071;
         color: #5f5636;
-
+    }
+    .checkbox a{
+        text-decoration: none;
+        color: #5f5636;
+        font-size: 12px;
     }
 
     .footerHorario,
@@ -284,7 +293,12 @@
         justify-content: center;
         background-color: #aea071;
         color: #5f5636;
+    }
 
+    .checkbox a{
+        text-decoration: none;
+        color: #5f5636;
+        font-size: 12px;
     }
 
     .footerHorario,
@@ -416,7 +430,12 @@
         justify-content: center;
         background-color: #aea071;
         color: #5f5636;
+    }
 
+    .checkbox a{
+        text-decoration: none;
+        color: #5f5636;
+        font-size: 12px;
     }
 
     .footerHorario,
