@@ -11,6 +11,9 @@ import Briox from './routes/brioxeria/Brioxeria';
 import Days from './routes/dias/Dias';
 import Pastel from './routes/pasteleria/Pasteleria';
 import Repost from './routes/reposteria/Reposteria';
+import Privacidad from './routes/aceptacion/Aceptacion';
+import FAQS from './routes/FAQS/FAQS';
+
 
 
 function App() {
@@ -25,6 +28,8 @@ function App() {
         <Route path='/days' element = { <Days/> } />
         <Route path='/pastel' element = { <Pastel/> } />
         <Route path='/repost' element = { <Repost/> } />
+        <Route path='/privi' element = { <Privacidad/> } />
+        <Route path='/faqs' element = { <FAQS/> } />
       </Routes>
       <Footer/>
       </BrowserRouter>
