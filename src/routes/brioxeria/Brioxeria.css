@@ -47,7 +47,7 @@
     .briBriox:hover img,
     .briEncie:hover img,
     .briXuix:hover img,
-    .briDonut:hover img{
+    .briDonut:hover img {
         width: 150px;
         height: 150px;
         border-radius: 30px;
@@ -63,7 +63,7 @@
         background-color: rgba(0, 0, 0, 0);
         /* Esto asegura que el fondo sea transparente */
     }
-    
+
 
     .briCroisBig:hover .briCroisBigIn,
     .briCroisSmall:hover .briCroisSmallIn,
@@ -362,7 +362,7 @@
     .briBriox:hover img,
     .briEncie:hover img,
     .briXuix:hover img,
-    .briDonut:hover img  {
+    .briDonut:hover img {
         width: 300px;
         height: 200px;
         border-radius: 30px;
@@ -518,7 +518,7 @@
 
     .briTypes img {
         display: block;
-        margin:auto;
+        margin: auto;
         width: 300px;
         height: 200px;
         border-radius: 30px;

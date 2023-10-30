@@ -79,13 +79,12 @@ export default function Footer() {
                         <div className="checkbox">
                             <label>
                                 <input type="checkbox" />
-                                 Acepto la Politica de Privacidad // Preguntas frequentes
+                                Acepto la Politica de Privacidad // Preguntas frequentes
                             </label>
                         </div>
                         <div className="contacto-submit">
                             <input type="submit" value="Enviar" />
                         </div>
-                        
                     </form>
                 </div>
             </div>
