@@ -1,0 +1,141 @@
+/* Tamaño movil*/
+@media (max-width: 580px) {
+    .FAQS {
+        background-color: white;
+        font-size: 10px;
+        font-family: 'Quicksand', sans-serif;
+        padding: 0;
+        height: 100%;
+        border-top: solid #5f5636 1px;
+        
+    }
+
+    .FAQS p,
+    .FAQS h3,
+    .FAQS h4,
+    .FAQS h5 {
+        font-family: 'Playfair Display', serif;
+        margin-left: 50px;
+        margin-right: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: justify;
+        line-height: 1.8;
+        color: #5f5636;
+    }
+    .lastP{
+        margin-bottom: 60px;
+    }
+    .first{
+        margin-top: 60px;
+    }
+}
+
+/* Tamaño Tablet Vertical*/
+@media (min-width: 580px) and (max-width: 768px) {
+    .FAQS {
+        background-color: white;
+        font-size: 12px;
+        font-family: 'Quicksand', sans-serif;
+        padding: 0;
+        height: 100%;
+        border-top: solid #5f5636 1px;
+    }
+
+    .FAQS p,
+    .FAQS h3,
+    .FAQS h4,
+    .FAQS h5 {
+        font-family: 'Playfair Display', serif;
+        margin-left: 50px;
+        margin-right: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: justify;
+        line-height: 1.8;
+        color: #5f5636;
+    }
+    
+    .lastP{
+        margin-bottom: 70px;
+    }
+
+    .first{
+        margin-top: 70px;
+    }
+}
+
+/* Tamaño Tablet Horizontal*/
+@media (min-width: 768px) and (max-width: 1024px) {
+    .FAQS {
+        background-color: white;
+        font-size: 12px;
+        font-family: 'Quicksand', sans-serif;
+        padding: 0;
+        height: 100%;
+        border-top: solid #5f5636 1px;
+    }
+
+    .FAQS p,
+    .FAQS h3,
+    .FAQS h4,
+    .FAQS h5 {
+        font-family: 'Playfair Display', serif;
+        margin-left: 50px;
+        margin-right: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: justify;
+        line-height: 1.8;
+        color: #5f5636;
+    }
+
+    .lastP{
+        margin-bottom: 70px;
+    }
+    .first{
+        margin-top: 70px;
+    }
+}
+
+/* Tamaño Pantalla*/
+@media(min-width: 1024px) {
+    .FAQS {
+        background-color: white;
+        font-size: 14px;
+        font-family: 'Quicksand', sans-serif;
+        padding: 0;
+        height: 100%;
+        border-top: solid #5f5636 1px;
+    }
+
+    .FAQS p,
+    .FAQS h3,
+    .FAQS h4,
+    .FAQS h5 {
+        font-family: 'Playfair Display', serif;
+        margin-left: 120px;
+        margin-right: 120px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: justify;
+        line-height: 1.8;
+        color: #5f5636;
+    }
+
+    .lastP{
+        margin-bottom: 80px;
+    }
+
+    .first{
+        margin-top: 80px;
+    }
+}
