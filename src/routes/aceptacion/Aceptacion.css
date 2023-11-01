@@ -1,7 +1,7 @@
 /* Tamaño movil*/
 @media (max-width: 580px) {
     .privacidad {
-        background-color: rgba(174, 160, 113, 0.9);
+        background-color: white;
         font-size: 10px;
         font-family: 'Quicksand', sans-serif;
         padding: 0;
@@ -36,7 +36,7 @@
 /* Tamaño Tablet Vertical*/
 @media (min-width: 580px) and (max-width: 768px) {
     .privacidad {
-        background-color: rgba(174, 160, 113, 0.9);
+        background-color: white;
         font-size: 12px;
         font-family: 'Quicksand', sans-serif;
         padding: 0;
@@ -72,7 +72,7 @@
 /* Tamaño Tablet Horizontal*/
 @media (min-width: 768px) and (max-width: 1024px) {
     .privacidad {
-        background-color: rgba(174, 160, 113, 0.9);
+        background-color: white;
         font-size: 12px;
         font-family: 'Quicksand', sans-serif;
         padding: 0;
@@ -107,7 +107,7 @@
 /* Tamaño Pantalla*/
 @media(min-width: 1024px) {
     .privacidad {
-        background-color: rgba(174, 160, 113, 0.9);
+        background-color: white;
         font-size: 14px;
         font-family: 'Quicksand', sans-serif;
         padding: 0;
