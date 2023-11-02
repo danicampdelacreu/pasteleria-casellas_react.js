@@ -1,12 +1,15 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { Link } from 'react-router-dom';
+
+
 
 import './Footer.css'
 import maps from '../../assets/img/maps.png'
 
 export default function Footer() {
 
+    const [checkboxChecked, setCheckboxChecked] = useState(false);
     const form = useRef();
 
     const sendEmail = (e) => {
@@ -14,7 +17,7 @@ export default function Footer() {
 
         const formData = new FormData(form.current);
 
-        if (formData.get('user_name') && formData.get('user_email') && formData.get('message')) {
+        if (formData.get('user_name') && formData.get('user_email') && formData.get('message') && checkboxChecked) {
             emailjs
                 .sendForm('service_sjyf30z', 'template_itkkk5i', form.current, 'ybVHXbi9wadjWsNQj')
                 // agregar correo cliente en emailjs cuando lo tengamos y cambiar service, tempalte y form.current
@@ -30,9 +33,14 @@ export default function Footer() {
                     }
                 );
         } else {
-            alert('Por favor, rellena todos los campos.');
+            alert('Por favor, rellena todos los campos y acepta la politica de privacidad');
         }
     };
+
+    const handleCheckboxChange = () => {
+        setCheckboxChecked(!checkboxChecked);
+    };
+    
 
     return (
         <div className='footerGeneral'>
@@ -77,14 +85,14 @@ export default function Footer() {
                             <textarea name="message" placeholder='Missatge' />
                         </div>
                         <div className="checkbox">
-                            <label>
-                                <input type="checkbox" />
-                                <Link to="/Privi">Política de privacidad y Aviso legal</Link> <br/>
-                                <Link to="/faqs">Preguntas frequentes</Link>
+                            <label className='check'>
+                            <input type="checkbox" checked={checkboxChecked} onChange={handleCheckboxChange} />
+                                <Link to="/Privi">Política de privacidad y Aviso legal</Link> <br />
+                                <Link to="/faqs">Preguntas frequentes y pólitica de cookies</Link>
                             </label>
                         </div>
                         <div className="contacto-submit">
-                            <input type="submit" value="Enviar" />
+                        <input type="submit" value="Enviar"/>
                         </div>
                     </form>
                 </div>
