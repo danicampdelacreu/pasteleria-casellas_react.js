@@ -7,7 +7,7 @@
         padding: 0;
         height: 100%;
         border-top: solid #5f5636 1px;
-        
+
     }
 
     .privacidad p,
@@ -25,10 +25,12 @@
         line-height: 1.8;
         color: #5f5636;
     }
-    .lastP{
+
+    .lastP {
         margin-bottom: 60px;
     }
-    .first{
+
+    .first {
         margin-top: 60px;
     }
 }
@@ -59,12 +61,12 @@
         line-height: 1.8;
         color: #5f5636;
     }
-    
-    .lastP{
+
+    .lastP {
         margin-bottom: 70px;
     }
 
-    .first{
+    .first {
         margin-top: 70px;
     }
 }
@@ -96,10 +98,11 @@
         color: #5f5636;
     }
 
-    .lastP{
+    .lastP {
         margin-bottom: 70px;
     }
-    .first{
+
+    .first {
         margin-top: 70px;
     }
 }
@@ -131,11 +134,11 @@
         color: #5f5636;
     }
 
-    .lastP{
+    .lastP {
         margin-bottom: 80px;
     }
 
-    .first{
+    .first {
         margin-top: 80px;
     }
 }
