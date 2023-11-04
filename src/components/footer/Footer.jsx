@@ -40,7 +40,10 @@ export default function Footer() {
     const handleCheckboxChange = () => {
         setCheckboxChecked(!checkboxChecked);
     };
-    
+
+    const scrollToTop = () => {
+        window.scrollTo(0, 0);
+    };
 
     return (
         <div className='footerGeneral'>
@@ -86,13 +89,18 @@ export default function Footer() {
                         </div>
                         <div className="checkbox">
                             <label className='check'>
-                            <input type="checkbox" checked={checkboxChecked} onChange={handleCheckboxChange} />
-                                <Link to="/Privi">Política de privacidad y Aviso legal</Link> <br />
-                                <Link to="/faqs">Preguntas frequentes y pólitica de cookies</Link>
+                                <input type="checkbox" checked={checkboxChecked} onChange={handleCheckboxChange} />
+                                <Link to="/Privi" onClick={scrollToTop}>
+                                    Política de privacidad y Aviso legal
+                                </Link>
+                                <br />
+                                <Link to="/faqs" onClick={scrollToTop}>
+                                    Preguntas frecuentes y política de cookies
+                                </Link>
                             </label>
                         </div>
                         <div className="contacto-submit">
-                        <input type="submit" value="Enviar"/>
+                            <input type="submit" value="Enviar" />
                         </div>
                     </form>
                 </div>

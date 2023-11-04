@@ -12,6 +12,11 @@ import drinks from '../../assets/img/foto_homeDrinks.jpeg'
 
 
 export default function Home() {
+
+    const scrollToTop = () => {
+        window.scrollTo(0, 0);
+    };
+
     return (
         <main class='allMain'>
             <div class='homePhoto1'>
@@ -19,7 +24,7 @@ export default function Home() {
             </div>
             <div class='homeTeam'>
                 <img class='image2' src={team} />
-                <Link to="/team">Nosaltres</Link>
+                <Link to="/team" onClick={scrollToTop}>Nosaltres</Link>
                 <p>
                     Som la pastisseria de Navàs, un lloc dolç i acollidor on els sabors <br /> es converteixen en experiències úniques.
                 </p>
@@ -27,7 +32,7 @@ export default function Home() {
             </div>
             <div class='homeRepost'>
                 <img class='image3' src={repost} />
-                <Link to="/repost">Reposteria</Link>
+                <Link to="/repost" onClick={scrollToTop}>Reposteria</Link>
                 <p>
                     La màgia de la reposteria pren vida.<br />
                     Cada dolç és una obra d'art elaborada amb cura i destresa.
@@ -35,14 +40,14 @@ export default function Home() {
             </div>
             <div class='homePastel'>
                 <img class='image4' src={pastel} />
-                <Link to="/pastel">Pastissos</Link>
+                <Link to="/pastel" onClick={scrollToTop}>Pastissos</Link>
                 <p>
                     La nostra pastisseria actua com el lloc on els anhels per les dolçors es <br />transformen en realitat amb multiples opcions .
                 </p>
             </div>
             <div class='homeBriox'>
                 <img class='image5' src={briox} />
-                <Link to="/briox">Brioxos</Link>
+                <Link to="/briox" onClick={scrollToTop}>Brioxos</Link>
                 <p>
                     La brioixeria és el lloc on el plaer d'un briox excepcional pren forma.<br />
                     Cada briox és un testimoni de la nostra dedicació i amor pel detall.
@@ -50,7 +55,7 @@ export default function Home() {
             </div>
             <div class='homeDays'>
                 <img class='image6' src={days} />
-                <Link to="/days">Productes Especials</Link>
+                <Link to="/days" onClick={scrollToTop}>Productes Especials</Link>
                 <p>
                     En les ocasions especials, la nostra creativitat pren volada<br /> per crear moments inoblidables
                     Amb cada data destacada, donem vida a<br /> postres únics que capturen l'esperit de la celebració.
@@ -59,7 +64,7 @@ export default function Home() {
             </div>
             <div class='homeDrinks'>
                 <img class='image7' src={drinks} />
-                <Link to="/drinks">Celler</Link>
+                <Link to="/drinks" onClick={scrollToTop}>Celler</Link>
                 <p>
                     En el nostre racó de cava, vins i ratafia, ens endinsem en el<br />fascinant món dels sabors i aromes.
                     Vine i brinda amb nosaltres, on la varietat i <br />la qualitat es fonen per celebrar els plaers del paladar.
