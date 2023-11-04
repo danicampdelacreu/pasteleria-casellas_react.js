@@ -19,7 +19,7 @@ export default function FAQS() {
             <h5>5. ¿Tienen opciones de pasteles personalizados o pedidos especiales?</h5>
             <p>En el menu se encuentra el enlace "ESPECIALS" donde estan nuestras opciones de pedidos especiales/presonalizados</p>
             <h5>6. ¿Cuáles son las opciones de pago disponibles?</h5>
-            <p>El pago sera en el mismo establecimento y sera efectio o tarejta </p>
+            <p>El pago sera en el mismo establecimento en efectivo o tarejta </p>
             <h5>7. ¿Ofrecen opciones para personas con dietas especiales (sin gluten, sin azúcar, etc.)?</h5>
             <p>.......</p>
             <h5>8. ¿Puedo reservar productos o pasteles para eventos especiales?</h5>
