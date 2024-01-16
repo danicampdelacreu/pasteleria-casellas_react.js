@@ -2,12 +2,12 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Home.css'
 
-import first from '../../assets/img/foto_homePhoto1.webp'
-import team from '../../assets/img/foto_homeTeam.webp'
+import first from '../../assets/img/general.jpeg'
+import team from '../../assets/img/nosaltres_general.jpeg'
 import repost from '../../assets/img/foto_homeRepo.jpeg'
-import pastel from '../../assets/img/foto_homePastel.jpeg'
+import pastel from '../../assets/img/pastissos_general.jpeg'
 import briox from '../../assets/img/foto_homeBriox.jpeg'
-import days from "../../assets/img/foto_homeDays.png"
+import days from "../../assets/img/dies_reis.jpeg"
 import drinks from '../../assets/img/foto_homeDrinks.jpeg'
 
 

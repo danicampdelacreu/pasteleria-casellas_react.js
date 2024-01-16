@@ -1,6 +1,6 @@
 import './Team.css';
 
-import team from '../../assets/img/foto_homeTeam.webp'
+import team from '../../assets/img/Nosaltres.jpeg'
 
 export default function Team() {
     return (

@@ -186,7 +186,9 @@
     .repoPaste p,
     .repoVari p {
         display: none;
-        color: black
+        color: black;
+        font-size: 16px;
+        font-weight: bold;
     }
 
     .repoLio:hover .repoLioIn p,
@@ -391,7 +393,9 @@
     .repoPaste p,
     .repoVari p {
         display: none;
-        color: black
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
     }
 
     .repoLio:hover .repoLioIn p,
@@ -596,7 +600,9 @@
     .repoPaste p,
     .repoVari p {
         display: none;
-        color: black
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
     }
 
     .repoLio:hover .repoLioIn p,
@@ -813,7 +819,9 @@
     .repoPaste p,
     .repoVari p {
         display: none;
-        color: black
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
     }
 
     .repoLio:hover .repoLioIn p,

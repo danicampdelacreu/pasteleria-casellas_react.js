@@ -31,36 +31,29 @@ export default function Drinks() {
                     <div className='cava1'>
                         <img src={cava} />
                         <div className='cava1In'>
-                            <h3>Pere Ventura</h3>
-                            <p>Explicacio producte</p>
+                            <h3>Valldolina</h3>
+                            <p>Elegancia y finura, El Garraf</p>
                         </div>
                     </div>
                     <div className='cava2'>
                         <img src={cava} />
                         <div className='cava2In'>
-                            <h3>Pere Ventura </h3>
-                            <p>Explicacio producte</p>
+                            <h3>Cava Bach </h3>
+                            <p>Bach Extrísimo apte per tots els paladars</p>
                         </div>
                     </div>
                     <div className='cava3'>
                         <img src={cava} />
                         <div className='cava3In'>
-                            <h3>Pere Ventura </h3>
-                            <p>Explicacio producte</p>
+                            <h3>Recaredo </h3>
+                            <p>Llarga criança y diverses gamas </p>
                         </div>
                     </div>
                     <div className='cava4'>
                         <img src={cava} />
                         <div className='cava4In'>
-                            <h3>Pere Ventura </h3>
-                            <p>Explicacio producte</p>
-                        </div>
-                    </div>
-                    <div className='cava5'>
-                        <img src={cava} />
-                        <div className='cava5In'>
-                            <h3>Pere Ventura </h3>
-                            <p>Explicacio producte</p>
+                            <h3>Juve & Camps </h3>
+                            <p>Cava classic amb qualitat consistent</p>
                         </div>
                     </div>
                 </div>
@@ -68,15 +61,15 @@ export default function Drinks() {
                     <div className='vino1'>
                         <img src={vi} />
                         <div className='vino1In'>
-                            <h3>Vi negre</h3>
-                            <p>Explicacio producte</p>
+                            <h3>Montsant</h3>
+                            <p>Granatxa i carinyena </p>
                         </div>
                     </div>
                     <div className='vino2'>
                         <img src={vi} />
                         <div className='vino2In'>
-                            <h3>Vi negre</h3>
-                            <p>Explicacio producte</p>
+                            <h3>Legaris</h3>
+                            <p>Caracter solid, aroma complex </p>
                         </div>
                     </div>
                     <div className='vino3'>
@@ -89,15 +82,8 @@ export default function Drinks() {
                     <div className='vino4'>
                         <img src={vi} />
                         <div className='vino4In'>
-                            <h3>Vi negre</h3>
-                            <p>Explicacio producte</p>
-                        </div>
-                    </div>
-                    <div className='vino5'>
-                        <img src={vi} />
-                        <div className='vino5In'>
-                            <h3>Vi negre</h3>
-                            <p>Explicacio producte</p>
+                            <h3>Raimat</h3>
+                            <p>Vi ecologic</p>
                         </div>
                     </div>
                 </div>
@@ -105,22 +91,15 @@ export default function Drinks() {
                     <div className='rata1'>
                         <img src={ratafia} />
                         <div className='rata1In'>
-                            <h3>Ratafia Bosch</h3>
-                            <p>Explicacio producte</p>
+                            <h3>Ratafia L'Hostia</h3>
+                            <p>Licor de nueces</p>
                         </div>
                     </div>
                     <div className='rata2'>
                         <img src={ratafia} />
                         <div className='rata2In'>
                             <h3>Ratafia Bosch</h3>
-                            <p>Explicacio producte</p>
-                        </div>
-                    </div>
-                    <div className='rata3'>
-                        <img src={ratafia} />
-                        <div className='rata3In'>
-                            <h3>Ratafia Bosch</h3>
-                            <p>Explicacio producte</p>
+                            <p>Con nueces y otoras hierbas</p>
                         </div>
                     </div>
                 </div>

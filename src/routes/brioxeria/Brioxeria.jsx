@@ -33,42 +33,42 @@ export default function Brioxeria() {
                     <img src={croisantBig} />
                     <div className='briCroisBigIn'>
                         <h3>croisants grans</h3>
-                        <p> explicacio del producte</p>
+                        <p> De xocolata i normals</p>
                     </div>
                 </div>
                 <div className='briCroisSmall'>
                     <img src={croisantLit} />
                     <div className='briCroisSmallIn'>
                         <h3>croisants petits</h3>
-                        <p> explicacio del producte</p>
+                        <p> De xocolata i normals</p>
                     </div>
                 </div>
                 <div className='briBriox'>
                     <img src={briox} />
                     <div className='briBrioxIn'>
                         <h3>Brioix</h3>
-                        <p> explicacio del producte</p>
+                        <p>Briox ensucrat amb massa esponjosa</p>
                     </div>
                 </div>
                 <div className='briEncie'>
                     <img src={enseimada} />
                     <div className='briEncieIn'>
                         <h3>Enseimada</h3>
-                        <p> explicacio del producte</p>
+                        <p>La tipica de mallorca normal i de xoco</p>
                     </div>
                 </div>
                 <div className='briXuix'>
                     <img src={xuixo} />
                     <div className='briXuixIn'>
                         <h3>Xuixo crema</h3>
-                        <p> explicacio del producte</p>
+                        <p> Dolç de crema</p>
                     </div>
                 </div>
                 <div className='briDonut'>
                     <img src={donut} />
                     <div className='briDonutIn'>
                         <h3>Donut sucre</h3>
-                        <p> explicacio del producte</p>
+                        <p>El donut de tota la vida amb sucre</p>
                     </div>
                 </div>
             </div>

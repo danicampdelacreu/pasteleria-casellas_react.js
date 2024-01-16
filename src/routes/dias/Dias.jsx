@@ -1,11 +1,11 @@
 
 import './Dias.css';
 
-import days from "../../assets/img/foto_homeDays.png"
-import llimona from '../../assets/img/llimona.jpeg'
-import maduixa from '../../assets/img/maduixa.jpeg'
-import xoco from '../../assets/img/xoco.jpeg'
-import dosXoco from '../../assets/img/dos xocos.jpeg'
+import days from "../../assets/img/dies_reis.jpeg"
+import Coca from '../../assets/img/coca_sanjuan.jpeg'
+import Pastis from '../../assets/img/pastis_aniversari.jpeg'
+import Turron from '../../assets/img/turron.jpeg'
+import Rosco from '../../assets/img/roscon_reyes.jpeg'
 
 
 export default function Days() {
@@ -28,31 +28,31 @@ export default function Days() {
             </div>
             <div className='daysTypes'>
                 <div className='pasteXoco'>
-                    <img src={xoco} />
+                    <img src={Turron} />
                     <div className='pasteXocoIn'>
-                        <h3>Pastis de Xoco</h3>
-                        <p> explicacio del producte</p>
+                        <h3>Turro de Nadal</h3>
+                        <p>Tot el que et poguis imaginar ho fem</p>
                     </div>
                 </div>
                 <div className='pasteMusMad'>
-                    <img src={maduixa} />
+                    <img src={Pastis} />
                     <div className='pasteMusMadIn'>
-                        <h3>Mus madiuxa</h3>
-                        <p> explicacio del producte</p>
+                        <h3>Pastis Aniversari</h3>
+                        <p>Tu dius el que hi vols</p>
                     </div>
                 </div>
                 <div className='pasteMusLlima'>
-                    <img src={llimona} />
+                    <img src={Coca} />
                     <div className='pasteMusLlimaIn'>
-                        <h3>Mus de llimona</h3>
-                        <p> explicacio del producte</p>
+                        <h3>Coca Sant Joan</h3>
+                        <p>La coca de tota la vida</p>
                     </div>
                 </div>
                 <div className='pasteMusDosXoco'>
-                    <img src={dosXoco} />
+                    <img src={Rosco} />
                     <div className='pasteMusDosXocoIn'>
-                        <h3>Mus dos choco</h3>
-                        <p> explicacio del producte</p>
+                        <h3>Tortell de reis</h3>
+                        <p> Nata, crema y massapa combina-ho si vols</p>
                     </div>
                 </div>
             </div>
