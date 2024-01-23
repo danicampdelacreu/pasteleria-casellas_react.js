@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react';
-// import emailjs from '@emailjs/browser';
+import emailjs from '@emailjs/browser';
 import { Link } from 'react-router-dom';
 
 
@@ -11,8 +11,6 @@ export default function Footer() {
 
     const [checkboxChecked, setCheckboxChecked] = useState(false);
     const form = useRef();
-
-    /* Esta escritura es la correcta para el funcionamiento de envio mails
     
     const sendEmail = (e) => {
         e.preventDefault();
@@ -37,7 +35,7 @@ export default function Footer() {
         } else {
             alert('Por favor, rellena todos los campos y acepta la politica de privacidad');
         }
-    };*/
+    };
 
     const handleCheckboxChange = () => {
         setCheckboxChecked(!checkboxChecked);
@@ -75,11 +73,10 @@ export default function Footer() {
 
 
                 </div>
-                {/* Este form es correcto para el funcionamiento de envio mails
-                 <form ref={form} onSubmit={sendEmail}>*/}
+            
                 <div className="footerMensaje">
                     <p> Info: pastisseriacasellas@gmail.com</p>
-                    <form ref={form} >
+                    <form ref={form} onSubmit={sendEmail}>
                         <div className="contacto-name">
                             <input type="text" name="user_name" placeholder='Nom' />
                         </div>
